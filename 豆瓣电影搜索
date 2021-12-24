@@ -1,0 +1,2223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/4.2.0'>
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+  
+  <!-- 渲染优化 -->
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link rel="preload" href="/css/first.css" as="style">
+  
+
+  <!-- 页面元数据 -->
+  
+  <title>豆瓣电影搜索 - ☕憩息屋</title>
+  
+    <meta name="keywords" content="无聊">
+  
+
+  
+
+  <!-- feed -->
+  
+
+  <!-- import meta -->
+  
+
+  <!-- link -->
+  
+    <link rel="shortcut icon" type='image/x-icon' href="/sir.ico">
+  
+
+  <!-- import link -->
+  
+
+  
+    
+<link rel="stylesheet" href="/css/first.css">
+
+  
+
+  
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
+  
+
+  <script id="loadcss"></script>
+
+  
+<script>
+if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
+    document.write(
+	'<style>'+
+		'html{'+
+			'overflow-x: hidden !important;'+
+			'overflow-y: hidden !important;'+
+		'}'+
+		'.kill-ie{'+
+			'text-align:center;'+
+			'height: 100%;'+
+			'margin-top: 15%;'+
+			'margin-bottom: 5500%;'+
+		'}'+
+	'</style>'+
+    '<div class="kill-ie">'+
+        '<h1><b>抱歉，您的浏览器无法访问本站</b></h1>'+
+        '<h3>微软已经于2016年终止了对 Internet Explorer (IE) 10 及更早版本的支持，<br/>'+
+        '继续使用存在极大的安全隐患，请使用当代主流的浏览器进行访问。</h3><br/>'+
+        '<a target="_blank" rel="noopener" href="https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support"><strong>了解详情 ></strong></a>'+
+    '</div>');
+</script>
+
+
+<noscript>
+	<style>
+		html{
+			overflow-x: hidden !important;
+			overflow-y: hidden !important;
+		}
+		.kill-noscript{
+			text-align:center;
+			height: 100%;
+			margin-top: 15%;
+			margin-bottom: 5500%;
+		}
+	</style>
+    <div class="kill-noscript">
+        <h1><b>抱歉，您的浏览器无法访问本站</b></h1>
+        <h3>本页面需要浏览器支持（启用）JavaScript</h3><br/>
+        <a target="_blank" rel="noopener" href="https://www.baidu.com/s?wd=启用JavaScript"><strong>了解详情 ></strong></a>
+    </div>
+</noscript>
+
+</head>
+
+  <body>
+    
+
+<header id="l_header" class="l_header auto shadow blur auto show" style='opacity: 0' >
+  <div class='container'>
+  <div id='wrapper'>
+    <div class='nav-sub'>
+      <p class="title"></p>
+      <ul class='switcher nav-list-h m-phone' id="pjax-header-nav-list">
+        <li><a id="s-comment" class="fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li><a id="s-toc" class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href='/'>
+          
+          
+          
+            ☕憩息屋
+          
+        </a>
+      
+
+			<div class='menu navigation'>
+				<ul class='nav-list-h m-pc'>
+          
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=http://www.demo443.com:4567/
+                  
+                  
+                  
+                    id="http:wwwdemo443com:4567"
+                  >
+                  <i class='fas fa-fan fa-spin fa-fw'></i>技术博客
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/apidocs/
+                  
+                  
+                  
+                    id="apidocs"
+                  >
+                  💀开发资料
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/study/
+                  
+                  
+                  
+                    id="study"
+                  >
+                  📚学习资料
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/friends/
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  🔖网址收藏
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  🔨工具箱
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tools/
+                  
+                  
+                  
+                    id="tools"
+                  >
+                  📐环境&工具
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/bat/
+                  
+                  
+                  
+                    id="bat"
+                  >
+                  🐍bat &脚本
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/sucai/
+                  
+                  
+                  
+                    id="sucai"
+                  >
+                  🎲模板&素材
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/music&amp;videos/
+                  
+                  
+                  
+                    id="music&amp;videos"
+                  >
+                  🔇影视&音乐
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box header toggle-mode-btn">
+                  <i class=' fa-fw'></i>🌗开灯/关灯
+                </a>
+              <li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  💬关于我
+                </a>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="站内搜索" />
+        </form>
+      </div>
+
+			<ul class='switcher nav-list-h m-phone'>
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=http://www.demo443.com:4567/
+                  
+                  
+                  
+                    id="http:wwwdemo443com:4567"
+                  >
+                  <i class='fas fa-fan fa-spin fa-fw'></i>技术博客
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/apidocs/
+                  
+                  
+                  
+                    id="apidocs"
+                  >
+                  💀开发资料
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/study/
+                  
+                  
+                  
+                    id="study"
+                  >
+                  📚学习资料
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/friends/
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  🔖网址收藏
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  🔨工具箱
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tools/
+                  
+                  
+                  
+                    id="tools"
+                  >
+                  📐环境&工具
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/bat/
+                  
+                  
+                  
+                    id="bat"
+                  >
+                  🐍bat &脚本
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/sucai/
+                  
+                  
+                  
+                    id="sucai"
+                  >
+                  🎲模板&素材
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/music&amp;videos/
+                  
+                  
+                  
+                    id="music&amp;videos"
+                  >
+                  🔇影视&音乐
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box header toggle-mode-btn">
+                  <i class=' fa-fw'></i>🌗开灯/关灯
+                </a>
+              <li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  💬关于我
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+    <div id="l_body">
+      <div id="l_cover">
+  
+    
+        <div id="full" class='cover-wrapper post search' style="display: none;">
+          
+            <div class='cover-bg lazyload placeholder' data-bg="http://photos.demo443.com/blog/6/imgs/bg.jpg"></div>
+          
+          <div class='cover-body'>
+  <div class='top'>
+    
+    
+      <p class="title">☕憩息屋</p>
+    
+    
+  </div>
+  <div class='bottom'>
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="search" />
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+    
+    <div class='menu navigation'>
+      <div class='list-h'>
+        
+          
+            <a href="http://www.demo443.com:4567/"
+              
+              
+              id="http:wwwdemo443com:4567">
+              <p>🏀技术博客</p>
+            </a>
+          
+            <a href="/friends/"
+              
+              
+              id="friends">
+              <p>🍎网址收藏</p>
+            </a>
+          
+            <a href="/study/"
+              
+              
+              id="study">
+              <p>🍨学习资料</p>
+            </a>
+          
+            <a href="/apidocs/"
+              
+              
+              id="apidocs">
+              <p>🍺开发资料</p>
+            </a>
+          
+            <a href="http://www.demo443.com"
+              
+              
+              id="http:wwwdemo443com">
+              <p>😈工具箱</p>
+            </a>
+          
+            <a href="/about/"
+              
+              
+              id="about">
+              <p>😃关于我</p>
+            </a>
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+        </div>
+    
+  
+  </div>
+
+      <div id="safearea">
+        <div class="body-wrapper" id="pjax-container">
+          
+
+<div class='l_main'>
+  <article class="article post white-box reveal md shadow blur floatable article-type-post" id="post" itemscope itemprop="blogPost">
+  
+
+
+  
+  <div class="article-meta" id="top">
+    
+    
+    
+      <h1 class="title">
+        豆瓣电影搜索
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author'>
+  <a class='author' href="/about/" rel="nofollow">
+    <img no-lazy src="/img/avatar.jpg">
+    <p>杨晓东</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <a class='notlink'>
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <a class="category-link" href="/categories/%E5%97%AF%E5%93%BC/">嗯哼</a>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2021年10月2日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item browse busuanzi">
+    <a class='notlink'>
+      <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+      <p>
+        <span id="busuanzi_value_page_pv">
+          <i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i>
+        </span>
+        次浏览
+      </p>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+    
+  </div>
+
+
+  
+  
+  <h1 id="豆瓣电影搜索"><a href="#豆瓣电影搜索" class="headerlink" title="豆瓣电影搜索"></a>豆瓣电影搜索</h1><p><a href="http://files.demo443.com/Markdown_file/%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A2.rar" target="_blank">file_rar</a></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> lxml <span class="keyword">import</span> etree</span><br><span class="line"><span class="keyword">import</span> fake_useragent</span><br><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> csv</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 传入搜索页面中保存的src   url</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">jiexi_url</span>(<span class="params">url</span>):</span></span><br><span class="line"></span><br><span class="line">    handers = &#123;</span><br><span class="line">        <span class="string">&#x27;user-agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36&#x27;</span>&#125;</span><br><span class="line">    req = requests.get(url, headers=handers)</span><br><span class="line">    req.encoding = <span class="string">&#x27;utf-8&#x27;</span></span><br><span class="line">    content = etree.HTML(req.text)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 开始解析</span></span><br><span class="line">    text = req.text</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 判断是否有评分</span></span><br><span class="line">    aa = <span class="string">&#x27;暂无评分&#x27;</span></span><br><span class="line">    pingfen = content.xpath(<span class="string">&#x27;//*[@id=&quot;interest_sectl&quot;]/div/div[2]/div/div[2]/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">    leix = re.sub(<span class="string">&#x27;[^\u4e00-\u9fa5]+&#x27;</span>, <span class="string">&#x27;&#x27;</span>, <span class="built_in">str</span>(pingfen))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> aa != leix:</span><br><span class="line">        <span class="comment"># print(text)</span></span><br><span class="line">        <span class="comment"># 正则表达式  需要匹配的格式</span></span><br><span class="line">        geshi_re = <span class="string">&#x27;&quot;@context&quot;: &quot;http://schema.org&quot;,(.*?)&lt;/script&gt;&#x27;</span></span><br><span class="line">        geshi = re.<span class="built_in">compile</span>(geshi_re,re.S)</span><br><span class="line">        js = re.findall(geshi,text)</span><br><span class="line">        join_list = [<span class="string">&#x27;&#123; \n  &quot;@context&quot;:&quot;http://schema.org&quot;,&#x27;</span>]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 列表拼接</span></span><br><span class="line">        jk = join_list + js</span><br><span class="line">        re_sip = <span class="built_in">str</span>(jk)</span><br><span class="line">        re_1 = re_sip.replace(<span class="string">r&#x27;\n&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;&#x27;, &#x27;\n  &#x27;&quot;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;,&quot;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;&quot;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;   &quot;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;  &quot;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 转换为json list</span></span><br><span class="line">        json_file = json.loads(re_1)</span><br><span class="line">        <span class="comment"># print(json_file)</span></span><br><span class="line">        <span class="comment"># 剧名</span></span><br><span class="line">        juming = json_file[<span class="number">0</span>][<span class="string">&#x27;name&#x27;</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;剧名：&#x27;</span>,juming)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 地区</span></span><br><span class="line">        diqu_re = <span class="string">&#x27;&lt;span class=&quot;pl&quot;&gt;制片国家/地区:&lt;/span&gt;(.*?)&lt;span class=&quot;pl&quot;&gt;语言:&lt;/span&gt;&#x27;</span></span><br><span class="line">        diqu_geshi = re.<span class="built_in">compile</span>(diqu_re, re.S)</span><br><span class="line">        json_str = re.findall(diqu_geshi, text)[<span class="number">0</span>]</span><br><span class="line">        diqu = json_str.replace(<span class="string">&#x27;&lt;br/&gt;\n&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&#x27; &#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">r&#x27;\n&#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;地区：&#x27;</span>,diqu)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 类型</span></span><br><span class="line">        leixing_re = <span class="string">&#x27;&lt;span class=&quot;pl&quot;&gt;类型:&lt;/span&gt;(.*?)&lt;span class=&quot;pl&quot;&gt;官方网站:&lt;/span&gt;&#x27;</span></span><br><span class="line">        leixing_geshi = re.<span class="built_in">compile</span>(leixing_re, re.S)</span><br><span class="line">        leixs = re.findall(leixing_geshi, text)</span><br><span class="line">        <span class="comment"># 如果类型报错  排除</span></span><br><span class="line">        <span class="keyword">if</span> <span class="string">&#x27;&#x27;</span> <span class="keyword">not</span> <span class="keyword">in</span> leixs:</span><br><span class="line">            <span class="comment"># 类型</span></span><br><span class="line">            leixing_re = <span class="string">&#x27;&lt;span class=&quot;pl&quot;&gt;类型:&lt;/span&gt;(.*?)&lt;span class=&quot;pl&quot;&gt;制片国家/地区:&lt;/span&gt;&#x27;</span></span><br><span class="line">            leixing_geshi = re.<span class="built_in">compile</span>(leixing_re, re.S)</span><br><span class="line">            leixs = re.findall(leixing_geshi, text)[<span class="number">0</span>]</span><br><span class="line">            leix = re.sub(<span class="string">&#x27;[^\u4e00-\u9fa5]+&#x27;</span>, <span class="string">&#x27;/&#x27;</span>, leixs)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;类型：&quot;</span>, leix)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 评分</span></span><br><span class="line">        pingfen = content.xpath(<span class="string">&#x27;//*[@id=&quot;interest_sectl&quot;]/div[1]/div[2]/strong/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;评分：&#x27;</span>, pingfen)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 多少人评价</span></span><br><span class="line">        pingjia = content.xpath(<span class="string">&#x27;//*[@id=&quot;interest_sectl&quot;]/div[1]/div[2]/div/div[2]/a/span/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;多少人评价：&quot;</span>, pingjia)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 导演</span></span><br><span class="line">        daoyan = json_file[<span class="number">0</span>][<span class="string">&#x27;director&#x27;</span>][<span class="number">0</span>][<span class="string">&#x27;name&#x27;</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;导演：&#x27;</span>,daoyan)</span><br><span class="line"></span><br><span class="line">        bianju_lists = []</span><br><span class="line">        <span class="comment"># 编剧</span></span><br><span class="line">        bianju_list = json_file[<span class="number">0</span>][<span class="string">&#x27;author&#x27;</span>]</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> bianju_list:</span><br><span class="line">            <span class="keyword">for</span> j,k <span class="keyword">in</span> i.items():</span><br><span class="line">                <span class="keyword">if</span> j == <span class="string">&#x27;name&#x27;</span>:</span><br><span class="line">                    <span class="comment"># print(k)</span></span><br><span class="line">                    bianju_lists.append(k)</span><br><span class="line">        <span class="keyword">del</span> bianju_lists[-<span class="number">1</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;编剧：&#x27;</span>,bianju_lists)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 主演</span></span><br><span class="line">        zhuyan_lists = []</span><br><span class="line">        zhuyan_list = json_file[<span class="number">0</span>][<span class="string">&#x27;actor&#x27;</span>]</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> zhuyan_list:</span><br><span class="line">            <span class="keyword">for</span> j,k <span class="keyword">in</span> i.items():</span><br><span class="line">                <span class="keyword">if</span> j == <span class="string">&#x27;name&#x27;</span>:</span><br><span class="line">                    <span class="comment"># print(k)</span></span><br><span class="line">                    zhuyan_lists.append(k)</span><br><span class="line">        <span class="keyword">del</span> zhuyan_lists[-<span class="number">1</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;主演：&#x27;</span>,zhuyan_lists)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;该剧  暂无评分!!&quot;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 正则表达式  需要匹配的格式</span></span><br><span class="line">        geshi_re = <span class="string">&#x27;&quot;@context&quot;: &quot;http://schema.org&quot;,(.*?)&lt;/script&gt;&#x27;</span></span><br><span class="line">        geshi = re.<span class="built_in">compile</span>(geshi_re, re.S)</span><br><span class="line">        js = re.findall(geshi, text)</span><br><span class="line">        join_list = [<span class="string">&#x27;&#123; \n  &quot;@context&quot;:&quot;http://schema.org&quot;,&#x27;</span>]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 列表拼接</span></span><br><span class="line">        jk = join_list + js</span><br><span class="line">        re_sip = <span class="built_in">str</span>(jk)</span><br><span class="line">        re_1 = re_sip.replace(<span class="string">r&#x27;\n&#x27;</span>, <span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;&#x27;, &#x27;\n  &#x27;&quot;</span>, <span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;,&quot;</span>, <span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;   &quot;</span>,</span><br><span class="line">                                                                                                              <span class="string">&#x27;&#x27;</span>).replace(</span><br><span class="line">            <span class="string">&quot;  &quot;</span>, <span class="string">&#x27;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 转换为json list</span></span><br><span class="line">        json_file = json.loads(re_1)</span><br><span class="line">        <span class="comment"># print(json_file)</span></span><br><span class="line">        <span class="comment"># 剧名</span></span><br><span class="line">        juming = json_file[<span class="number">0</span>][<span class="string">&#x27;name&#x27;</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;剧名：&#x27;</span>, juming)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 地区</span></span><br><span class="line">        diqu_re = <span class="string">&#x27;&lt;span class=&quot;pl&quot;&gt;制片国家/地区:&lt;/span&gt;(.*?)&lt;span class=&quot;pl&quot;&gt;语言:&lt;/span&gt;&#x27;</span></span><br><span class="line">        diqu_geshi = re.<span class="built_in">compile</span>(diqu_re, re.S)</span><br><span class="line">        json_str = re.findall(diqu_geshi, text)[<span class="number">0</span>]</span><br><span class="line">        diqu = json_str.replace(<span class="string">&#x27;&lt;br/&gt;\n&#x27;</span>, <span class="string">&#x27;&#x27;</span>).replace(<span class="string">&#x27; &#x27;</span>, <span class="string">&#x27;&#x27;</span>).replace(<span class="string">r&#x27;\n&#x27;</span>, <span class="string">&#x27;&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;地区：&#x27;</span>, diqu)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 类型</span></span><br><span class="line">        leixing_re = <span class="string">&#x27;&lt;span class=&quot;pl&quot;&gt;类型:&lt;/span&gt;(.*?)&lt;span class=&quot;pl&quot;&gt;官方网站:&lt;/span&gt;&#x27;</span></span><br><span class="line">        leixing_geshi = re.<span class="built_in">compile</span>(leixing_re, re.S)</span><br><span class="line">        leixs = re.findall(leixing_geshi, text)</span><br><span class="line">        <span class="comment"># 如果类型报错  排除</span></span><br><span class="line">        <span class="keyword">if</span> <span class="string">&#x27;&#x27;</span> <span class="keyword">not</span> <span class="keyword">in</span> leixs:</span><br><span class="line">            <span class="comment"># 类型</span></span><br><span class="line">            leixing_re = <span class="string">&#x27;&lt;span class=&quot;pl&quot;&gt;类型:&lt;/span&gt;(.*?)&lt;span class=&quot;pl&quot;&gt;制片国家/地区:&lt;/span&gt;&#x27;</span></span><br><span class="line">            leixing_geshi = re.<span class="built_in">compile</span>(leixing_re, re.S)</span><br><span class="line">            leixs = re.findall(leixing_geshi, text)[<span class="number">0</span>]</span><br><span class="line">            leix = re.sub(<span class="string">&#x27;[^\u4e00-\u9fa5]+&#x27;</span>, <span class="string">&#x27;/&#x27;</span>, leixs)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;类型：&quot;</span>, leix)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 导演</span></span><br><span class="line">        daoyan = json_file[<span class="number">0</span>][<span class="string">&#x27;director&#x27;</span>][<span class="number">0</span>][<span class="string">&#x27;name&#x27;</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;导演：&#x27;</span>, daoyan)</span><br><span class="line"></span><br><span class="line">        bianju_lists = []</span><br><span class="line">        <span class="comment"># 编剧</span></span><br><span class="line">        bianju_list = json_file[<span class="number">0</span>][<span class="string">&#x27;author&#x27;</span>]</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> bianju_list:</span><br><span class="line">            <span class="keyword">for</span> j, k <span class="keyword">in</span> i.items():</span><br><span class="line">                <span class="keyword">if</span> j == <span class="string">&#x27;name&#x27;</span>:</span><br><span class="line">                    <span class="comment"># print(k)</span></span><br><span class="line">                    bianju_lists.append(k)</span><br><span class="line">        <span class="keyword">del</span> bianju_lists[-<span class="number">1</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;编剧：&#x27;</span>, bianju_lists)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 主演</span></span><br><span class="line">        zhuyan_lists = []</span><br><span class="line">        zhuyan_list = json_file[<span class="number">0</span>][<span class="string">&#x27;actor&#x27;</span>]</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> zhuyan_list:</span><br><span class="line">            <span class="keyword">for</span> j, k <span class="keyword">in</span> i.items():</span><br><span class="line">                <span class="keyword">if</span> j == <span class="string">&#x27;name&#x27;</span>:</span><br><span class="line">                    <span class="comment"># print(k)</span></span><br><span class="line">                    zhuyan_lists.append(k)</span><br><span class="line">        <span class="keyword">del</span> zhuyan_lists[-<span class="number">1</span>]</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;主演：&#x27;</span>, zhuyan_lists)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_url</span>(<span class="params">base_url, url_list</span>):</span></span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        <span class="comment"># 把输入的关键字定义为全局变量</span></span><br><span class="line">        <span class="keyword">global</span> keyword</span><br><span class="line">        keyword = <span class="built_in">input</span>(</span><br><span class="line">            <span class="string">&#x27;Please enter the keyword of the movie. If you want to enter multiple keyword,please seperate them with comma:&#x27;</span>)</span><br><span class="line">        keyword_list = keyword.split(<span class="string">&#x27;,&#x27;</span>)  <span class="comment"># bug  注意区分中文逗号，&amp; 英文逗号,</span></span><br><span class="line">        <span class="keyword">if</span> <span class="string">&#x27;&#x27;</span> <span class="keyword">in</span> keyword_list:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;This is the wrong input, please try again:&#x27;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> keyword_list:</span><br><span class="line">        url_list.append(base_url.<span class="built_in">format</span>(key))</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">NodeExists</span>(<span class="params">xpath</span>):</span></span><br><span class="line">   <span class="keyword">try</span>:</span><br><span class="line">      driver.find_element_by_link_text(xpath)</span><br><span class="line">      <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">   <span class="keyword">except</span>:</span><br><span class="line">      <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">req_url</span>(<span class="params">url_list, driver,if_xpath</span>):</span></span><br><span class="line">    <span class="comment"># 调用输入的关键字作为文件名</span></span><br><span class="line">    keyword</span><br><span class="line">    filename = <span class="string">&#x27;./&#x27;</span> + keyword + <span class="string">&#x27;电影搜索结果.csv&#x27;</span></span><br><span class="line"></span><br><span class="line">    driver.maximize_window()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(filename, <span class="string">&#x27;a&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>, newline=<span class="string">&#x27;&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        <span class="built_in">print</span>(filename, <span class="string">&quot;   文件已创建...&quot;</span>)</span><br><span class="line">        fieldnames = [<span class="string">&quot;电影名&quot;</span>, <span class="string">&quot;链接&quot;</span>]</span><br><span class="line">        f_csv = csv.DictWriter(f, fieldnames=fieldnames)</span><br><span class="line">        f_csv.writeheader()</span><br><span class="line">        b = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> url_list:</span><br><span class="line">            b += <span class="number">1</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;第 &#123;&#125; 条url: &#x27;</span>.<span class="built_in">format</span>(b),i)</span><br><span class="line">            driver.get(i)</span><br><span class="line">            driver.implicitly_wait(<span class="number">20</span>)</span><br><span class="line">            time.sleep(<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># 注入js代码 滑动浏览器滚动条到底</span></span><br><span class="line">            driver.execute_script(<span class="string">&quot;window.scrollTo(0,document.body.scrollHeight)&quot;</span>)</span><br><span class="line"></span><br><span class="line">            text = driver.page_source</span><br><span class="line">            html = etree.HTML(text)</span><br><span class="line">            <span class="comment"># 标识 获取a条数据</span></span><br><span class="line">            a = <span class="number">0</span></span><br><span class="line">            <span class="comment"># 异常抛出 若有分页数据则执行 try中代码  若只有一页数据则执行异常代码</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> NodeExists(if_xpath):</span><br><span class="line">                <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">                    driver.implicitly_wait(<span class="number">10</span>)</span><br><span class="line">                    text = driver.page_source</span><br><span class="line">                    html = etree.HTML(text)</span><br><span class="line">                    content = html.xpath(<span class="string">&#x27;//*[@id=&quot;root&quot;]/div/div[2]/div[1]/div[1]&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">                    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">18</span>):</span><br><span class="line">                        <span class="keyword">try</span>:</span><br><span class="line">                            title = content.xpath(<span class="string">&#x27;.//div[&#x27;</span> + <span class="built_in">str</span>(j) + <span class="string">&#x27;]/div/div/div[1]/a/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">                            <span class="built_in">print</span>(<span class="string">&#x27;title====&#x27;</span>, title)</span><br><span class="line">                            src = content.xpath(<span class="string">&#x27;.//div[&#x27;</span> + <span class="built_in">str</span>(j) + <span class="string">&#x27;]/div/div/div[1]/a/@href&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">                            <span class="built_in">print</span>(<span class="string">&#x27;src  ====&#x27;</span>, src)</span><br><span class="line">                            a += <span class="number">1</span></span><br><span class="line">                            f_csv.writerow(</span><br><span class="line">                                &#123;</span><br><span class="line">                                    <span class="string">&#x27;电影名&#x27;</span>: title,</span><br><span class="line">                                    <span class="string">&#x27;链接&#x27;</span>: src</span><br><span class="line">                                &#125;</span><br><span class="line">                            )</span><br><span class="line">                            jiexi_url(src)</span><br><span class="line">                        <span class="keyword">except</span>:</span><br><span class="line">                            <span class="keyword">continue</span></span><br><span class="line">                    <span class="comment"># 点击下一页</span></span><br><span class="line">                    driver.find_element_by_link_text(<span class="string">&#x27;后页&gt;&#x27;</span>).click()</span><br><span class="line">                    driver.implicitly_wait(<span class="number">20</span>)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                content = html.xpath(<span class="string">&#x27;//*[@id=&quot;root&quot;]/div/div[2]/div[1]/div[1]&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">                <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">18</span>):</span><br><span class="line">                    <span class="keyword">try</span>:</span><br><span class="line">                        title = content.xpath(<span class="string">&#x27;.//div[&#x27;</span> + <span class="built_in">str</span>(j) + <span class="string">&#x27;]/div/div/div[1]/a/text()&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">                        <span class="comment"># title = html.xpath(&#x27;//*[@id=&quot;root&quot;]/div/div[2]/div[1]/div[1]/div[1]/div/div/div[1]/a/text()&#x27;)[0]</span></span><br><span class="line">                        <span class="built_in">print</span>(<span class="string">&#x27;title====&#x27;</span>, title)</span><br><span class="line">                        src = content.xpath(<span class="string">&#x27;.//div[&#x27;</span> + <span class="built_in">str</span>(j) + <span class="string">&#x27;]/div/div/div[1]/a/@href&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">                        <span class="comment"># src = html.xpath(&#x27;//*[@id=&quot;root&quot;]/div/div[2]/div[1]/div[1]/div[1]/div/div/div[1]/a/@href&#x27;)[0]</span></span><br><span class="line">                        <span class="built_in">print</span>(<span class="string">&#x27;src  ====&#x27;</span>, src)</span><br><span class="line">                        a += <span class="number">1</span></span><br><span class="line">                        f_csv.writerow(</span><br><span class="line">                            &#123;</span><br><span class="line">                                <span class="string">&#x27;电影名&#x27;</span>: title,</span><br><span class="line">                                <span class="string">&#x27;链接&#x27;</span>: src</span><br><span class="line">                            &#125;</span><br><span class="line">                        )</span><br><span class="line">                        jiexi_url(src)</span><br><span class="line">                    <span class="keyword">except</span>:</span><br><span class="line">                        <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># js = &#x27;document.querySelector(&quot;#root &gt; div &gt; div._luoaf7sou &gt; div._zrkqwekox &gt; div:nth-child(1) &gt; div.paginator.sc-htoDjs.eszZtj &gt; a.num.activate.thispage&quot;).click()&#x27;</span></span><br><span class="line">    <span class="comment"># driver.execute_script(js)</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;已获取 &#123;&#125; 条数据&#x27;</span>.<span class="built_in">format</span>(a))</span><br><span class="line">    driver.close()</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;程序结束！！！！！！！！！！！！&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    if_xpath = <span class="string">&#x27;后页&gt;&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 实例化 user-agent 对象    得到随机user-agent</span></span><br><span class="line">    ua = fake_useragent.UserAgent()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用随机ua</span></span><br><span class="line">    headers = &#123;<span class="string">&quot;user-agent&quot;</span>: ua.random&#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 去除浏览器被控  字样</span></span><br><span class="line">    options = webdriver.ChromeOptions()</span><br><span class="line">    options.add_experimental_option(<span class="string">&quot;excludeSwitches&quot;</span>, [<span class="string">&#x27;enable-automation&#x27;</span>])</span><br><span class="line">    options.add_experimental_option(<span class="string">&#x27;useAutomationExtension&#x27;</span>, <span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 浏览器扩展程序</span></span><br><span class="line">    <span class="comment"># cookie获取程序</span></span><br><span class="line">    <span class="comment"># extension_path1 = &#x27;./2.1.0.0_0.crx&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># xpath程序</span></span><br><span class="line">    extension_path2 = <span class="string">&#x27;./2.0.2_0.crx&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 添加扩展程序到浏览器</span></span><br><span class="line">    <span class="comment"># options.add_extension(extension_path1)</span></span><br><span class="line">    options.add_extension(extension_path2)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 添加随机ua到浏览器</span></span><br><span class="line">    options.add_argument(<span class="string">&#x27;user-agent=&#x27;</span> + ua.random)</span><br><span class="line">    driver = webdriver.Chrome(options=options)  <span class="comment"># driver = webdriver.Chrome(executable_path=r&#x27;D:PATHchromedriver.exe&#x27;)?</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 浏览器窗口最大化</span></span><br><span class="line">    <span class="comment"># driver.maximize_window()</span></span><br><span class="line"></span><br><span class="line">    base_url = <span class="string">&#x27;https://search.douban.com/movie/subject_search?search_text=&#123;&#125;&amp;cat=1002&#x27;</span></span><br><span class="line">    url_list = []</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 开始执行函数</span></span><br><span class="line">    get_url(base_url, url_list)</span><br><span class="line">    req_url(url_list, driver,if_xpath)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    <div class='footer'>
+      
+      
+        
+  <div class="related_posts">
+    <section class='header'>
+      <i class="fas fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
+    </section>
+    <section class='body'>
+      <div class="vlts-rps"><a class="item" href="\QQ空间数据抓取" title="QQ空间数据抓取" rel="bookmark "><img src="data:image/png;base64,666" /><span class="title">QQ空间数据抓取</span></a><a class="item" href="\TP-Link路由器后台密码爆破" title="TP-Link路由器后台密码爆破" rel="bookmark "><img src="data:image/png;base64,666" /><span class="title">TP-Link路由器后台密码爆破</span></a><a class="item" href="\某厂区宿舍管理后台密码爆破-selenium测试" title="某厂区宿舍管理后台密码爆破-selenium测试" rel="bookmark "><img src="data:image/png;base64,666" /><span class="title">某厂区宿舍管理后台密码爆破-selenium测试</span></a><a class="item" href="\某厂区宿舍管理后台密码爆破" title="某厂区宿舍管理后台密码爆破" rel="bookmark "><img src="data:image/png;base64,666" /><span class="title">某厂区宿舍管理后台密码爆破</span></a><a class="item" href="\笔趣阁_爬小说" title="笔趣阁_爬小说" rel="bookmark "><img src="data:image/png;base64,666" /><span class="title">笔趣阁_爬小说</span></a></div></section></div>
+      
+      
+      
+    </div>
+  
+  
+    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          
+<div class='new-meta-item author'>
+  <a class='author' href="/about/" rel="nofollow">
+    <img no-lazy src="/img/avatar.jpg">
+    <p>杨晓东</p>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2021年10月2日</p>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-12-09T00:14:25+08:00">
+  <a class='notlink'>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2021年12月9日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  <div class='new-meta-item category'>
+    <a class='notlink'>
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <a class="category-link" href="/categories/%E5%97%AF%E5%93%BC/">嗯哼</a>
+    </a>
+  </div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item browse busuanzi">
+    <a class='notlink'>
+      <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+      <p>
+        <span id="busuanzi_value_page_pv">
+          <i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i>
+        </span>
+        次浏览
+      </p>
+    </a>
+  </div>
+
+
+        
+      
+        
+          
+<div class="new-meta-item comments-count">
+  
+  <a href="/%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A2#comments">
+    <i class="fas fa-comment-dots fa-fw"></i>
+    <span class="valine-comment-count" data-xid="/%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A2">0</span>
+    <span class="leancloud-comments-count">&nbsp;</span>
+  </a>
+</div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item wordcount">
+    <a class='notlink'>
+      <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
+      <p>字数：1.8k字</p>
+    </a>
+  </div>
+  <div class="new-meta-item readtime">
+    <a class='notlink'>
+      <i class="fas fa-hourglass-half fa-fw" aria-hidden="true"></i>
+      <p>时长：10分钟</p>
+    </a>
+  </div>
+
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E6%97%A0%E8%81%8A/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>无聊</p></a></div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.demo443.com:9527/%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A2&title=豆瓣电影搜索 - ☕憩息屋&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://www.demo443.com:9527/%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A2&title=豆瓣电影搜索 - ☕憩息屋&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.demo443.com:9527/%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1%E6%90%9C%E7%B4%A2&title=豆瓣电影搜索 - ☕憩息屋&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        
+        <div class='hoverbox'>
+          <a class='share'><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="></a>
+          <div class='target'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATgAAAE4CAAAAADqFLC2AAADpElEQVR42u3awXIiMQwEUP7/p5P7piislmYQ7PONwIzt54ui9uPHiMYDAThw4MAZ4MAtgXuE49/n/0zw5O/Pvn/1/u73Y/sFBw4cOHDgwIFbBndcAB6CPJv4FdQpcPr77n7BgQMHDhw4cOC2wl1VUJ4WuncdWLxfcODAgQMHDhy4L4GrglQbn91COj14cODAgQMHDhy4/wWuGjSngTM4cODAgQMHDhy4oYC2uNG7A+e1ST44cODAgQMHDtwQXHVctZG7Psf7BQcOHDhw4MCBWwI3NaYanNXGZLUx2t4nOHDgwIEDBw7cEri0kTgFUV1HCpq+p5zkgwMHDhw4cODA3QRXbfB1n0uD6qmDqM4PDhw4cODAgQP3KXDVDVWB0mB7+vn4Mzhw4MCBAwcO3FK4bgGcgnYbq2lAXW6AggMHDhw4cODALYFLg9y0IZg2Rk/nH4c6TfLBgQMHDhw4cODeBNdt8FVHtdE4HZDHQTk4cODAgQMHDtwSuHThaaE81Rjtvj8OusGBAwcOHDhw4JbAVV+UNjSnAuf0AKvrePocOHDgwIEDBw7cMrh0pDDVQjeFTAv4ciANDhw4cODAgQP3JripAjENpq8KxuPg+dl6wIEDBw4cOHDglsJddiEvvAjYfd94IxUcOHDgwIEDB24JXDrhaUOyWmB2C/H0QuJxwQ4OHDhw4MCBA7cErhsYlxuB4Ua7AfRYkA4OHDhw4MCBA7cErhpMp4VsuvFqI3Pq4MuNTHDgwIEDBw4cuJvhpi7mtS/sDQfj3YZsfCMTHDhw4MCBAwfuZrh0oVMQP+G4qhAGBw4cOHDgwIH7FLjTiU8LzasK2asDbXDgwIEDBw4cuE+Bmwqa0wZo+nzayKwW0uDAgQMHDhw4cFvh0oKwWohWD2bqYuH0gYMDBw4cOHDgwG2BSwvgq4Po7gXG6oHe9p8DOHDgwIEDBw7cEFz14mC30J0qjLvzxhcqwYEDBw4cOHDglsB1R/fiX7dROd3wBAcOHDhw4MCB+xS4dkEYNganLw4eNyKL6wcHDhw4cODAgdsOlxa8d4NUD3I6+AYHDhw4cODAgdsKd7qwtMFYBe4Wut3CHhw4cODAgQMH7tvhpgvTbqA9XbiDAwcOHDhw4MB9G9w07FSQHAfOrz6DAwcOHDhw4MAthburkKy+P22UVtf7cn3gwIEDBw4cOHDL4LrBbQrUDbC7gOVGKjhw4MCBAwcO3BI4owiJABw4cOAMcODeO34B8Hf3nv5edSwAAAAASUVORK5CYII=">
+          </div>
+        </div>
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+        <a class='prev' href='/%E7%AC%94%E4%B8%8B%E6%96%87%E5%AD%A6_%E7%88%AC%E5%B0%8F%E8%AF%B4'>
+          <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>笔下文学_爬小说</p>
+          <p class='content'>笔下文学_爬小说12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849...</p>
+        </a>
+      
+      
+        <a class='next' href='/%E5%B7%B2%E9%85%8D%E7%BD%AE_%E9%94%AE%E7%9B%98%E8%BE%93%E5%85%A5%E8%8E%B7%E5%8F%96'>
+          <p class='title'>已配置_键盘输入获取<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>网络编程_木马__democlient.py123456789101112131415161718192021222324252627282930313233343536373839404142...</p>
+        </a>
+      
+    </div>
+  
+</article>
+
+
+  
+
+  <article class="post white-box reveal shadow blur floatable" id="comments">
+    <p ct><i class='fas fa-comments'></i> 评论</p>
+    
+      <p cst>测试阶段</p>
+    
+    <div id="valine_container" class="valine_thread">
+  <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+</div>
+
+  </article>
+
+
+
+
+
+
+</div>
+<aside class='l_side'>
+  
+  
+    
+    
+
+
+
+  <section class="widget toc-wrapper shadow blur floatable desktop mobile" id="toc-div" >
+    
+  <header>
+    
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        
+    </div>
+  </section>
+
+
+  
+
+  
+    
+    
+
+<section class="widget blogger shadow blur floatable desktop mobile">
+  <div class='content'>
+    
+      
+        <a class='avatar flat-box circle' href='/about/'>
+          <img no-lazy src='/img/avatar.jpg'/>
+        </a>
+      
+    
+    
+      <div class='text'>
+        
+          <h2>杨晓东</h2>
+        
+        
+          <p>过去无法挽回，<br>未来可以改变！</p>
+
+        
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3458888444&amp;site=qq&amp;menu=yes"
+              class="social fab fa-qq flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="mailto:3458888444@qq.com"
+              class="social fas fa-envelope flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="http://www.demo443.com"
+              class="social fas fa-wrench flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="https://music.163.com/"
+              class="social fas fa-music flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+<section class="widget shadow blur floatable desktop">
+  
+  <header>
+    
+      <i class="fas fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="webinfo">
+      
+        <div class="webinfo-item">
+          <div>文章数目：</div>
+          <div>146 篇</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>已运行时间：</div>
+          <div id="webinfo-runtime-count" publish_date="03/24/2020 21:34:09"></div>
+        </div>
+        <script>
+          var BirthDay = new Date(new Date('2021/08/23'));
+          var today = new Date();
+          var timeold = (today.getTime() - BirthDay.getTime());
+          var daysold = Math.floor(timeold / (24 * 60 * 60 * 1000));
+          document.getElementById('webinfo-runtime-count').innerHTML = daysold + ' 天';
+        </script>
+      
+
+
+      
+        <div class="webinfo-item">
+          <div>本站总字数：</div>
+          <div>167.4k 字</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站访客数：</div>
+          
+          <div><span id="busuanzi_value_site_uv"><i class="fas fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 人</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站总访问量：</div>
+          
+          <div><span id="busuanzi_value_site_pv"><i class="fas fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 次</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>最后活动时间：</div>
+          
+            <div id="last-update" style="display: none;">Fri Dec 24 2021 18:44:46 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2021-12-24 日</div>
+          
+        </div>
+        
+        <script>
+          function timeago(dateTimeStamp) {
+              var minute = 1000 * 60; //把分，时，天，周，半个月，一个月用毫秒表示
+              var hour = minute * 60;
+              var day = hour * 24;
+              var week = day * 7;
+              var month = day * 30;
+              var now = new Date().getTime(); //获取当前时间毫秒
+              var diffValue = now - dateTimeStamp; //时间差
+              if (diffValue < 0) {
+                  return;
+              }
+              var minC = diffValue / minute; //计算时间差的分，时，天，周，月
+              var hourC = diffValue / hour;
+              var dayC = diffValue / day;
+              var weekC = diffValue / week;
+              var monthC = diffValue / month;
+              if (monthC >= 1 && monthC <= 3) {
+                  result = " " + parseInt(monthC) + " 月前"
+              } else if (weekC >= 1 && weekC <= 3) {
+                  result = " " + parseInt(weekC) + " 周前"
+              } else if (dayC >= 1 && dayC <= 6) {
+                  result = " " + parseInt(dayC) + " 天前"
+              } else if (hourC >= 1 && hourC <= 23) {
+                  result = " " + parseInt(hourC) + " 小时前"
+              } else if (minC >= 1 && minC <= 59) {
+                  result = " " + parseInt(minC) + " 分钟前"
+              } else if (diffValue >= 0 && diffValue <= minute) {
+                  result = "刚刚"
+              } else {
+                  var datetime = new Date();
+                  datetime.setTime(dateTimeStamp);
+                  var Nyear = datetime.getFullYear();
+                  var Nmonth = datetime.getMonth() + 1 < 10 ? "0" + (datetime.getMonth() + 1) : datetime.getMonth() + 1;
+                  var Ndate = datetime.getDate() < 10 ? "0" + datetime.getDate() : datetime.getDate();
+                  var Nhour = datetime.getHours() < 10 ? "0" + datetime.getHours() : datetime.getHours();
+                  var Nminute = datetime.getMinutes() < 10 ? "0" + datetime.getMinutes() : datetime.getMinutes();
+                  var Nsecond = datetime.getSeconds() < 10 ? "0" + datetime.getSeconds() : datetime.getSeconds();
+                  result = Nyear + "-" + Nmonth + "-" + Ndate
+              }
+              return result;
+          }
+          var lastUpDate = document.getElementById('last-update').innerHTML;
+          try {
+            document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
+          } catch (error) {
+            document.getElementById('last-update-show').innerHTML = '2021-12-24 日';
+          }
+        </script>
+        
+      
+    </div>
+  </div>
+</section>
+
+  
+
+
+</aside>
+
+
+
+		  
+		  <!--此文件用来存放一些不方便取值的变量-->
+<!--思路大概是将值藏到重加载的区域内-->
+
+<script>
+  window.pdata={}
+  pdata.ispage=true;
+  pdata.postTitle="豆瓣电影搜索";
+  pdata.commentPath="";
+  pdata.commentPlaceholder="";
+  // header 这里无论是否开启pjax都需要
+  var l_header=document.getElementById("l_header");
+  
+  l_header.classList.add("show");
+  
+  
+    // cover
+    var cover_wrapper=document.querySelector('.cover-wrapper');
+    
+    cover_wrapper.id="none";
+    cover_wrapper.style.display="none";
+    
+  
+</script>
+
+        </div>
+        
+  
+  <footer class="footer clearfix">
+    <br><br>
+    
+      
+        <div class="aplayer-container">
+          
+
+  
+    <meting-js
+      theme='#1BCDFC'
+      autoplay='false'
+      volume='0.7'
+      loop='all'
+      order='random'
+      fixed='false'
+      list-max-height='320px'
+      server='netease'
+      type='playlist'
+      id='6929517097'
+      list-folded='true'>
+    </meting-js>
+  
+
+
+        </div>
+      
+    
+      
+        <div class='copyright'>
+        <p><a href="/">Copyright © 2021 yangkaiqun</a></p>
+
+        </div>
+      
+    
+      
+        
+          <div><p><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">黔ICP备2021004952号</a></p>
+</div>
+        
+      
+    
+      
+        
+          <div><p><img src="/img/gov.png" class="lazyload" data-srcset="/img/gov.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="> <a target="_blank" rel="noopener" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52032102000646/">公安备案号52032102000646</a></p>
+</div>
+        
+      
+    
+  </footer>
+
+
+        <a id="s-top" class="fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+      </div>
+    </div>
+    <div>
+      <script>
+/************这个文件存放不需要重载的全局变量和全局函数*********/
+window.volantis={};
+window.volantis.loadcss=document.getElementById("loadcss");
+/******************** Pjax ********************************/
+function VPjax(){
+	this.list=[] // 存放回调函数
+	this.start=()=>{
+	  for(var i=0;i<this.list.length;i++){
+		this.list[i].run();
+	  }
+	}
+	this.push=(fn,name)=>{
+		var f=new PjaxItem(fn,name);
+		this.list.push(f);
+	}
+	// 构造一个可以run的对象
+	function PjaxItem(fn,name){
+		// 函数名称
+		this.name = name || fn.name
+		// run方法
+		this.run=()=>{
+			fn()
+		}
+	}
+}
+volantis.pjax={}
+volantis.pjax.method={
+	complete: new VPjax(),
+	error: new VPjax(),
+	send: new VPjax()
+}
+volantis.pjax={
+	...volantis.pjax,
+	push: volantis.pjax.method.complete.push,
+	error: volantis.pjax.method.error.push,
+	send: volantis.pjax.method.send.push
+}
+/********************脚本懒加载函数********************************/
+// 已经加入了setTimeout
+function loadScript(src, cb) {
+	setTimeout(function() {
+		var HEAD = document.getElementsByTagName('head')[0] || document.documentElement;
+		var script = document.createElement('script');
+		script.setAttribute('type','text/javascript');
+		if (cb) script.onload = cb;
+		script.setAttribute('src', src);
+		HEAD.appendChild(script);
+	});
+}
+//https://github.com/filamentgroup/loadCSS
+var loadCSS = function( href, before, media, attributes ){
+	var doc = window.document;
+	var ss = doc.createElement( "link" );
+	var ref;
+	if( before ){
+		ref = before;
+	}
+	else {
+		var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
+		ref = refs[ refs.length - 1];
+	}
+	var sheets = doc.styleSheets;
+	if( attributes ){
+		for( var attributeName in attributes ){
+			if( attributes.hasOwnProperty( attributeName ) ){
+				ss.setAttribute( attributeName, attributes[attributeName] );
+			}
+		}
+	}
+	ss.rel = "stylesheet";
+	ss.href = href;
+	ss.media = "only x";
+	function ready( cb ){
+		if( doc.body ){
+			return cb();
+		}
+		setTimeout(function(){
+			ready( cb );
+		});
+	}
+	ready( function(){
+		ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
+	});
+	var onloadcssdefined = function( cb ){
+		var resolvedHref = ss.href;
+		var i = sheets.length;
+		while( i-- ){
+			if( sheets[ i ].href === resolvedHref ){
+				return cb();
+			}
+		}
+		setTimeout(function() {
+			onloadcssdefined( cb );
+		});
+	};
+	function loadCB(){
+		if( ss.addEventListener ){
+			ss.removeEventListener( "load", loadCB );
+		}
+		ss.media = media || "all";
+	}
+	if( ss.addEventListener ){
+		ss.addEventListener( "load", loadCB);
+	}
+	ss.onloadcssdefined = onloadcssdefined;
+	onloadcssdefined( loadCB );
+	return ss;
+};
+</script>
+<script>
+  
+  loadCSS("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/css/all.min.css", window.volantis.loadcss);
+  
+  
+  loadCSS("https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css", window.volantis.loadcss);
+  
+  
+  loadCSS("https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css", window.volantis.loadcss);
+  
+  
+  loadCSS("https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/styles/solarized-light.min.css", window.volantis.loadcss);
+  
+</script>
+<!-- required -->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
+
+<script>
+  function pjax_fancybox() {
+    $(".md .gallery").find("img").each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("class", "fancybox");
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 判断当前页面是否存在描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".md .gallery").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  function SCload_fancybox() {
+    if ($(".md .gallery").find("img").length == 0) return;
+    loadCSS("https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css", document.getElementById("loadcss"));
+    loadScript('https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js', pjax_fancybox)
+  };
+  $(function () {
+    SCload_fancybox();
+  });
+  function Pjax_SCload_fancybox(){
+	if (typeof $.fancybox == "undefined") {
+	 SCload_fancybox();
+    } else {
+	 pjax_fancybox();
+    }
+  }
+  volantis.pjax.push(Pjax_SCload_fancybox)
+  volantis.pjax.send(()=>{
+      if (typeof $.fancybox != "undefined") {
+        $.fancybox.close();    // 关闭弹窗
+      }
+  },'fancybox')
+</script>
+
+
+<!-- internal -->
+
+
+
+  
+  
+
+  <div id="rightmenu-wrapper">
+    <ul class="list-v rightmenu" id="rightmenu-content">
+      <li class='option'>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-copy-text' onclick="document.execCommand('copy')"><i class='fa fa-copy fa-fw'></i>复制文本</a>
+        <hr id='hr-text'>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-copy-href'><i class='fa fa-link fa-fw'></i>复制链接</a>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-open-href'><i class='fa fa-external-link-square-alt fa-fw'></i>在新标签页打开</a>
+        <hr id='hr-href'>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-copy-src'><i class='fa fa-image fa-fw'></i>复制图片地址</a>
+        <hr id='hr-src'>
+      </li>
+      
+        <li class='navigation'>
+          <a class='nav icon-only fix-cursor-default' onclick='history.back()'><i class='fa fa-arrow-left fa-fw'></i></a>
+          <a class='nav icon-only fix-cursor-default' onclick='history.forward()'><i class='fa fa-arrow-right fa-fw'></i></a>
+          <a class='nav icon-only fix-cursor-default' onclick='window.location.reload()'><i class='fa fa-redo fa-fw'></i></a>
+          <a class='nav icon-only fix-cursor-default' href='/'><i class='fa fa-home fa-fw'></i></a>
+        </li>
+      
+      <hr>
+      
+        
+      
+        
+          <hr>
+        
+      
+        
+          
+    <li>
+      <a class='vlts-menu fix-cursor-default ' href=http://www.demo443.com
+        
+        
+        
+        
+          id="http:wwwdemo443com"
+        >
+        <i class='fa fa-fan fa-spin fa-fw'></i> 工具箱
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
+      <a class='vlts-menu fix-cursor-default ' 
+        
+        
+        
+          onclick="document.execCommand('print')"
+        
+        >
+        <i class='fa fa-print fa-fw'></i> 打印页面
+      </a>
+    </li>
+  
+        
+      
+        
+          <li class='music name'>
+            <p class='nav music-title fix-cursor-default'></p>
+          </li>
+          <li class='music ctrl'>
+            <a class='nav icon-only backward fix-cursor-default' onclick='aplayerBackward()'><i class='fa fa-step-backward fa-fw'></i></a>
+            <a class='nav icon-only toggle fix-cursor-default' onclick='aplayerToggle()'><i class='fa fa-play fa-fw'></i></a>
+            <a class='nav icon-only forward fix-cursor-default' onclick='aplayerForward()'><i class='fa fa-step-forward fa-fw'></i></a>
+          </li>
+          <li class='music volume'>
+            <a class='nav volume'>
+              <div class="aplayer-volume-bar-wrap">
+                <div class="aplayer-volume-bar fix-cursor-pointer">
+                  <div class="aplayer-volume"></div>
+                  <i class='left fa fa-volume-off fa-fw'></i>
+                  <i class='right fa fa-volume-up fa-fw'></i>
+                </div>
+              </div>
+            </a>
+          </li>
+        
+      
+    </ul>
+  </div>
+
+  <script>
+    window.document.oncontextmenu = function (event) {
+      if (event.ctrlKey) return true;
+      if (/Android|webOS|BlackBerry/i.test(navigator.userAgent)) return true;
+      return popMenu(event);
+    };
+    document.addEventListener("click", function (event) {
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      mymenu.style.display = "none";
+    });
+    function popMenu(event) {
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      var menuContent = document.getElementById('rightmenu-content');
+      var screenWidth = document.documentElement.clientWidth || document.body.clientWidth;
+      var screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
+      mymenu.style.left = event.clientX + "px"; // 获取鼠标位置
+      mymenu.style.top = event.clientY + "px";
+      mymenu.style.display = 'block';
+      if (event.clientX * 2 > screenWidth) {
+        menuContent.classList.add('left');
+      } else {
+        menuContent.classList.remove('left');
+      }
+      if (event.clientY * 2 > screenHeight) {
+        menuContent.classList.add('top');
+      } else {
+        menuContent.classList.remove('top');
+      }
+
+      let hrText = document.getElementById('hr-text');
+      let hrSrc = document.getElementById('hr-src');
+      let hrHref = document.getElementById('hr-href');
+
+      // 选中图片
+      let copySrc = document.getElementById('menu-copy-src');
+      if (copySrc != undefined) {
+        if (event.target.currentSrc) {
+          copySrc.style.display = 'block';
+          copySrc.addEventListener("click", function (e) {
+            copyString(event.target.currentSrc);
+          },{once: true});
+          hrSrc.style.display = 'block';
+        } else {
+          copySrc.style.display = 'none';
+          hrSrc.style.display = 'none';
+        }
+      }
+
+      // 选中按钮
+      // 判断是不是按钮
+      let href = '';
+      if (event.path) {
+        for (i = 0; i < event.path.length; i++) {
+          if (event.path[i].href != undefined && event.path[i].href.length > 0) {
+            href = event.path[i].href;
+          }
+        }
+      }
+
+      let copyText = document.getElementById('menu-copy-text');
+      copyText.style.display = 'none';
+      hrText.style.display = 'none';
+      if (href.length == 0) {
+        // 选中文本
+        if (window.getSelection().toString()) {
+          if ('true' == 'true') {
+            copyText.style.display = 'block';
+            hrText.style.display = 'block';
+          }
+        }
+      }
+
+      // 在新标签页打开
+      let openHref = document.getElementById('menu-open-href');
+      if (openHref != undefined) {
+        if (href.length > 0) {
+          openHref.style.display = 'block';
+          openHref.addEventListener("click", function (e) {
+            window.open(href);
+          },{once: true});
+          hrHref.style.display = 'block';
+        } else {
+          openHref.style.display = 'none';
+          hrHref.style.display = 'none';
+        }
+      }
+      // 复制链接
+      let copyHref = document.getElementById('menu-copy-href');
+      if (copyHref != undefined) {
+        if (href.length > 0) {
+          copyHref.style.display = 'block';
+          copyHref.addEventListener("click", function (e) {
+            copyString(href);
+          },{once: true});
+        } else {
+          copyHref.style.display = 'none';
+        }
+      }
+      // 有音乐播放器 see: layout/_third-party/aplayer/script.ejs
+      
+      if(volantis.APlayerLoaded){ // APlayer加载完成？
+        // 如果有aplayer，初始化一下
+        checkAPlayer();
+      }
+      
+      return false; // 该行代码确保系统自带的右键菜单不会被调出
+    }
+    function hideMenu() {
+      document.getElementById('rightmenu-wrapper').style.display = 'none';
+    }
+    function copyString(str) {
+      const input = document.createElement('input');
+      input.setAttribute('readonly', 'readonly');
+      document.body.appendChild(input);
+      input.setAttribute('value', str);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+    }
+    document.execCommand('click');
+  </script>
+
+
+
+
+<script>
+  function loadIssuesJS() {
+    if ($(".md").find(".issues-api").length == 0) return;
+	
+	  loadScript('/js/issues.js');
+	
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+  volantis.pjax.push(()=>{
+	if (typeof IssuesAPI == "undefined") {
+	  loadIssuesJS();
+	}
+  },"IssuesJS")
+</script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+
+
+  
+
+<script async src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn-copy', {
+        target: function (trigger) {
+            return trigger.nextElementSibling
+        }
+    });
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+    function pjax_initCopyCode() {
+		if($(".highlight .code pre").length+$(".article pre code").length==0)return;
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        clipboard.off('success').on('success', function (e) {
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.off('error').on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });
+	volantis.pjax.push(pjax_initCopyCode)
+</script>
+
+
+
+
+   <script type="text/javascript">
+  loadScript("https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js")
+  function pjax_scrollrebeal() {
+    ScrollReveal().reveal('.l_main .reveal', {
+      distance: '32px',
+      duration: '800',
+      interval: '20',
+      scale: '1',
+      easing: 'ease-out'
+    });
+  }
+  $(function () {
+  var checkScrollReveal = setInterval(function () {
+    if ($("#safearea").css("display")!="block") return
+    if (typeof ScrollReveal=="undefined") return
+    clearInterval(checkScrollReveal)
+	pjax_scrollrebeal();
+  }, 100)
+  });
+  volantis.pjax.push(pjax_scrollrebeal)
+</script>
+
+
+
+
+  <script>
+  let APlayerController = new Object();
+  APlayerController.id = '6929517097';  // 设定全局音乐播放ID
+  APlayerController.volume = '0.7';
+  loadCSS("https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css", window.volantis.loadcss);
+  // APlayer 需要在  MetingJS 之前加载
+  loadScript("https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js")
+  window.volantis.APlayerLoaded=0 // APlayer加载完成状态
+  var checkAPlayer = setInterval(function () {
+    if (!window.APlayer) return // APlayer加载完成？
+	  if ($("#safearea").css("display")!="block") return // 文章内容加载完成？ see: source/css/first.styl
+    clearInterval(checkAPlayer)
+	  if (!window.volantis.APlayerLoaded&&!window.MetingJSElement){ // APlayer只能加载一次
+      window.volantis.APlayerLoaded=1 // APlayer加载完成
+      loadScript("https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js") // 加载 MetingJS
+	  }
+  }, 2500) // 按照网速调节差分2.5s
+  // rightmenu see: layout/_partial/rightmenu.ejs
+
+  
+    loadScript("/js/aplayer.js")
+  
+
+</script>
+
+
+
+
+  
+  
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js"></script>
+
+
+<script>
+  function emoji(path, idx, ext) {
+    return path + "/" + path + "-" + idx + "." + ext;
+  }
+  var emojiMaps = {};
+  for (var i = 1; i <= 54; i++) {
+    emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+  }
+  for (var i = 1; i <= 101; i++) {
+    emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+  }
+  for (var i = 1; i <= 116; i++) {
+    emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+  }
+  for (var i = 1; i <= 125; i++) {
+    emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+  }
+  for (var i = 1; i <= 4; i++) {
+    emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+  }
+  function pjax_valine() {
+    if(!document.querySelectorAll("#valine_container")[0])return;
+    let pagePlaceholder = pdata.commentPlaceholder || "快来评论吧~";
+    let path = pdata.commentPath;
+    if (path.length == 0) {
+      let defaultPath = '';
+      path = defaultPath || decodeURI(window.location.pathname);
+    }
+    var valine = new Valine();
+    valine.init(Object.assign({"path":null,"placeholder":"快来评论吧~","appId":"0tm20G2zAnSoNq82yF7TCkjp-gzGzoHsz","appKey":"gdthrGg8z8Gw8swEWqKfwMli","meta":["nick","mail","link"],"requiredFields":["nick","mail"],"enableQQ":true,"recordIP":true,"avatar":"robohash","pageSize":10,"lang":"zh-cn","highlight":true,"mathJax":false,"js":"https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js","visitor":true}, {
+      el: '#valine_container',
+      path: path,
+      placeholder: pagePlaceholder,
+      emojiCDN: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/valine/',
+      emojiMaps: emojiMaps,
+    }))
+  }
+  $(function () {
+    pjax_valine();
+  });
+  volantis.pjax.push(pjax_valine);
+</script>
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script>
+
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+<!-- optional -->
+
+  <script>
+const SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/";
+const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
+
+$('.input.u-search-input').one('focus',function(){
+	
+		loadScript('https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2.6.4/js/search.js',setSearchService);
+	
+})
+
+function listenSearch(){
+  
+    customSearch = new HexoSearch({
+      imagePath: SearchServiceimagePath
+    });
+  
+}
+function setSearchService() {
+	listenSearch();
+	
+		document.addEventListener("pjax:success", listenSearch);
+	
+}
+</script>
+
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+  Waves.attach('.flat-btn', ['waves-button']);
+  Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+  Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+  Waves.attach('.flat-box', ['waves-block']);
+  Waves.attach('.float-box', ['waves-block', 'waves-float']);
+  Waves.attach('.waves-image');
+  Waves.init();
+});
+</script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
+
+  
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+volantis.pjax.push(()=>{
+	document.querySelectorAll('pre code').forEach((block) => {
+	  hljs.highlightBlock(block);
+	});
+},"highlightjs")
+</script>
+
+
+
+
+
+  <script>
+const rootElement = document.documentElement;
+const darkModeStorageKey = "user-color-scheme";
+const rootElementDarkModeAttributeName = "data-user-color-scheme";
+
+const setLS = (k, v) => {
+    localStorage.setItem(k, v);
+};
+
+const removeLS = (k) => {
+    localStorage.removeItem(k);
+};
+
+const getLS = (k) => {
+    return localStorage.getItem(k);
+};
+
+const getModeFromCSSMediaQuery = () => {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
+
+const resetRootDarkModeAttributeAndLS = () => {
+  rootElement.removeAttribute(rootElementDarkModeAttributeName);
+  removeLS(darkModeStorageKey);
+};
+
+const validColorModeKeys = {
+  dark: true,
+  light: true,
+};
+
+const applyCustomDarkModeSettings = (mode) => {
+  const currentSetting = mode || getLS(darkModeStorageKey);
+
+  if (currentSetting === getModeFromCSSMediaQuery()) {
+    resetRootDarkModeAttributeAndLS();
+  } else if (validColorModeKeys[currentSetting]) {
+    rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
+  } else {
+    resetRootDarkModeAttributeAndLS();
+  }
+};
+
+const invertDarkModeObj = {
+  dark: "light",
+  light: "dark",
+};
+
+/**
+ * get target mode
+ */
+const toggleCustomDarkMode = () => {
+  let currentSetting = getLS(darkModeStorageKey);
+
+  if (validColorModeKeys[currentSetting]) {
+    currentSetting = invertDarkModeObj[currentSetting];
+  } else if (currentSetting === null) {
+    currentSetting = invertDarkModeObj[getModeFromCSSMediaQuery()];
+  } else {
+    return;
+  }
+  setLS(darkModeStorageKey, currentSetting);
+  return currentSetting;
+};
+
+/**
+ * bind click event for toggle button
+ */
+var btn=$("#wrapper .toggle-mode-btn,#rightmenu-wrapper .toggle-mode-btn");
+function bindToggleButton() {
+    btn.on('click',(e) => {
+      const mode = toggleCustomDarkMode();
+      applyCustomDarkModeSettings(mode);
+    });
+}
+
+applyCustomDarkModeSettings();
+document.addEventListener("DOMContentLoaded", bindToggleButton);
+volantis.pjax.push(bindToggleButton);
+volantis.pjax.send(()=>{
+	btn.unbind('click');
+},'toggle-mode-btn-unbind');
+</script>
+
+
+
+
+
+<!-- baidu Analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  setTimeout(function() {
+    loadScript("https://hm.baidu.com/hm.js?VnXOrCA4S07hLqXKYg8UjNVb")
+  }, 5000);
+})();
+// 关于百度统计对 SPA 页面的处理：
+// 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+// 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]);},'baidu_analytics')
+</script>
+
+
+
+
+<script>
+function listennSidebarTOC() {
+  const navItems = document.querySelectorAll(".toc li");
+  if (!navItems.length) return;
+  const sections = [...navItems].map((element) => {
+    const link = element.querySelector(".toc-link");
+    const target = document.getElementById(
+      decodeURI(link.getAttribute("href")).replace("#", "")
+    );
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.scrollTo({
+		top: target.offsetTop + 100,
+		
+		behavior: "smooth"
+		
+	  });
+    });
+    return target;
+  });
+
+  function activateNavByIndex(target) {
+    if (target.classList.contains("active-current")) return;
+
+    document.querySelectorAll(".toc .active").forEach((element) => {
+      element.classList.remove("active", "active-current");
+    });
+    target.classList.add("active", "active-current");
+    let parent = target.parentNode;
+    while (!parent.matches(".toc")) {
+      if (parent.matches("li")) parent.classList.add("active");
+      parent = parent.parentNode;
+    }
+  }
+
+  function findIndex(entries) {
+    let index = 0;
+    let entry = entries[index];
+    if (entry.boundingClientRect.top > 0) {
+      index = sections.indexOf(entry.target);
+      return index === 0 ? 0 : index - 1;
+    }
+    for (; index < entries.length; index++) {
+      if (entries[index].boundingClientRect.top <= 0) {
+        entry = entries[index];
+      } else {
+        return sections.indexOf(entry.target);
+      }
+    }
+    return sections.indexOf(entry.target);
+  }
+
+  function createIntersectionObserver(marginTop) {
+    marginTop = Math.floor(marginTop + 10000);
+    let intersectionObserver = new IntersectionObserver(
+      (entries, observe) => {
+        let scrollHeight = document.documentElement.scrollHeight + 100;
+        if (scrollHeight > marginTop) {
+          observe.disconnect();
+          createIntersectionObserver(scrollHeight);
+          return;
+        }
+        let index = findIndex(entries);
+        activateNavByIndex(navItems[index]);
+      },
+      {
+        rootMargin: marginTop + "px 0px -100% 0px",
+        threshold: 0,
+      }
+    );
+    sections.forEach((element) => {
+      element && intersectionObserver.observe(element);
+    });
+  }
+  createIntersectionObserver(document.documentElement.scrollHeight);
+}
+
+document.addEventListener("DOMContentLoaded", listennSidebarTOC);
+document.addEventListener("pjax:success", listennSidebarTOC);
+</script>
+
+<!-- more -->
+
+ 
+	   
+	    
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+
+
+<script>
+    var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          
+          "#pjax-container",
+          "#pjax-header-nav-list"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+      //window.stop(); // 相当于点击了浏览器的停止按钮
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+
+      volantis.$switcher.removeClass('active'); // 关闭移动端激活的搜索框
+      volantis.$header.removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      volantis.$wrapper.removeClass('sub'); // 跳转页面时关闭二级导航
+
+      // 解绑事件 避免重复监听
+      volantis.$topBtn.unbind('click');
+      $('.menu a').unbind('click');
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+	  // 使用 volantis.pjax.send 方法传入pjax:send回调函数 参见layout/_partial/scripts/global.ejs
+	  volantis.pjax.method.send.start();
+    });
+
+    document.addEventListener('pjax:complete', function () {
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+      try{
+		// 使用 volantis.pjax.push 方法传入重载函数 参见layout/_partial/scripts/global.ejs
+		volantis.pjax.method.complete.start();
+      } catch (e) {
+        console.log(e);
+      }
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+	  // 使用 volantis.pjax.error 方法传入pjax:error回调函数 参见layout/_partial/scripts/global.ejs
+	  volantis.pjax.method.error.start();
+      window.location.href = e.triggerElement.href;
+    });
+</script>
+ 
+	  
+    </div>
+  </body>
+</html>

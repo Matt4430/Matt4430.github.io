@@ -1,0 +1,2327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/4.2.0'>
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+  
+  <!-- 渲染优化 -->
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link rel="preload" href="/css/first.css" as="style">
+  
+
+  <!-- 页面元数据 -->
+  
+  <title>服务器常用端口一览 - ☕憩息屋</title>
+  
+    <meta name="keywords" content="端口">
+  
+
+  
+
+  <!-- feed -->
+  
+
+  <!-- import meta -->
+  
+
+  <!-- link -->
+  
+    <link rel="shortcut icon" type='image/x-icon' href="/sir.ico">
+  
+
+  <!-- import link -->
+  
+
+  
+    
+<link rel="stylesheet" href="/css/first.css">
+
+  
+
+  
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
+  
+
+  <script id="loadcss"></script>
+
+  
+<script>
+if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
+    document.write(
+	'<style>'+
+		'html{'+
+			'overflow-x: hidden !important;'+
+			'overflow-y: hidden !important;'+
+		'}'+
+		'.kill-ie{'+
+			'text-align:center;'+
+			'height: 100%;'+
+			'margin-top: 15%;'+
+			'margin-bottom: 5500%;'+
+		'}'+
+	'</style>'+
+    '<div class="kill-ie">'+
+        '<h1><b>抱歉，您的浏览器无法访问本站</b></h1>'+
+        '<h3>微软已经于2016年终止了对 Internet Explorer (IE) 10 及更早版本的支持，<br/>'+
+        '继续使用存在极大的安全隐患，请使用当代主流的浏览器进行访问。</h3><br/>'+
+        '<a target="_blank" rel="noopener" href="https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support"><strong>了解详情 ></strong></a>'+
+    '</div>');
+</script>
+
+
+<noscript>
+	<style>
+		html{
+			overflow-x: hidden !important;
+			overflow-y: hidden !important;
+		}
+		.kill-noscript{
+			text-align:center;
+			height: 100%;
+			margin-top: 15%;
+			margin-bottom: 5500%;
+		}
+	</style>
+    <div class="kill-noscript">
+        <h1><b>抱歉，您的浏览器无法访问本站</b></h1>
+        <h3>本页面需要浏览器支持（启用）JavaScript</h3><br/>
+        <a target="_blank" rel="noopener" href="https://www.baidu.com/s?wd=启用JavaScript"><strong>了解详情 ></strong></a>
+    </div>
+</noscript>
+
+</head>
+
+  <body>
+    
+
+<header id="l_header" class="l_header auto shadow blur auto show" style='opacity: 0' >
+  <div class='container'>
+  <div id='wrapper'>
+    <div class='nav-sub'>
+      <p class="title"></p>
+      <ul class='switcher nav-list-h m-phone' id="pjax-header-nav-list">
+        <li><a id="s-comment" class="fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li><a id="s-toc" class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href='/'>
+          
+          
+          
+            ☕憩息屋
+          
+        </a>
+      
+
+			<div class='menu navigation'>
+				<ul class='nav-list-h m-pc'>
+          
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=http://www.demo443.com:4567/
+                  
+                  
+                  
+                    id="http:wwwdemo443com:4567"
+                  >
+                  <i class='fas fa-fan fa-spin fa-fw'></i>技术博客
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/apidocs/
+                  
+                  
+                  
+                    id="apidocs"
+                  >
+                  💀开发资料
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/study/
+                  
+                  
+                  
+                    id="study"
+                  >
+                  📚学习资料
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/friends/
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  🔖网址收藏
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  🔨工具箱
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tools/
+                  
+                  
+                  
+                    id="tools"
+                  >
+                  📐环境&工具
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/bat/
+                  
+                  
+                  
+                    id="bat"
+                  >
+                  🐍bat &脚本
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/sucai/
+                  
+                  
+                  
+                    id="sucai"
+                  >
+                  🎲模板&素材
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/music&amp;videos/
+                  
+                  
+                  
+                    id="music&amp;videos"
+                  >
+                  🔇影视&音乐
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box header toggle-mode-btn">
+                  <i class=' fa-fw'></i>🌗开灯/关灯
+                </a>
+              <li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  💬关于我
+                </a>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="站内搜索" />
+        </form>
+      </div>
+
+			<ul class='switcher nav-list-h m-phone'>
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=http://www.demo443.com:4567/
+                  
+                  
+                  
+                    id="http:wwwdemo443com:4567"
+                  >
+                  <i class='fas fa-fan fa-spin fa-fw'></i>技术博客
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/apidocs/
+                  
+                  
+                  
+                    id="apidocs"
+                  >
+                  💀开发资料
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/study/
+                  
+                  
+                  
+                    id="study"
+                  >
+                  📚学习资料
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/friends/
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  🔖网址收藏
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  🔨工具箱
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tools/
+                  
+                  
+                  
+                    id="tools"
+                  >
+                  📐环境&工具
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/bat/
+                  
+                  
+                  
+                    id="bat"
+                  >
+                  🐍bat &脚本
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/sucai/
+                  
+                  
+                  
+                    id="sucai"
+                  >
+                  🎲模板&素材
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/music&amp;videos/
+                  
+                  
+                  
+                    id="music&amp;videos"
+                  >
+                  🔇影视&音乐
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box header toggle-mode-btn">
+                  <i class=' fa-fw'></i>🌗开灯/关灯
+                </a>
+              <li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  💬关于我
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+    <div id="l_body">
+      <div id="l_cover">
+  
+    
+        <div id="full" class='cover-wrapper post search' style="display: none;">
+          
+            <div class='cover-bg lazyload placeholder' data-bg="http://photos.demo443.com/blog/6/imgs/bg.jpg"></div>
+          
+          <div class='cover-body'>
+  <div class='top'>
+    
+    
+      <p class="title">☕憩息屋</p>
+    
+    
+  </div>
+  <div class='bottom'>
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="search" />
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+    
+    <div class='menu navigation'>
+      <div class='list-h'>
+        
+          
+            <a href="http://www.demo443.com:4567/"
+              
+              
+              id="http:wwwdemo443com:4567">
+              <p>🏀技术博客</p>
+            </a>
+          
+            <a href="/friends/"
+              
+              
+              id="friends">
+              <p>🍎网址收藏</p>
+            </a>
+          
+            <a href="/study/"
+              
+              
+              id="study">
+              <p>🍨学习资料</p>
+            </a>
+          
+            <a href="/apidocs/"
+              
+              
+              id="apidocs">
+              <p>🍺开发资料</p>
+            </a>
+          
+            <a href="http://www.demo443.com"
+              
+              
+              id="http:wwwdemo443com">
+              <p>😈工具箱</p>
+            </a>
+          
+            <a href="/about/"
+              
+              
+              id="about">
+              <p>😃关于我</p>
+            </a>
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+        </div>
+    
+  
+  </div>
+
+      <div id="safearea">
+        <div class="body-wrapper" id="pjax-container">
+          
+
+<div class='l_main'>
+  <article class="article post white-box reveal md shadow blur floatable article-type-post" id="post" itemscope itemprop="blogPost">
+  
+
+
+  
+  <div class="article-meta" id="top">
+    
+    
+    
+      <h1 class="title">
+        服务器常用端口一览
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author'>
+  <a class='author' href="/about/" rel="nofollow">
+    <img no-lazy src="/img/avatar.jpg">
+    <p>杨晓东</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <a class='notlink'>
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <a class="category-link" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2021年10月2日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item browse busuanzi">
+    <a class='notlink'>
+      <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+      <p>
+        <span id="busuanzi_value_page_pv">
+          <i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i>
+        </span>
+        次浏览
+      </p>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+    
+  </div>
+
+
+  
+  
+  <h1 id="Windows-端口和所提供的服务"><a href="#Windows-端口和所提供的服务" class="headerlink" title="Windows 端口和所提供的服务"></a><a target="_blank" rel="noopener" href="https://www.cnblogs.com/yunweis/p/8037653.html">Windows 端口和所提供的服务</a></h1><h2 id="一-、端口大全"><a href="#一-、端口大全" class="headerlink" title="一 、端口大全"></a>一 、端口大全</h2><p>端口：0<br>服务：Reserved<br>说明：通常用于分析操作系统。这一方法能够工作是因为在一些系统中“0”是无效端口，当你试图使用通常的闭合端口连接它时将产生不同的结果。一种典型的扫描，使用IP地址为0.0.0.0，设置ACK位并在以太网层广播。</p>
+<p>端口：1<br>服务：tcpmux<br>说明：这显示有人在寻找SGI Irix机器。Irix是实现tcpmux的主要提供者，默认情况下tcpmux在这种系统中被打开。Irix机器在发布是含有几个默认的无密码的帐户，如：IP、GUEST UUCP、NUUCP、DEMOS 、TUTOR、DIAG、OUTOFBOX等。许多管理员在安装后忘记删除这些帐户。因此HACKER在INTERNET上搜索tcpmux并利用这些帐户。</p>
+<p>端口：7<br>服务：Echo<br>说明：能看到许多人搜索Fraggle放大器时，发送到X.X.X.0和X.X.X.255的信息。</p>
+<p>端口：19<br>服务：Character Generator<br>说明：这是一种仅仅发送字符的服务。UDP版本将会在收到UDP包后回应含有垃圾字符的包。TCP连接时会发送含有垃圾字符的数据流直到连接关闭。HACKER利用IP欺骗可以发动DoS攻击。伪造两个chargen服务器之间的UDP包。同样Fraggle DoS攻击向目标地址的这个端口广播一个带有伪造受害者IP的数据包，受害者为了回应这些数据而过载。</p>
+<p>端口：21<br>服务：FTP<br>说明：FTP服务器所开放的端口，用于上传、下载。最常见的攻击者用于寻找打开anonymous的FTP服务器的方法。这些服务器带有可读写的目录。木马Doly Trojan、Fore、Invisible FTP、WebEx、WinCrash和Blade Runner所开放的端口。</p>
+<p>端口：22<br>服务：Ssh<br>说明：PcAnywhere建立的TCP和这一端口的连接可能是为了寻找ssh。这一服务有许多弱点，如果配置成特定的模式，许多使用RSAREF库的版本就会有不少的漏洞存在。</p>
+<p>端口：23<br>服务：Telnet<br>说明：远程登录，入侵者在搜索远程登录UNIX的服务。大多数情况下扫描这一端口是为了找到机器运行的操作系统。还有使用其他技术，入侵者也会找到密码。木马Tiny Telnet Server就开放这个端口。</p>
+<p>端口：25<br>服务：SMTP<br>说明：SMTP服务器所开放的端口，用于发送邮件。入侵者寻找SMTP服务器是为了传递他们的SPAM。入侵者的帐户被关闭，他们需要连接到高带宽的E-MAIL服务器上，将简单的信息传递到不同的地址。木马Antigen、Email Password Sender、Haebu Coceda、Shtrilitz Stealth、WinPC、WinSpy都开放这个端口。</p>
+<p>端口：31<br>服务：MSG Authentication<br>说明：木马Master Paradise、Hackers Paradise开放此端口。</p>
+<p>端口：42<br>服务：WINS Replication<br>说明：WINS复制</p>
+<p>端口：53<br>服务：Domain Name Server（DNS）<br>说明：DNS服务器所开放的端口，入侵者可能是试图进行区域传递（TCP），欺骗DNS（UDP）或隐藏其他的通信。因此_blank”&gt;防火墙常常过滤或记录此端口。</p>
+<p>端口：67<br>服务：Bootstrap Protocol Server<br>说明：通过DSL和Cable modem的_blank”&gt;防火墙常会看见大量发送到广播地址255.255.255.255的数据。这些机器在向DHCP服务器请求一个地址。 HACKER常进入它们，分配一个地址把自己作为局部路由器而发起大量中间人（man-in-middle）攻击。客户端向68端口广播请求配置，服务器向67端口广播回应请求。这种回应使用广播是因为客户端还不知道可以发送的IP地址。</p>
+<p>端口：69<br>服务：Trival File Transfer<br>说明：许多服务器与bootp一起提供这项服务，便于从系统下载启动代码。但是它们常常由于错误配置而使入侵者能从系统中窃取任何 文件。它们也可用于系统写入文件。</p>
+<p>端口：79<br>服务：Finger Server<br>说明：入侵者用于获得用户信息，查询操作系统，探测已知的缓冲区溢出错误，回应从自己机器到其他机器Finger扫描。</p>
+<p>端口：80<br>服务：HTTP<br>说明：用于网页浏览。木马Executor开放此端口。</p>
+<p>端口：99<br>服务：Metagram Relay<br>说明：后门程序ncx99开放此端口。</p>
+<p>端口：102<br>服务：Message transfer agent(MTA)-X.400 over TCP/IP<br>说明：消息传输代理。</p>
+<p>端口：109<br>服务：Post Office Protocol -Version3<br>说明：POP3服务器开放此端口，用于接收邮件，客户端访问服务器端的邮件服务。POP3服务有许多公认的弱点。关于用户名和密码交 换缓冲区溢出的弱点至少有20个，这意味着入侵者可以在真正登陆前进入系统。成功登陆后还有其他缓冲区溢出错误。</p>
+<p>端口：110<br>服务：SUN公司的RPC服务所有端口<br>说明：常见RPC服务有rpc.mountd、NFS、rpc.statd、rpc.csmd、rpc.ttybd、amd等</p>
+<p>端口：113<br>服务：Authentication Service<br>说明：这是一个许多计算机上运行的协议，用于鉴别TCP连接的用户。使用标准的这种服务可以获得许多计算机的信息。但是它可作为许多服务的记录器，尤其是FTP、POP、IMAP、SMTP和IRC等服务。通常如果有许多客户通过_blank”&gt;防火墙访问这些服务，将会看到许多这个端口的连接请求。记住，如果阻断这个端口客户端会感觉到在_blank”&gt;防火墙另一边与E-MAIL服务器的缓慢连接。许多_blank”&gt;防火墙支持TCP连接的阻断过程中发回RST。这将会停止缓慢的连接。</p>
+<p>端口：119<br>服务：Network News Transfer Protocol<br>说明：NEWS新闻组传输协议，承载USENET通信。这个端口的连接通常是人们在寻找USENET服务器。多数ISP限制，只有他们的客户才能访问他们的新闻组服务器。打开新闻组服务器将允许发/读任何人的帖子，访问被限制的新闻组服务器，匿名发帖或发送SPAM。</p>
+<p>端口：135<br>服务：Location Service<br>说明：Microsoft在这个端口运行DCE RPC end-point mapper为它的DCOM服务。这与UNIX 111端口的功能很相似。使用DCOM和RPC的服务利用计算机上的end-point mapper注册它们的位置。远端客户连接到计算机时，它们查找end-point mapper找到服务的位置。HACKER扫描计算机的这个端口是为了找到这个计算机上运行Exchange Server吗？什么版本？还有些DOS攻击直接针对这个端口。</p>
+<p>端口：137、138、139<br>服务：NETBIOS Name Service<br>说明：其中137、138是UDP端口，当通过网上邻居传输文件时用这个端口。而139端口：通过这个端口进入的连接试图获得NetBIOS/SMB服务。这个协议被用于windows文件和打印机共享和SAMBA。还有WINS Regisrtation也用它。</p>
+<p>端口：143<br>服务：Interim Mail Access Protocol v2<br>说明：和POP3的安全问题一样，许多IMAP服务器存在有缓冲区溢出漏洞。记住：一种LINUX蠕虫（admv0rm）会通过这个端口繁殖，因此许多这个端口的扫描来自不知情的已经被感染的用户。当REDHAT在他们的LINUX发布版本中默认允许IMAP后，这些漏洞变的很流行。这一端口还被用于IMAP2，但并不流行。</p>
+<p>端口：161<br>服务：SNMP<br>说明：SNMP允许远程管理设备。所有配置和运行信息的储存在数据库中，通过SNMP可获得这些信息。许多管理员的错误配置将被暴露在 Internet。Cackers将试图使用默认的密码public、private访问系统。他们可能会试验所有可能的组合。SNMP包可能会被错误的指向用户的网络。</p>
+<p>端口：177<br>服务：X Display Manager Control Protocol<br>说明：许多入侵者通过它访问X-windows操作台，它同时需要打开6000端口。</p>
+<p>端口：389<br>服务：LDAP、ILS<br>说明：轻型目录访问协议和NetMeeting Internet Locator Server共用这一端口。</p>
+<p>端口：443<br>服务：Https<br>说明：网页浏览端口，能提供加密和通过安全端口传输的另一种HTTP。</p>
+<p>端口：456<br>服务：[NULL]<br>说明：木马HACKERS PARADISE开放此端口。</p>
+<p>端口：513<br>服务：Login,remote login<br>说明：是从使用cable modem或DSL登陆到子网中的UNIX计算机发出的广播。这些人为入侵者进入他们的系统提供了信息。</p>
+<p>端口：544<br>服务：[NULL]<br>说明：kerberos kshell</p>
+<p>端口：548<br>服务：Macintosh,File Services(AFP/IP)<br>说明：Macintosh,文件服务。</p>
+<p>端口：553<br>服务：CORBA IIOP （UDP）<br>说明：使用cable modem、DSL或VLAN将会看到这个端口的广播。CORBA是一种面向对象的RPC系统。入侵者可以利用这些信息进入系统。</p>
+<p>端口：555<br>服务：DSF<br>说明：木马PhAse1.0、Stealth Spy、IniKiller开放此端口。</p>
+<p>端口：568<br>服务：Membership DPA<br>说明：成员资格 DPA。</p>
+<p>端口：569<br>服务：Membership MSN<br>说明：成员资格 MSN。</p>
+<p>端口：635<br>服务：mountd<br>说明：Linux的mountd Bug。这是扫描的一个流行BUG。大多数对这个端口的扫描是基于UDP的，但是基于TCP的mountd有所增加（mountd同时运行于两个端口）。记住mountd可运行于任何端口（到底是哪个端口，需要在端口111做portmap查询），只是Linux默认端口是635，就像NFS通常运行于 2049端口。</p>
+<p>端口：636<br>服务：LDAP<br>说明：SSL（Secure Sockets layer）</p>
+<p>端口：666<br>服务：Doom Id Software<br>说明：木马Attack FTP、Satanz Backdoor开放此端口</p>
+<p>端口：993<br>服务：IMAP<br>说明：SSL（Secure Sockets layer）</p>
+<p>端口：1001、1011<br>服务：[NULL]<br>说明：木马Silencer、WebEx开放1001端口。木马Doly Trojan开放1011端口。</p>
+<p>端口：1024<br>服务：Reserved<br>说明：它是动态端口的开始，许多程序并不在乎用哪个端口连接网络，它们请求系统为它们分配下一个闲置端口。基于这一点分配从端口1024开始。这就是说第一个向系统发出请求的会分配到1024端口。你可以重启机器，打开Telnet，再打开一个窗口运行natstat -a 将会看到Telnet被分配1024端口。还有SQL session也用此端口和5000端口。</p>
+<p>端口：1025、1033<br>服务：1025：network blackjack 1033：[NULL]<br>说明：木马netspy开放这2个端口。</p>
+<p>端口：1080<br>服务：SOCKS<br>说明：这一协议以通道方式穿过_blank”&gt;防火墙，允许_blank”&gt;防火墙后面的人通过一个IP地址访问INTERNET。理论上它应该只允许内部的通信向外到达INTERNET。但是由于错误的配置，它会允许位于_blank”&gt;防火墙外部的攻击穿过 _blank”&gt;防火墙。WinGate常会发生这种错误，在加入IRC聊天室时常会看到这种情况。</p>
+<p>端口：1170<br>服务：[NULL]<br>说明：木马Streaming Audio Trojan、Psyber Stream Server、Voice开放此端口。</p>
+<p>端口：1234、1243、6711、6776<br>服务：[NULL]<br>说明：木马SubSeven2.0、Ultors Trojan开放1234、6776端口。木马SubSeven1.0/1.9开放1243、6711、6776端口。</p>
+<p>端口：1245<br>服务：[NULL]<br>说明：木马Vodoo开放此端口。</p>
+<p>端口：1433<br>服务：SQL<br>说明：Microsoft的SQL服务开放的端口。</p>
+<p>端口：1492<br>服务：stone-design-1<br>说明：木马FTP99CMP开放此端口。</p>
+<p>端口：1500<br>服务：RPC client fixed port session queries<br>说明：RPC客户固定端口会话查询<br>端口：1503<br>服务：NetMeeting T.120<br>说明：NetMeeting T.120</p>
+<p>端口：1524<br>服务：ingress<br>说明：许多攻击脚本将安装一个后门SHELL于这个端口，尤其是针对SUN系统中Sendmail和RPC服务漏洞的脚本。如果刚安装了 _blank”&gt;防火墙就看到在这个端口上的连接企图，很可能是上述原因。可以试试Telnet到用户的计算机上的这个端口，看看它是否会给你一个 SHELL。连接到600/pcserver也存在这个问题。</p>
+<p>端口：1600<br>服务：issd<br>说明：木马Shivka-Burka开放此端口。</p>
+<p>端口：1720<br>服务：NetMeeting<br>说明：NetMeeting H.233 call Setup。</p>
+<p>端口：1731<br>服务：NetMeeting Audio Call Control<br>说明：NetMeeting音频调用控制。</p>
+<p>端口：1807<br>服务：[NULL]<br>说明：木马SpySender开放此端口。</p>
+<p>端口：1981<br>服务：[NULL]<br>说明：木马ShockRave开放此端口。</p>
+<p>端口：1999<br>服务：cisco identification port<br>说明：木马BackDoor开放此端口。</p>
+<p>端口：2000<br>服务：[NULL]<br>说明：木马GirlFriend 1.3、Millenium 1.0开放此端口。</p>
+<p>端口：2001<br>服务：[NULL]<br>说明：木马Millenium 1.0、Trojan Cow开放此端口。</p>
+<p>端口：2023<br>服务：xinuexpansion 4<br>说明：木马Pass Ripper开放此端口。</p>
+<p>端口：2049<br>服务：NFS<br>说明：NFS程序常运行于这个端口。通常需要访问Portmapper查询这个服务运行于哪个端口。</p>
+<p>端口：2115<br>服务：[NULL]<br>说明：木马Bugs开放此端口。</p>
+<p>端口：2140、3150<br>服务：[NULL]<br>说明：木马Deep Throat 1.0/3.0开放此端口。</p>
+<p>端口：2500<br>服务：RPC client using a fixed port session replication<br>说明：应用固定端口会话复制的RPC客户</p>
+<p>端口：2583<br>服务：[NULL]<br>说明：木马Wincrash 2.0开放此端口。</p>
+<p>端口：2801<br>服务：[NULL]<br>说明：木马Phineas Phucker开放此端口。</p>
+<p>端口：3024、4092<br>服务：[NULL]<br>说明：木马WinCrash开放此端口。</p>
+<p>端口：3128<br>服务：squid<br>说明：这是squid HTTP代理服务器的默认端口。攻击者扫描这个端口是为了搜寻一个代理服务器而匿名访问Internet。也会看到搜索其他代理服务器的端口8000、 8001、8080、8888。扫描这个端口的另一个原因是用户正在进入聊天室。其他用户也会检验这个端口以确定用户的机器是否支持代理。</p>
+<p>端口：3129<br>服务：[NULL]<br>说明：木马Master Paradise开放此端口。</p>
+<p>端口：3150<br>服务：[NULL]<br>说明：木马The Invasor开放此端口。</p>
+<p>端口：3210、4321<br>服务：[NULL]<br>说明：木马SchoolBus开放此端口</p>
+<p>端口：3333<br>服务：dec-notes<br>说明：木马Prosiak开放此端口</p>
+<p>端口：3389<br>服务：超级终端<br>说明：WINDOWS 2000终端开放此端口。</p>
+<p>端口：3700<br>服务：[NULL]<br>说明：木马Portal of Doom开放此端口</p>
+<p>端口：3996、4060<br>服务：[NULL]<br>说明：木马RemoteAnything开放此端口</p>
+<p>端口：4000<br>服务：QQ客户端<br>说明：腾讯QQ客户端开放此端口。</p>
+<p>端口：4092<br>服务：[NULL]<br>说明：木马WinCrash开放此端口。</p>
+<p>端口：4590<br>服务：[NULL]<br>说明：木马ICQTrojan开放此端口。</p>
+<p>端口：5000、5001、5321、50505<br>服务：[NULL]<br>说明：木马blazer5开放5000端口。木马Sockets de Troie开放5000、5001、5321、50505端口。</p>
+<p>端口：5400、5401、5402<br>服务：[NULL]<br>说明：木马Blade Runner开放此端口。</p>
+<p>端口：5550<br>服务：[NULL]<br>说明：木马xtcp开放此端口。</p>
+<p>端口：5569<br>服务：[NULL]<br>说明：木马Robo-Hack开放此端口。</p>
+<p>端口：5632<br>服务：pcAnywere<br>说明：有时会看到很多这个端口的扫描，这依赖于用户所在的位置。当用户打开pcAnywere时，它会自动扫描局域网C类网以寻找可能的代理（这里的代理是指agent而不是proxy）。入侵者也会寻找开放这种服务的计算机。，所以应该查看这种扫描的源地址。一些搜寻pcAnywere的扫描包常含端口22的UDP数据包。</p>
+<p>端口：5742<br>服务：[NULL]<br>说明：木马WinCrash1.03开放此端口。</p>
+<p>端口：6267<br>服务：[NULL]<br>说明：木马广外女生开放此端口。</p>
+<p>端口：6400<br>服务：[NULL]<br>说明：木马The tHing开放此端口。</p>
+<p>端口：6670、6671<br>服务：[NULL]<br>说明：木马Deep Throat开放6670端口。而Deep Throat 3.0开放6671端口。</p>
+<p>端口：6883<br>服务：[NULL]<br>说明：木马DeltaSource开放此端口。</p>
+<p>端口：6969<br>服务：[NULL]<br>说明：木马Gatecrasher、Priority开放此端口。</p>
+<p>端口：6970<br>服务：RealAudio<br>说明：RealAudio客户将从服务器的6970-7170的UDP端口接收音频数据流。这是由TCP-7070端口外向控制连接设置的。</p>
+<p>端口：7000<br>服务：[NULL]<br>说明：木马Remote Grab开放此端口。</p>
+<p>端口：7300、7301、7306、7307、7308<br>服务：[NULL]<br>说明：木马NetMonitor开放此端口。另外NetSpy1.0也开放7306端口。</p>
+<p>端口：7323<br>服务：[NULL]<br>说明：Sygate服务器端。</p>
+<p>端口：7626<br>服务：[NULL]<br>说明：木马Giscier开放此端口。</p>
+<p>端口：7789<br>服务：[NULL]<br>说明：木马ICKiller开放此端口。<br>端口：8000<br>服务：OICQ<br>说明：腾讯QQ服务器端开放此端口。</p>
+<p>端口：8010<br>服务：Wingate<br>说明：Wingate代理开放此端口。</p>
+<p>端口：8080<br>服务：代理端口<br>说明：WWW代理开放此端口。</p>
+<p>端口：9400、9401、9402<br>服务：[NULL]<br>说明：木马Incommand 1.0开放此端口。</p>
+<p>端口：9872、9873、9874、9875、10067、10167<br>服务：[NULL]<br>说明：木马Portal of Doom开放此端口。</p>
+<p>端口：9989<br>服务：[NULL]<br>说明：木马iNi-Killer开放此端口。</p>
+<p>端口：11000<br>服务：[NULL]<br>说明：木马SennaSpy开放此端口。</p>
+<p>端口：11223<br>服务：[NULL]<br>说明：木马Progenic trojan开放此端口。</p>
+<p>端口：12076、61466<br>服务：[NULL]<br>说明：木马Telecommando开放此端口。</p>
+<p>端口：12223<br>服务：[NULL]<br>说明：木马Hack’99 KeyLogger开放此端口。</p>
+<p>端口：12345、12346<br>服务：[NULL]<br>说明：木马NetBus1.60/1.70、GabanBus开放此端口。</p>
+<p>端口：12361<br>服务：[NULL]<br>说明：木马Whack-a-mole开放此端口。</p>
+<p>端口：13223<br>服务：PowWow<br>说明：PowWow是Tribal Voice的聊天程序。它允许用户在此端口打开私人聊天的连接。这一程序对于建立连接非常具有攻击性。它会驻扎在这个TCP端口等回应。造成类似心跳间隔的连接请求。如果一个拨号用户从另一个聊天者手中继承了IP地址就会发生好象有很多不同的人在测试这个端口的情况。这一协议使用OPNG作为其连接请求的前4个字节。</p>
+<p>端口：16969<br>服务：[NULL]<br>说明：木马Priority开放此端口。<br>端口：17027<br>服务：Conducent<br>说明：这是一个外向连接。这是由于公司内部有人安装了带有Conducent”adbot”的共享软件。Conducent”adbot”是为共享软件显示广告服务的。使用这种服务的一种流行的软件是Pkware。</p>
+<p>端口：19191<br>服务：[NULL]<br>说明：木马蓝色火焰开放此端口。</p>
+<p>端口：20000、20001<br>服务：[NULL]<br>说明：木马Millennium开放此端口。</p>
+<p>端口：20034<br>服务：[NULL]<br>说明：木马NetBus Pro开放此端口。</p>
+<p>端口：21554<br>服务：[NULL]<br>说明：木马GirlFriend开放此端口。</p>
+<p>端口：22222<br>服务：[NULL]<br>说明：木马Prosiak开放此端口。</p>
+<p>端口：23456<br>服务：[NULL]<br>说明：木马Evil FTP、Ugly FTP开放此端口。</p>
+<p>端口：26274、47262<br>服务：[NULL]<br>说明：木马Delta开放此端口。</p>
+<p>端口：27374<br>服务：[NULL]<br>说明：木马Subseven 2.1开放此端口。</p>
+<p>端口：30100<br>服务：[NULL]<br>说明：木马NetSphere开放此端口。</p>
+<p>端口：30303<br>服务：[NULL]<br>说明：木马Socket23开放此端口。</p>
+<p>端口：30999<br>服务：[NULL]<br>说明：木马Kuang开放此端口。</p>
+<p>端口：31337、31338<br>服务：[NULL]<br>说明：木马BO(Back Orifice)开放此端口。另外木马DeepBO也开放31338端口。</p>
+<p>端口：31339<br>服务：[NULL]<br>说明：木马NetSpy DK开放此端口。</p>
+<p>端口：31666<br>服务：[NULL]<br>说明：木马BOWhack开放此端口。</p>
+<p>端口：33333<br>服务：[NULL]<br>说明：木马Prosiak开放此端口。</p>
+<p>端口：34324<br>服务：[NULL]<br>说明：木马Tiny Telnet Server、BigGluck、TN开放此端口。</p>
+<p>端口：40412<br>服务：[NULL]<br>说明：木马The Spy开放此端口。</p>
+<p>端口：40421、40422、40423、40426、<br>服务：[NULL]<br>说明：木马Masters Paradise开放此端口。</p>
+<p>端口：43210、54321<br>服务：[NULL]<br>说明：木马SchoolBus 1.0/2.0开放此端口。</p>
+<p>端口：44445<br>服务：[NULL]<br>说明：木马Happypig开放此端口。</p>
+<p>端口：50766<br>服务：[NULL]<br>说明：木马Fore开放此端口。</p>
+<p>端口：53001<br>服务：[NULL]<br>说明：木马Remote Windows Shutdown开放此端口。</p>
+<p>端口：65000<br>服务：[NULL]<br>说明：木马Devil 1.03开放此端口。</p>
+<h3 id="下面是：系统常用的端口"><a href="#下面是：系统常用的端口" class="headerlink" title="下面是：系统常用的端口"></a>下面是：系统常用的端口</h3><p>7 UDP Echo 简单 TCP/IP 服务<br>9 TCP Discard 简单 TCP/IP 服务<br>9 UDP Discard 简单 TCP/IP 服务<br>13 TCP Daytime 简单 TCP/IP 服务<br>13 UDP Daytime 简单 TCP/IP 服务<br>17 TCP Quotd 简单 TCP/IP 服务<br>17 UDP Quotd 简单 TCP/IP 服务<br>19 TCP Chargen 简单 TCP/IP 服务<br>19 UDP Chargen 简单 TCP/IP 服务<br>20 TCP FTP 默认数据 FTP 发布服务<br>21 TCP FTP 控制 FTP 发布服务<br>21 TCP FTP 控制 应用层网关服务<br>23 TCP Telnet Telnet<br>25 TCP SMTP 简单邮件传输协议<br>25 UDP SMTP 简单邮件传输协议<br>25 TCP SMTP Exchange Server<br>25 UDP SMTP Exchange Server<br>42 TCP WINS 复制 Windows Internet 名称服务<br>42 UDP WINS 复制 Windows Internet 名称服务<br>53 TCP DNS DNS 服务器<br>53 UDP DNS DNS 服务器<br>53 TCP DNS Internet 连接_blank”&gt;防火墙/Internet 连接共享<br>53 UDP DNS Internet 连接_blank”&gt;防火墙/Internet 连接共享<br>67 UDP DHCP 服务器 DHCP 服务器<br>67 UDP DHCP 服务器 Internet 连接_blank”&gt;防火墙/Internet 连接共享<br>69 UDP TFTP 普通 FTP 后台程序服务<br>80 TCP HTTP Windows 媒体服务<br>80 TCP HTTP 万维网发布服务<br>80 TCP HTTP SharePoint Portal Server<br>88 TCP Kerberos Kerberos 密钥分发中心<br>88 UDP Kerberos Kerberos 密钥分发中心<br>102 TCP X.400 Microsoft Exchange MTA 堆栈<br>110 TCP POP3 Microsoft POP3 服务<br>110 TCP POP3 Exchange Server<br>119 TCP NNTP 网络新闻传输协议<br>123 UDP NTP Windows Time<br>123 UDP SNTP Windows Time<br>135 TCP RPC 消息队列<br>135 TCP RPC 远程过程调用<br>135 TCP RPC Exchange Server<br>137 TCP NetBIOS 名称解析 计算机浏览器<br>137 UDP NetBIOS 名称解析 计算机浏览器<br>137 TCP NetBIOS 名称解析 Server<br>137 UDP NetBIOS 名称解析 Server<br>137 TCP NetBIOS 名称解析 Windows Internet 名称服务<br>137 UDP NetBIOS 名称解析 Windows Internet 名称服务<br>137 TCP NetBIOS 名称解析 Net Logon<br>137 UDP NetBIOS 名称解析 Net Logon<br>137 TCP NetBIOS 名称解析 Systems Management Server 2.0<br>137 UDP NetBIOS 名称解析 Systems Management Server 2.0<br>138 UDP NetBIOS 数据报服务 计算机浏览器<br>138 UDP NetBIOS 数据报服务 信使<br>138 UDP NetBIOS 数据报服务 服务器<br>138 UDP NetBIOS 数据报服务 Net Logon<br>138 UDP NetBIOS 数据报服务 分布式文件系统<br>138 UDP NetBIOS 数据报服务 Systems Management Server 2.0<br>138 UDP NetBIOS 数据报服务 许可证记录服务<br>139 TCP NetBIOS 会话服务 计算机浏览器<br>139 TCP NetBIOS 会话服务 传真服务<br>139 TCP NetBIOS 会话服务 性能日志和警报<br>139 TCP NetBIOS 会话服务 后台打印程序<br>139 TCP NetBIOS 会话服务 服务器<br>139 TCP NetBIOS 会话服务 Net Logon<br>139 TCP NetBIOS 会话服务 远程过程调用定位器<br>139 TCP NetBIOS 会话服务 分布式文件系统<br>139 TCP NetBIOS 会话服务 Systems Management Server 2.0<br>139 TCP NetBIOS 会话服务 许可证记录服务<br>143 TCP IMAP Exchange Server<br>161 UDP SNMP SNMP 服务<br>162 UDP SNMP 陷阱出站 SNMP 陷阱服务<br>389 TCP LDAP 服务器 本地安全机构<br>389 UDP LDAP 服务器 本地安全机构<br>389 TCP LDAP 服务器 分布式文件系统<br>389 UDP LDAP 服务器 分布式文件系统<br>443 TCP HTTPS HTTP SSL<br>443 TCP HTTPS 万维网发布服务<br>443 TCP HTTPS SharePoint Portal Server<br>445 TCP SMB 传真服务<br>445 UDP SMB 传真服务<br>445 TCP SMB 后台打印程序<br>445 UDP SMB 后台打印程序<br>445 TCP SMB 服务器<br>445 UDP SMB 服务器<br>445 TCP SMB 远程过程调用定位器<br>445 UDP SMB 远程过程调用定位器<br>445 TCP SMB 分布式文件系统<br>445 UDP SMB 分布式文件系统<br>445 TCP SMB 许可证记录服务<br>445 UDP SMB 许可证记录服务<br>500 UDP IPSec ISAKMP IPSec 服务<br>515 TCP LPD TCP/IP 打印服务器<br>548 TCP Macintosh 文件服务器 Macintosh 文件服务器<br>554 TCP RTSP Windows 媒体服务<br>563 TCP NNTP over SSL 网络新闻传输协议<br>593 TCP RPC over HTTP 远程过程调用<br>593 TCP RPC over HTTP Exchange Server<br>636 TCP LDAP SSL 本地安全机构<br>636 UDP LDAP SSL 本地安全机构<br>993 TCP IMAP over SSL Exchange Server<br>995 TCP POP3 over SSL Exchange Server<br>1270 TCP MOM-Encrypted Microsoft Operations Manager 2000<br>1433 TCP SQL over TCP Microsoft SQL Server<br>1433 TCP SQL over TCP MSSQL$UDDI<br>1434 UDP SQL Probe Microsoft SQL Server<br>1434 UDP SQL Probe MSSQL$UDDI<br>1645 UDP 旧式 RADIUS Internet 身份验证服务<br>1646 UDP 旧式 RADIUS Internet 身份验证服务<br>1701 UDP L2TP 路由和远程访问<br>1723 TCP PPTP 路由和远程访问<br>1755 TCP MMS Windows 媒体服务<br>1755 UDP MMS Windows 媒体服务<br>1801 TCP MSMQ 消息队列<br>1801 UDP MSMQ 消息队列<br>1812 UDP RADIUS 身份验证 Internet 身份验证服务<br>1813 UDP RADIUS 计帐 Internet 身份验证服务<br>1900 UDP SSDP SSDP 发现服务<br>2101 TCP MSMQ-DC 消息队列<br>2103 TCP MSMQ-RPC 消息队列<br>2105 TCP MSMQ-RPC 消息队列<br>2107 TCP MSMQ-Mgmt 消息队列<br>2393 TCP OLAP Services 7.0 SQL Server：下层 OLAP 客户端支持<br>2394 TCP OLAP Services 7.0 SQL Server：下层 OLAP 客户端支持<br>2460 UDP MS Theater Windows 媒体服务<br>2535 UDP MADCAP DHCP 服务器<br>2701 TCP SMS 远程控制（控件） SMS 远程控制代理<br>2701 UDP SMS 远程控制（控件） SMS 远程控制代理<br>2702 TCP SMS 远程控制（数据） SMS 远程控制代理<br>2702 UDP SMS 远程控制（数据） SMS 远程控制代理<br>2703 TCP SMS 远程聊天 SMS 远程控制代理<br>2703 UPD SMS 远程聊天 SMS 远程控制代理<br>2704 TCP SMS 远程文件传输 SMS 远程控制代理<br>2704 UDP SMS 远程文件传输 SMS 远程控制代理<br>2725 TCP SQL 分析服务 SQL 分析服务器<br>2869 TCP UPNP 通用即插即用设备主机<br>2869 TCP SSDP 事件通知 SSDP 发现服务<br>3268 TCP 全局编录服务器 本地安全机构<br>3269 TCP 全局编录服务器 本地安全机构<br>3343 UDP 集群服务 集群服务<br>3389 TCP 终端服务 NetMeeting 远程桌面共享<br>3389 TCP 终端服务 终端服务<br>3527 UDP MSMQ-Ping 消息队列<br>4011 UDP BINL 远程安装<br>4500 UDP NAT-T 路由和远程访问<br>5000 TCP SSDP 旧事件通知 SSDP 发现服务<br>5004 UDP RTP Windows 媒体服务<br>5005 UDP RTCP Windows 媒体服务<br>42424 TCP ASP.Net 会话状态 ASP.NET 状态服务<br>51515 TCP MOM-Clear Microsoft Operations Manager 2000</p>
+<h2 id="二、-关闭端口"><a href="#二、-关闭端口" class="headerlink" title="二、 关闭端口"></a>二、 关闭端口</h2><h3 id="限制端口防非法入侵-分享"><a href="#限制端口防非法入侵-分享" class="headerlink" title="限制端口防非法入侵[分享]"></a>限制端口防非法入侵[分享]</h3><p>一般来说，我们采用一些功能强大的反黑软件和防火墙来保证我们的系统安全，本文拟用一种简易的办法——通过限制端口来帮助大家防止非法入侵。</p>
+<h3 id="非法入侵的方式"><a href="#非法入侵的方式" class="headerlink" title="非法入侵的方式"></a>非法入侵的方式</h3><p>　　简单说来，非法入侵的方式可粗略分为4种：<br>　　1、扫描端口，通过已知的系统Bug攻入主机。<br>　　2、种植木马，利用木马开辟的后门进入主机。<br>　　3、采用数据溢出的手段，迫使主机提供后门进入主机。<br>　　4、利用某些软件设计的漏洞，直接或间接控制主机。
+　　</p>
+<p>​        非法入侵的主要方式是前两种，尤其是利用一些流行的黑客工具，通过第一种方式攻击主机的情况最多、也最普遍；而对后两种方式来说，只有一些手段高超的黑客才利用，波及面并不广泛，而且只要这两种问题一出现，软件服务商很快就会提供补丁，及时修复系统。<br>　　因此，如果能限制前两种非法入侵方式，就能有效防止利用黑客工具的非法入侵。而且前两种非法入侵方式有一个共同点，就是通过端口进入主机。<br>　　端口就像一所房子（服务器）的几个门一样，不同的门通向不同的房间（服务器提供的不同服务）。我们常用的FTP默认端口为21，而WWW网页一般默认端口是80。但是有些马虎的网络管理员常常打开一些容易被侵入的端口服务，比如139等；还有一些木马程序，比如冰河、BO、广外等都是自动开辟一个您不察觉的端口。那么，只要我们把自己用不到的端口全部封锁起来，不就杜绝了这两种非法入侵吗？</p>
+<h3 id="限制端口的方法"><a href="#限制端口的方法" class="headerlink" title="限制端口的方法"></a>限制端口的方法</h3><p>　　对于个人用户来说，您可以限制所有的端口，因为您根本不必让您的机器对外提供任何服务；而对于对外提供网络服务的服务器，我们需把必须利用的端口（比如WWW端口80、FTP端口21、邮件服务端口25、110等）开放，其他的端口则全部关闭。<br>　　这里，对于采用Windows 2000或者Windows XP的用户来说，不需要安装任何其他软件，可以利用“TCP/IP筛选”功能限制服务器的端口。具体设置如下：<br>　　1、右键点击“网上邻居”，选择“属性”，然后双击“本地连接”（如果是拨号上网用户，选择“我的连接”图标），弹出“本地连接状态”对话框。<br>　　2、点击[属性]按钮，弹出“本地连接 属性”，选择“此连接使用下列项目”中的“Internet协议（TCP/IP）”，然后点击[属性]按钮。<br>　　3、在弹出的“Internet协议（TCP/IP）”对话框中点击[高级]按钮。在弹出的“高级TCP/IP 设置”中，选择“选项”标签，选中“TCP/IP筛选”，然后点击[属性]按钮。<br>　　4、在弹出的“TCP/IP筛选”对话框里选择“启用TCP/IP筛选”的复选框，然后把左边“TCP端口”上的“只允许”选上。<br>　　这样，您就可以来自己添加或删除您的TCP或UDP或IP的各种端口了。<br>　　添加或者删除完毕，重新启动机器以后，您的服务器就被保护起来了。<br>　　最后，提醒个人用户，如果您只上网浏览的话，可以不添加任何端口。但是要利用一些网络联络工具，比如QQ的话，就要把“4000”这个端口打开，同理，如果发现某个常用的网络工具不能起作用的时候，请搞清它在您主机所开的端口，然后在“TCP /IP“里把此端口打开。</p>
+
+  
+  
+    
+    <div class='footer'>
+      
+      
+        
+  <div class="related_posts">
+    <section class='header'>
+      <i class="fas fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
+    </section>
+    <section class='body'>
+      <div class="vlts-rps"><a class="item" href="\常见网页错误代码表示的含义" title="常见网页错误代码表示的含义" rel="bookmark "><img src="data:image/png;base64,666" /><span class="title">常见网页错误代码表示的含义</span></a></div></section></div>
+      
+      
+      
+    </div>
+  
+  
+    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          
+<div class='new-meta-item author'>
+  <a class='author' href="/about/" rel="nofollow">
+    <img no-lazy src="/img/avatar.jpg">
+    <p>杨晓东</p>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2021年10月2日</p>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-10-17T22:00:34+08:00">
+  <a class='notlink'>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2021年10月17日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  <div class='new-meta-item category'>
+    <a class='notlink'>
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <a class="category-link" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a>
+    </a>
+  </div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item browse busuanzi">
+    <a class='notlink'>
+      <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+      <p>
+        <span id="busuanzi_value_page_pv">
+          <i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i>
+        </span>
+        次浏览
+      </p>
+    </a>
+  </div>
+
+
+        
+      
+        
+          
+<div class="new-meta-item comments-count">
+  
+  <a href="/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B8%B8%E7%94%A8%E7%AB%AF%E5%8F%A3%E4%B8%80%E8%A7%88#comments">
+    <i class="fas fa-comment-dots fa-fw"></i>
+    <span class="valine-comment-count" data-xid="/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B8%B8%E7%94%A8%E7%AB%AF%E5%8F%A3%E4%B8%80%E8%A7%88">0</span>
+    <span class="leancloud-comments-count">&nbsp;</span>
+  </a>
+</div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item wordcount">
+    <a class='notlink'>
+      <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
+      <p>字数：7.4k字</p>
+    </a>
+  </div>
+  <div class="new-meta-item readtime">
+    <a class='notlink'>
+      <i class="fas fa-hourglass-half fa-fw" aria-hidden="true"></i>
+      <p>时长：29分钟</p>
+    </a>
+  </div>
+
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%AB%AF%E5%8F%A3/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>端口</p></a></div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.demo443.com:9527/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B8%B8%E7%94%A8%E7%AB%AF%E5%8F%A3%E4%B8%80%E8%A7%88&title=服务器常用端口一览 - ☕憩息屋&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://www.demo443.com:9527/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B8%B8%E7%94%A8%E7%AB%AF%E5%8F%A3%E4%B8%80%E8%A7%88&title=服务器常用端口一览 - ☕憩息屋&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.demo443.com:9527/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B8%B8%E7%94%A8%E7%AB%AF%E5%8F%A3%E4%B8%80%E8%A7%88&title=服务器常用端口一览 - ☕憩息屋&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        
+        <div class='hoverbox'>
+          <a class='share'><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="></a>
+          <div class='target'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXgAAAF4CAAAAAB79r16AAAFMklEQVR42u3bQXLjMAwEQP//09kHpFzmAEOtK9W82ZYosqnLBMjrx/gv44UAPHgDPHgDPHijAP8ajl8Tlq47/f7d7283PLz/dB2nXuDBgwcPHjx48ODBN+GPA8Dh9ekBnH5/up70IFrzfjw48ODBgwcPHjx48OAvwKdB49MGpgeRPje9r3XQ8fPBgwcPHjx48ODBg/8i+GkwmQKnB3x6f3og4MGDBw8ePHjw4MH/JfhpA9BpsErnqTUkgQcPHjx48ODBgwf/hfBxg87wgKYHuW2wmj7n6zrJwIMHDx48ePDgwYO/ECj++uexF3jw4MGDBw8ePHjwBfjtSA9oupE00LQLMDUv8ODBgwcPHjx48OAL8G2IVuFgO1oFk+n6wIMHDx48ePDgwYO/Cf/UAtLAkgaoaWCbOlwrhIAHDx48ePDgwYMHH8BPNzrdyG2Q9LrT+9dBDjx48ODBgwcPHjz4i/DThp/T71sFjmngab0gpwcNHjx48ODBgwcPHvxN+NMDuRVc0gCzDT7bQlAcyMCDBw8ePHjw4MGDL8BPg0rrgNqFlm0wal8PHjx48ODBgwcPHvwN+DbAtECQXpeuc9uotC2sgAcPHjx48ODBgwd/E34L3Qo828JGuzCTFoDeXg8ePHjw4MGDBw8e/AX4aSFhCzedf9xYNFz/+qDBgwcPHjx48ODBg78I3woO2yDSKpi0DnY9L3jw4MGDBw8ePHjwRfj2H/63DVHboDMNdNPCybgQAh48ePDgwYMHDx78AH5biNgGj1ZhIi2UpPfXG5rAgwcPHjx48ODBgy/0x6cLOA1Ircah7XO3L0QaCMGDBw8ePHjw4MGDfwJ+3KAzLDCkjULT39NgNd3/8bzgwYMHDx48ePDgwV+Av934kwagW8Ho1v4/HhR48ODBgwcPHjx48AX4dONpgLgdkLYFk9b64gAFHjx48ODBgwcPHnzh7/GnBzANPmkw2sKe7uM0QLUaucCDBw8ePHjw4MGDb8KnhYY2fPr7dL7twZ8Gq1pDE3jw4MGDBw8ePHjwwT8mnP7hfxuM0oaiKVSr8LMtCIEHDx48ePDgwYMH34DfPrC1sNOgsw1U0wOcBjXw4MGDBw8ePHjw4G/CP7WQtCDRAkznmxZEPu4PPHjw4MGDBw8ePPgi/DS4tBqPprBPFWxSn7frAg8ePHjw4MGDBw++AD8tWEw3kgK3AlgaxNIX6/iFBA8ePHjw4MGDBw/+Ivw0oEwDSNq4lAalNFBtgyN48ODBgwcPHjx48E/CTwPFOlgsCx3Twsa2EBN/Dx48ePDgwYMHDx58Af6pAsatgNVuXGrv99dn8ODBgwcPHjx48OAL8NsH3IbaFmDSF2zb+PRxXeDBgwcPHjx48ODBF+HHEy0bfNJ1nL4IaSFnel38QoAHDx48ePDgwYMHX4CfPmAKeBp4WgeRHlDr+XEFCjx48ODBgwcPHjz4AH47tgHpVkNUel37+W+fAx48ePDgwYMHDx58Af41HNvA1Apwp8+ZBqw4IKWFEPDgwYMHDx48ePDgF/DpwlsFk9MDmAao6edWgAIPHjx48ODBgwcP/gn4VsEgbTzaNhRtCxuv0vj4IoEHDx48ePDgwYMH/4XwW4C0QHIavLYFmmPYT/eBBw8ePHjw4MGDB/9F8Ol8p7Ctebf7nc57PUCBBw8ePHjw4MGDB19oPEoDylMHtV3P1gc8ePDgwYMHDx48+Bvw28adaQNRev26oWgIvC2kgAcPHjx48ODBgwffhDeeHeDBgzfAgzfAgzcW4x9jfKW3RRx1HwAAAABJRU5ErkJggg==">
+          </div>
+        </div>
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+        <a class='prev' href='/re%E5%BA%93'>
+          <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>re库</p>
+          <p class='content'>re库即正则表达式 
+主要⽤re.search(expression,text) 
+1.字符123456789# \d == [0-9]，数字或空字符串# \D == [^0-9]# \w ==...</p>
+        </a>
+      
+      
+        <a class='next' href='/Google%E9%AA%8C%E8%AF%81%E7%A0%81%E5%AE%9E%E6%88%98'>
+          <p class='title'>Google验证码实战<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>Google验证码_打码1234567891011121314151617181920212223242526272829303132333435363738394041424344454647...</p>
+        </a>
+      
+    </div>
+  
+</article>
+
+
+  
+
+  <article class="post white-box reveal shadow blur floatable" id="comments">
+    <p ct><i class='fas fa-comments'></i> 评论</p>
+    
+      <p cst>测试阶段</p>
+    
+    <div id="valine_container" class="valine_thread">
+  <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+</div>
+
+  </article>
+
+
+
+
+
+
+</div>
+<aside class='l_side'>
+  
+  
+    
+    
+
+
+
+  <section class="widget toc-wrapper shadow blur floatable desktop mobile" id="toc-div" >
+    
+  <header>
+    
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80-%E3%80%81%E7%AB%AF%E5%8F%A3%E5%A4%A7%E5%85%A8"><span class="toc-number">1.</span> <span class="toc-text">一 、端口大全</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E9%9D%A2%E6%98%AF%EF%BC%9A%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E7%9A%84%E7%AB%AF%E5%8F%A3"><span class="toc-number">1.1.</span> <span class="toc-text">下面是：系统常用的端口</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81-%E5%85%B3%E9%97%AD%E7%AB%AF%E5%8F%A3"><span class="toc-number">2.</span> <span class="toc-text">二、 关闭端口</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%99%90%E5%88%B6%E7%AB%AF%E5%8F%A3%E9%98%B2%E9%9D%9E%E6%B3%95%E5%85%A5%E4%BE%B5-%E5%88%86%E4%BA%AB"><span class="toc-number">2.1.</span> <span class="toc-text">限制端口防非法入侵[分享]</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%9E%E6%B3%95%E5%85%A5%E4%BE%B5%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="toc-number">2.2.</span> <span class="toc-text">非法入侵的方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%99%90%E5%88%B6%E7%AB%AF%E5%8F%A3%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-number">2.3.</span> <span class="toc-text">限制端口的方法</span></a></li></ol></li></ol>
+    </div>
+  </section>
+
+
+  
+
+  
+    
+    
+
+<section class="widget blogger shadow blur floatable desktop mobile">
+  <div class='content'>
+    
+      
+        <a class='avatar flat-box circle' href='/about/'>
+          <img no-lazy src='/img/avatar.jpg'/>
+        </a>
+      
+    
+    
+      <div class='text'>
+        
+          <h2>杨晓东</h2>
+        
+        
+          <p>过去无法挽回，<br>未来可以改变！</p>
+
+        
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3458888444&amp;site=qq&amp;menu=yes"
+              class="social fab fa-qq flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="mailto:3458888444@qq.com"
+              class="social fas fa-envelope flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="http://www.demo443.com"
+              class="social fas fa-wrench flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="https://music.163.com/"
+              class="social fas fa-music flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+<section class="widget shadow blur floatable desktop">
+  
+  <header>
+    
+      <i class="fas fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="webinfo">
+      
+        <div class="webinfo-item">
+          <div>文章数目：</div>
+          <div>146 篇</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>已运行时间：</div>
+          <div id="webinfo-runtime-count" publish_date="03/24/2020 21:34:09"></div>
+        </div>
+        <script>
+          var BirthDay = new Date(new Date('2021/08/23'));
+          var today = new Date();
+          var timeold = (today.getTime() - BirthDay.getTime());
+          var daysold = Math.floor(timeold / (24 * 60 * 60 * 1000));
+          document.getElementById('webinfo-runtime-count').innerHTML = daysold + ' 天';
+        </script>
+      
+
+
+      
+        <div class="webinfo-item">
+          <div>本站总字数：</div>
+          <div>167.4k 字</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站访客数：</div>
+          
+          <div><span id="busuanzi_value_site_uv"><i class="fas fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 人</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站总访问量：</div>
+          
+          <div><span id="busuanzi_value_site_pv"><i class="fas fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 次</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>最后活动时间：</div>
+          
+            <div id="last-update" style="display: none;">Fri Dec 24 2021 18:44:45 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2021-12-24 日</div>
+          
+        </div>
+        
+        <script>
+          function timeago(dateTimeStamp) {
+              var minute = 1000 * 60; //把分，时，天，周，半个月，一个月用毫秒表示
+              var hour = minute * 60;
+              var day = hour * 24;
+              var week = day * 7;
+              var month = day * 30;
+              var now = new Date().getTime(); //获取当前时间毫秒
+              var diffValue = now - dateTimeStamp; //时间差
+              if (diffValue < 0) {
+                  return;
+              }
+              var minC = diffValue / minute; //计算时间差的分，时，天，周，月
+              var hourC = diffValue / hour;
+              var dayC = diffValue / day;
+              var weekC = diffValue / week;
+              var monthC = diffValue / month;
+              if (monthC >= 1 && monthC <= 3) {
+                  result = " " + parseInt(monthC) + " 月前"
+              } else if (weekC >= 1 && weekC <= 3) {
+                  result = " " + parseInt(weekC) + " 周前"
+              } else if (dayC >= 1 && dayC <= 6) {
+                  result = " " + parseInt(dayC) + " 天前"
+              } else if (hourC >= 1 && hourC <= 23) {
+                  result = " " + parseInt(hourC) + " 小时前"
+              } else if (minC >= 1 && minC <= 59) {
+                  result = " " + parseInt(minC) + " 分钟前"
+              } else if (diffValue >= 0 && diffValue <= minute) {
+                  result = "刚刚"
+              } else {
+                  var datetime = new Date();
+                  datetime.setTime(dateTimeStamp);
+                  var Nyear = datetime.getFullYear();
+                  var Nmonth = datetime.getMonth() + 1 < 10 ? "0" + (datetime.getMonth() + 1) : datetime.getMonth() + 1;
+                  var Ndate = datetime.getDate() < 10 ? "0" + datetime.getDate() : datetime.getDate();
+                  var Nhour = datetime.getHours() < 10 ? "0" + datetime.getHours() : datetime.getHours();
+                  var Nminute = datetime.getMinutes() < 10 ? "0" + datetime.getMinutes() : datetime.getMinutes();
+                  var Nsecond = datetime.getSeconds() < 10 ? "0" + datetime.getSeconds() : datetime.getSeconds();
+                  result = Nyear + "-" + Nmonth + "-" + Ndate
+              }
+              return result;
+          }
+          var lastUpDate = document.getElementById('last-update').innerHTML;
+          try {
+            document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
+          } catch (error) {
+            document.getElementById('last-update-show').innerHTML = '2021-12-24 日';
+          }
+        </script>
+        
+      
+    </div>
+  </div>
+</section>
+
+  
+
+
+</aside>
+
+
+
+		  
+		  <!--此文件用来存放一些不方便取值的变量-->
+<!--思路大概是将值藏到重加载的区域内-->
+
+<script>
+  window.pdata={}
+  pdata.ispage=true;
+  pdata.postTitle="服务器常用端口一览";
+  pdata.commentPath="";
+  pdata.commentPlaceholder="";
+  // header 这里无论是否开启pjax都需要
+  var l_header=document.getElementById("l_header");
+  
+  l_header.classList.add("show");
+  
+  
+    // cover
+    var cover_wrapper=document.querySelector('.cover-wrapper');
+    
+    cover_wrapper.id="none";
+    cover_wrapper.style.display="none";
+    
+  
+</script>
+
+        </div>
+        
+  
+  <footer class="footer clearfix">
+    <br><br>
+    
+      
+        <div class="aplayer-container">
+          
+
+  
+    <meting-js
+      theme='#1BCDFC'
+      autoplay='false'
+      volume='0.7'
+      loop='all'
+      order='random'
+      fixed='false'
+      list-max-height='320px'
+      server='netease'
+      type='playlist'
+      id='6929517097'
+      list-folded='true'>
+    </meting-js>
+  
+
+
+        </div>
+      
+    
+      
+        <div class='copyright'>
+        <p><a href="/">Copyright © 2021 yangkaiqun</a></p>
+
+        </div>
+      
+    
+      
+        
+          <div><p><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">黔ICP备2021004952号</a></p>
+</div>
+        
+      
+    
+      
+        
+          <div><p><img src="/img/gov.png" class="lazyload" data-srcset="/img/gov.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="> <a target="_blank" rel="noopener" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52032102000646/">公安备案号52032102000646</a></p>
+</div>
+        
+      
+    
+  </footer>
+
+
+        <a id="s-top" class="fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+      </div>
+    </div>
+    <div>
+      <script>
+/************这个文件存放不需要重载的全局变量和全局函数*********/
+window.volantis={};
+window.volantis.loadcss=document.getElementById("loadcss");
+/******************** Pjax ********************************/
+function VPjax(){
+	this.list=[] // 存放回调函数
+	this.start=()=>{
+	  for(var i=0;i<this.list.length;i++){
+		this.list[i].run();
+	  }
+	}
+	this.push=(fn,name)=>{
+		var f=new PjaxItem(fn,name);
+		this.list.push(f);
+	}
+	// 构造一个可以run的对象
+	function PjaxItem(fn,name){
+		// 函数名称
+		this.name = name || fn.name
+		// run方法
+		this.run=()=>{
+			fn()
+		}
+	}
+}
+volantis.pjax={}
+volantis.pjax.method={
+	complete: new VPjax(),
+	error: new VPjax(),
+	send: new VPjax()
+}
+volantis.pjax={
+	...volantis.pjax,
+	push: volantis.pjax.method.complete.push,
+	error: volantis.pjax.method.error.push,
+	send: volantis.pjax.method.send.push
+}
+/********************脚本懒加载函数********************************/
+// 已经加入了setTimeout
+function loadScript(src, cb) {
+	setTimeout(function() {
+		var HEAD = document.getElementsByTagName('head')[0] || document.documentElement;
+		var script = document.createElement('script');
+		script.setAttribute('type','text/javascript');
+		if (cb) script.onload = cb;
+		script.setAttribute('src', src);
+		HEAD.appendChild(script);
+	});
+}
+//https://github.com/filamentgroup/loadCSS
+var loadCSS = function( href, before, media, attributes ){
+	var doc = window.document;
+	var ss = doc.createElement( "link" );
+	var ref;
+	if( before ){
+		ref = before;
+	}
+	else {
+		var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
+		ref = refs[ refs.length - 1];
+	}
+	var sheets = doc.styleSheets;
+	if( attributes ){
+		for( var attributeName in attributes ){
+			if( attributes.hasOwnProperty( attributeName ) ){
+				ss.setAttribute( attributeName, attributes[attributeName] );
+			}
+		}
+	}
+	ss.rel = "stylesheet";
+	ss.href = href;
+	ss.media = "only x";
+	function ready( cb ){
+		if( doc.body ){
+			return cb();
+		}
+		setTimeout(function(){
+			ready( cb );
+		});
+	}
+	ready( function(){
+		ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
+	});
+	var onloadcssdefined = function( cb ){
+		var resolvedHref = ss.href;
+		var i = sheets.length;
+		while( i-- ){
+			if( sheets[ i ].href === resolvedHref ){
+				return cb();
+			}
+		}
+		setTimeout(function() {
+			onloadcssdefined( cb );
+		});
+	};
+	function loadCB(){
+		if( ss.addEventListener ){
+			ss.removeEventListener( "load", loadCB );
+		}
+		ss.media = media || "all";
+	}
+	if( ss.addEventListener ){
+		ss.addEventListener( "load", loadCB);
+	}
+	ss.onloadcssdefined = onloadcssdefined;
+	onloadcssdefined( loadCB );
+	return ss;
+};
+</script>
+<script>
+  
+  loadCSS("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/css/all.min.css", window.volantis.loadcss);
+  
+  
+  loadCSS("https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css", window.volantis.loadcss);
+  
+  
+  loadCSS("https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css", window.volantis.loadcss);
+  
+  
+  loadCSS("https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/styles/solarized-light.min.css", window.volantis.loadcss);
+  
+</script>
+<!-- required -->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
+
+<script>
+  function pjax_fancybox() {
+    $(".md .gallery").find("img").each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("class", "fancybox");
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 判断当前页面是否存在描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".md .gallery").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  function SCload_fancybox() {
+    if ($(".md .gallery").find("img").length == 0) return;
+    loadCSS("https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css", document.getElementById("loadcss"));
+    loadScript('https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js', pjax_fancybox)
+  };
+  $(function () {
+    SCload_fancybox();
+  });
+  function Pjax_SCload_fancybox(){
+	if (typeof $.fancybox == "undefined") {
+	 SCload_fancybox();
+    } else {
+	 pjax_fancybox();
+    }
+  }
+  volantis.pjax.push(Pjax_SCload_fancybox)
+  volantis.pjax.send(()=>{
+      if (typeof $.fancybox != "undefined") {
+        $.fancybox.close();    // 关闭弹窗
+      }
+  },'fancybox')
+</script>
+
+
+<!-- internal -->
+
+
+
+  
+  
+
+  <div id="rightmenu-wrapper">
+    <ul class="list-v rightmenu" id="rightmenu-content">
+      <li class='option'>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-copy-text' onclick="document.execCommand('copy')"><i class='fa fa-copy fa-fw'></i>复制文本</a>
+        <hr id='hr-text'>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-copy-href'><i class='fa fa-link fa-fw'></i>复制链接</a>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-open-href'><i class='fa fa-external-link-square-alt fa-fw'></i>在新标签页打开</a>
+        <hr id='hr-href'>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-copy-src'><i class='fa fa-image fa-fw'></i>复制图片地址</a>
+        <hr id='hr-src'>
+      </li>
+      
+        <li class='navigation'>
+          <a class='nav icon-only fix-cursor-default' onclick='history.back()'><i class='fa fa-arrow-left fa-fw'></i></a>
+          <a class='nav icon-only fix-cursor-default' onclick='history.forward()'><i class='fa fa-arrow-right fa-fw'></i></a>
+          <a class='nav icon-only fix-cursor-default' onclick='window.location.reload()'><i class='fa fa-redo fa-fw'></i></a>
+          <a class='nav icon-only fix-cursor-default' href='/'><i class='fa fa-home fa-fw'></i></a>
+        </li>
+      
+      <hr>
+      
+        
+      
+        
+          <hr>
+        
+      
+        
+          
+    <li>
+      <a class='vlts-menu fix-cursor-default ' href=http://www.demo443.com
+        
+        
+        
+        
+          id="http:wwwdemo443com"
+        >
+        <i class='fa fa-fan fa-spin fa-fw'></i> 工具箱
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
+      <a class='vlts-menu fix-cursor-default ' 
+        
+        
+        
+          onclick="document.execCommand('print')"
+        
+        >
+        <i class='fa fa-print fa-fw'></i> 打印页面
+      </a>
+    </li>
+  
+        
+      
+        
+          <li class='music name'>
+            <p class='nav music-title fix-cursor-default'></p>
+          </li>
+          <li class='music ctrl'>
+            <a class='nav icon-only backward fix-cursor-default' onclick='aplayerBackward()'><i class='fa fa-step-backward fa-fw'></i></a>
+            <a class='nav icon-only toggle fix-cursor-default' onclick='aplayerToggle()'><i class='fa fa-play fa-fw'></i></a>
+            <a class='nav icon-only forward fix-cursor-default' onclick='aplayerForward()'><i class='fa fa-step-forward fa-fw'></i></a>
+          </li>
+          <li class='music volume'>
+            <a class='nav volume'>
+              <div class="aplayer-volume-bar-wrap">
+                <div class="aplayer-volume-bar fix-cursor-pointer">
+                  <div class="aplayer-volume"></div>
+                  <i class='left fa fa-volume-off fa-fw'></i>
+                  <i class='right fa fa-volume-up fa-fw'></i>
+                </div>
+              </div>
+            </a>
+          </li>
+        
+      
+    </ul>
+  </div>
+
+  <script>
+    window.document.oncontextmenu = function (event) {
+      if (event.ctrlKey) return true;
+      if (/Android|webOS|BlackBerry/i.test(navigator.userAgent)) return true;
+      return popMenu(event);
+    };
+    document.addEventListener("click", function (event) {
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      mymenu.style.display = "none";
+    });
+    function popMenu(event) {
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      var menuContent = document.getElementById('rightmenu-content');
+      var screenWidth = document.documentElement.clientWidth || document.body.clientWidth;
+      var screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
+      mymenu.style.left = event.clientX + "px"; // 获取鼠标位置
+      mymenu.style.top = event.clientY + "px";
+      mymenu.style.display = 'block';
+      if (event.clientX * 2 > screenWidth) {
+        menuContent.classList.add('left');
+      } else {
+        menuContent.classList.remove('left');
+      }
+      if (event.clientY * 2 > screenHeight) {
+        menuContent.classList.add('top');
+      } else {
+        menuContent.classList.remove('top');
+      }
+
+      let hrText = document.getElementById('hr-text');
+      let hrSrc = document.getElementById('hr-src');
+      let hrHref = document.getElementById('hr-href');
+
+      // 选中图片
+      let copySrc = document.getElementById('menu-copy-src');
+      if (copySrc != undefined) {
+        if (event.target.currentSrc) {
+          copySrc.style.display = 'block';
+          copySrc.addEventListener("click", function (e) {
+            copyString(event.target.currentSrc);
+          },{once: true});
+          hrSrc.style.display = 'block';
+        } else {
+          copySrc.style.display = 'none';
+          hrSrc.style.display = 'none';
+        }
+      }
+
+      // 选中按钮
+      // 判断是不是按钮
+      let href = '';
+      if (event.path) {
+        for (i = 0; i < event.path.length; i++) {
+          if (event.path[i].href != undefined && event.path[i].href.length > 0) {
+            href = event.path[i].href;
+          }
+        }
+      }
+
+      let copyText = document.getElementById('menu-copy-text');
+      copyText.style.display = 'none';
+      hrText.style.display = 'none';
+      if (href.length == 0) {
+        // 选中文本
+        if (window.getSelection().toString()) {
+          if ('true' == 'true') {
+            copyText.style.display = 'block';
+            hrText.style.display = 'block';
+          }
+        }
+      }
+
+      // 在新标签页打开
+      let openHref = document.getElementById('menu-open-href');
+      if (openHref != undefined) {
+        if (href.length > 0) {
+          openHref.style.display = 'block';
+          openHref.addEventListener("click", function (e) {
+            window.open(href);
+          },{once: true});
+          hrHref.style.display = 'block';
+        } else {
+          openHref.style.display = 'none';
+          hrHref.style.display = 'none';
+        }
+      }
+      // 复制链接
+      let copyHref = document.getElementById('menu-copy-href');
+      if (copyHref != undefined) {
+        if (href.length > 0) {
+          copyHref.style.display = 'block';
+          copyHref.addEventListener("click", function (e) {
+            copyString(href);
+          },{once: true});
+        } else {
+          copyHref.style.display = 'none';
+        }
+      }
+      // 有音乐播放器 see: layout/_third-party/aplayer/script.ejs
+      
+      if(volantis.APlayerLoaded){ // APlayer加载完成？
+        // 如果有aplayer，初始化一下
+        checkAPlayer();
+      }
+      
+      return false; // 该行代码确保系统自带的右键菜单不会被调出
+    }
+    function hideMenu() {
+      document.getElementById('rightmenu-wrapper').style.display = 'none';
+    }
+    function copyString(str) {
+      const input = document.createElement('input');
+      input.setAttribute('readonly', 'readonly');
+      document.body.appendChild(input);
+      input.setAttribute('value', str);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+    }
+    document.execCommand('click');
+  </script>
+
+
+
+
+<script>
+  function loadIssuesJS() {
+    if ($(".md").find(".issues-api").length == 0) return;
+	
+	  loadScript('/js/issues.js');
+	
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+  volantis.pjax.push(()=>{
+	if (typeof IssuesAPI == "undefined") {
+	  loadIssuesJS();
+	}
+  },"IssuesJS")
+</script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+
+
+  
+
+<script async src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn-copy', {
+        target: function (trigger) {
+            return trigger.nextElementSibling
+        }
+    });
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+    function pjax_initCopyCode() {
+		if($(".highlight .code pre").length+$(".article pre code").length==0)return;
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        clipboard.off('success').on('success', function (e) {
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.off('error').on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });
+	volantis.pjax.push(pjax_initCopyCode)
+</script>
+
+
+
+
+   <script type="text/javascript">
+  loadScript("https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js")
+  function pjax_scrollrebeal() {
+    ScrollReveal().reveal('.l_main .reveal', {
+      distance: '32px',
+      duration: '800',
+      interval: '20',
+      scale: '1',
+      easing: 'ease-out'
+    });
+  }
+  $(function () {
+  var checkScrollReveal = setInterval(function () {
+    if ($("#safearea").css("display")!="block") return
+    if (typeof ScrollReveal=="undefined") return
+    clearInterval(checkScrollReveal)
+	pjax_scrollrebeal();
+  }, 100)
+  });
+  volantis.pjax.push(pjax_scrollrebeal)
+</script>
+
+
+
+
+  <script>
+  let APlayerController = new Object();
+  APlayerController.id = '6929517097';  // 设定全局音乐播放ID
+  APlayerController.volume = '0.7';
+  loadCSS("https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css", window.volantis.loadcss);
+  // APlayer 需要在  MetingJS 之前加载
+  loadScript("https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js")
+  window.volantis.APlayerLoaded=0 // APlayer加载完成状态
+  var checkAPlayer = setInterval(function () {
+    if (!window.APlayer) return // APlayer加载完成？
+	  if ($("#safearea").css("display")!="block") return // 文章内容加载完成？ see: source/css/first.styl
+    clearInterval(checkAPlayer)
+	  if (!window.volantis.APlayerLoaded&&!window.MetingJSElement){ // APlayer只能加载一次
+      window.volantis.APlayerLoaded=1 // APlayer加载完成
+      loadScript("https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js") // 加载 MetingJS
+	  }
+  }, 2500) // 按照网速调节差分2.5s
+  // rightmenu see: layout/_partial/rightmenu.ejs
+
+  
+    loadScript("/js/aplayer.js")
+  
+
+</script>
+
+
+
+
+  
+  
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js"></script>
+
+
+<script>
+  function emoji(path, idx, ext) {
+    return path + "/" + path + "-" + idx + "." + ext;
+  }
+  var emojiMaps = {};
+  for (var i = 1; i <= 54; i++) {
+    emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+  }
+  for (var i = 1; i <= 101; i++) {
+    emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+  }
+  for (var i = 1; i <= 116; i++) {
+    emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+  }
+  for (var i = 1; i <= 125; i++) {
+    emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+  }
+  for (var i = 1; i <= 4; i++) {
+    emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+  }
+  function pjax_valine() {
+    if(!document.querySelectorAll("#valine_container")[0])return;
+    let pagePlaceholder = pdata.commentPlaceholder || "快来评论吧~";
+    let path = pdata.commentPath;
+    if (path.length == 0) {
+      let defaultPath = '';
+      path = defaultPath || decodeURI(window.location.pathname);
+    }
+    var valine = new Valine();
+    valine.init(Object.assign({"path":null,"placeholder":"快来评论吧~","appId":"0tm20G2zAnSoNq82yF7TCkjp-gzGzoHsz","appKey":"gdthrGg8z8Gw8swEWqKfwMli","meta":["nick","mail","link"],"requiredFields":["nick","mail"],"enableQQ":true,"recordIP":true,"avatar":"robohash","pageSize":10,"lang":"zh-cn","highlight":true,"mathJax":false,"js":"https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js","visitor":true}, {
+      el: '#valine_container',
+      path: path,
+      placeholder: pagePlaceholder,
+      emojiCDN: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/valine/',
+      emojiMaps: emojiMaps,
+    }))
+  }
+  $(function () {
+    pjax_valine();
+  });
+  volantis.pjax.push(pjax_valine);
+</script>
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script>
+
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+<!-- optional -->
+
+  <script>
+const SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/";
+const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
+
+$('.input.u-search-input').one('focus',function(){
+	
+		loadScript('https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2.6.4/js/search.js',setSearchService);
+	
+})
+
+function listenSearch(){
+  
+    customSearch = new HexoSearch({
+      imagePath: SearchServiceimagePath
+    });
+  
+}
+function setSearchService() {
+	listenSearch();
+	
+		document.addEventListener("pjax:success", listenSearch);
+	
+}
+</script>
+
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+  Waves.attach('.flat-btn', ['waves-button']);
+  Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+  Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+  Waves.attach('.flat-box', ['waves-block']);
+  Waves.attach('.float-box', ['waves-block', 'waves-float']);
+  Waves.attach('.waves-image');
+  Waves.init();
+});
+</script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
+
+  
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+volantis.pjax.push(()=>{
+	document.querySelectorAll('pre code').forEach((block) => {
+	  hljs.highlightBlock(block);
+	});
+},"highlightjs")
+</script>
+
+
+
+
+
+  <script>
+const rootElement = document.documentElement;
+const darkModeStorageKey = "user-color-scheme";
+const rootElementDarkModeAttributeName = "data-user-color-scheme";
+
+const setLS = (k, v) => {
+    localStorage.setItem(k, v);
+};
+
+const removeLS = (k) => {
+    localStorage.removeItem(k);
+};
+
+const getLS = (k) => {
+    return localStorage.getItem(k);
+};
+
+const getModeFromCSSMediaQuery = () => {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
+
+const resetRootDarkModeAttributeAndLS = () => {
+  rootElement.removeAttribute(rootElementDarkModeAttributeName);
+  removeLS(darkModeStorageKey);
+};
+
+const validColorModeKeys = {
+  dark: true,
+  light: true,
+};
+
+const applyCustomDarkModeSettings = (mode) => {
+  const currentSetting = mode || getLS(darkModeStorageKey);
+
+  if (currentSetting === getModeFromCSSMediaQuery()) {
+    resetRootDarkModeAttributeAndLS();
+  } else if (validColorModeKeys[currentSetting]) {
+    rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
+  } else {
+    resetRootDarkModeAttributeAndLS();
+  }
+};
+
+const invertDarkModeObj = {
+  dark: "light",
+  light: "dark",
+};
+
+/**
+ * get target mode
+ */
+const toggleCustomDarkMode = () => {
+  let currentSetting = getLS(darkModeStorageKey);
+
+  if (validColorModeKeys[currentSetting]) {
+    currentSetting = invertDarkModeObj[currentSetting];
+  } else if (currentSetting === null) {
+    currentSetting = invertDarkModeObj[getModeFromCSSMediaQuery()];
+  } else {
+    return;
+  }
+  setLS(darkModeStorageKey, currentSetting);
+  return currentSetting;
+};
+
+/**
+ * bind click event for toggle button
+ */
+var btn=$("#wrapper .toggle-mode-btn,#rightmenu-wrapper .toggle-mode-btn");
+function bindToggleButton() {
+    btn.on('click',(e) => {
+      const mode = toggleCustomDarkMode();
+      applyCustomDarkModeSettings(mode);
+    });
+}
+
+applyCustomDarkModeSettings();
+document.addEventListener("DOMContentLoaded", bindToggleButton);
+volantis.pjax.push(bindToggleButton);
+volantis.pjax.send(()=>{
+	btn.unbind('click');
+},'toggle-mode-btn-unbind');
+</script>
+
+
+
+
+
+<!-- baidu Analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  setTimeout(function() {
+    loadScript("https://hm.baidu.com/hm.js?VnXOrCA4S07hLqXKYg8UjNVb")
+  }, 5000);
+})();
+// 关于百度统计对 SPA 页面的处理：
+// 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+// 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]);},'baidu_analytics')
+</script>
+
+
+
+
+<script>
+function listennSidebarTOC() {
+  const navItems = document.querySelectorAll(".toc li");
+  if (!navItems.length) return;
+  const sections = [...navItems].map((element) => {
+    const link = element.querySelector(".toc-link");
+    const target = document.getElementById(
+      decodeURI(link.getAttribute("href")).replace("#", "")
+    );
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.scrollTo({
+		top: target.offsetTop + 100,
+		
+		behavior: "smooth"
+		
+	  });
+    });
+    return target;
+  });
+
+  function activateNavByIndex(target) {
+    if (target.classList.contains("active-current")) return;
+
+    document.querySelectorAll(".toc .active").forEach((element) => {
+      element.classList.remove("active", "active-current");
+    });
+    target.classList.add("active", "active-current");
+    let parent = target.parentNode;
+    while (!parent.matches(".toc")) {
+      if (parent.matches("li")) parent.classList.add("active");
+      parent = parent.parentNode;
+    }
+  }
+
+  function findIndex(entries) {
+    let index = 0;
+    let entry = entries[index];
+    if (entry.boundingClientRect.top > 0) {
+      index = sections.indexOf(entry.target);
+      return index === 0 ? 0 : index - 1;
+    }
+    for (; index < entries.length; index++) {
+      if (entries[index].boundingClientRect.top <= 0) {
+        entry = entries[index];
+      } else {
+        return sections.indexOf(entry.target);
+      }
+    }
+    return sections.indexOf(entry.target);
+  }
+
+  function createIntersectionObserver(marginTop) {
+    marginTop = Math.floor(marginTop + 10000);
+    let intersectionObserver = new IntersectionObserver(
+      (entries, observe) => {
+        let scrollHeight = document.documentElement.scrollHeight + 100;
+        if (scrollHeight > marginTop) {
+          observe.disconnect();
+          createIntersectionObserver(scrollHeight);
+          return;
+        }
+        let index = findIndex(entries);
+        activateNavByIndex(navItems[index]);
+      },
+      {
+        rootMargin: marginTop + "px 0px -100% 0px",
+        threshold: 0,
+      }
+    );
+    sections.forEach((element) => {
+      element && intersectionObserver.observe(element);
+    });
+  }
+  createIntersectionObserver(document.documentElement.scrollHeight);
+}
+
+document.addEventListener("DOMContentLoaded", listennSidebarTOC);
+document.addEventListener("pjax:success", listennSidebarTOC);
+</script>
+
+<!-- more -->
+
+ 
+	   
+	    
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+
+
+<script>
+    var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          
+          "#pjax-container",
+          "#pjax-header-nav-list"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+      //window.stop(); // 相当于点击了浏览器的停止按钮
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+
+      volantis.$switcher.removeClass('active'); // 关闭移动端激活的搜索框
+      volantis.$header.removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      volantis.$wrapper.removeClass('sub'); // 跳转页面时关闭二级导航
+
+      // 解绑事件 避免重复监听
+      volantis.$topBtn.unbind('click');
+      $('.menu a').unbind('click');
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+	  // 使用 volantis.pjax.send 方法传入pjax:send回调函数 参见layout/_partial/scripts/global.ejs
+	  volantis.pjax.method.send.start();
+    });
+
+    document.addEventListener('pjax:complete', function () {
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+      try{
+		// 使用 volantis.pjax.push 方法传入重载函数 参见layout/_partial/scripts/global.ejs
+		volantis.pjax.method.complete.start();
+      } catch (e) {
+        console.log(e);
+      }
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+	  // 使用 volantis.pjax.error 方法传入pjax:error回调函数 参见layout/_partial/scripts/global.ejs
+	  volantis.pjax.method.error.start();
+      window.location.href = e.triggerElement.href;
+    });
+</script>
+ 
+	  
+    </div>
+  </body>
+</html>

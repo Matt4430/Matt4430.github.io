@@ -1,0 +1,2451 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/4.2.0'>
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+  
+  <!-- 渲染优化 -->
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link rel="preload" href="/css/first.css" as="style">
+  
+
+  <!-- 页面元数据 -->
+  
+  <title>3-hexo开发日志-持续更新 - ☕憩息屋</title>
+  
+    <meta name="keywords" content="hexo,3-hexo">
+  
+
+  
+
+  <!-- feed -->
+  
+
+  <!-- import meta -->
+  
+
+  <!-- link -->
+  
+    <link rel="shortcut icon" type='image/x-icon' href="/sir.ico">
+  
+
+  <!-- import link -->
+  
+
+  
+    
+<link rel="stylesheet" href="/css/first.css">
+
+  
+
+  
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
+  
+
+  <script id="loadcss"></script>
+
+  
+<script>
+if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
+    document.write(
+	'<style>'+
+		'html{'+
+			'overflow-x: hidden !important;'+
+			'overflow-y: hidden !important;'+
+		'}'+
+		'.kill-ie{'+
+			'text-align:center;'+
+			'height: 100%;'+
+			'margin-top: 15%;'+
+			'margin-bottom: 5500%;'+
+		'}'+
+	'</style>'+
+    '<div class="kill-ie">'+
+        '<h1><b>抱歉，您的浏览器无法访问本站</b></h1>'+
+        '<h3>微软已经于2016年终止了对 Internet Explorer (IE) 10 及更早版本的支持，<br/>'+
+        '继续使用存在极大的安全隐患，请使用当代主流的浏览器进行访问。</h3><br/>'+
+        '<a target="_blank" rel="noopener" href="https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support"><strong>了解详情 ></strong></a>'+
+    '</div>');
+</script>
+
+
+<noscript>
+	<style>
+		html{
+			overflow-x: hidden !important;
+			overflow-y: hidden !important;
+		}
+		.kill-noscript{
+			text-align:center;
+			height: 100%;
+			margin-top: 15%;
+			margin-bottom: 5500%;
+		}
+	</style>
+    <div class="kill-noscript">
+        <h1><b>抱歉，您的浏览器无法访问本站</b></h1>
+        <h3>本页面需要浏览器支持（启用）JavaScript</h3><br/>
+        <a target="_blank" rel="noopener" href="https://www.baidu.com/s?wd=启用JavaScript"><strong>了解详情 ></strong></a>
+    </div>
+</noscript>
+
+</head>
+
+  <body>
+    
+
+<header id="l_header" class="l_header auto shadow blur auto show" style='opacity: 0' >
+  <div class='container'>
+  <div id='wrapper'>
+    <div class='nav-sub'>
+      <p class="title"></p>
+      <ul class='switcher nav-list-h m-phone' id="pjax-header-nav-list">
+        <li><a id="s-comment" class="fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li><a id="s-toc" class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href='/'>
+          
+          
+          
+            ☕憩息屋
+          
+        </a>
+      
+
+			<div class='menu navigation'>
+				<ul class='nav-list-h m-pc'>
+          
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=http://www.demo443.com:4567/
+                  
+                  
+                  
+                    id="http:wwwdemo443com:4567"
+                  >
+                  <i class='fas fa-fan fa-spin fa-fw'></i>技术博客
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/apidocs/
+                  
+                  
+                  
+                    id="apidocs"
+                  >
+                  💀开发资料
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/study/
+                  
+                  
+                  
+                    id="study"
+                  >
+                  📚学习资料
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/friends/
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  🔖网址收藏
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  🔨工具箱
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tools/
+                  
+                  
+                  
+                    id="tools"
+                  >
+                  📐环境&工具
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/bat/
+                  
+                  
+                  
+                    id="bat"
+                  >
+                  🐍bat &脚本
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/sucai/
+                  
+                  
+                  
+                    id="sucai"
+                  >
+                  🎲模板&素材
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/music&amp;videos/
+                  
+                  
+                  
+                    id="music&amp;videos"
+                  >
+                  🔇影视&音乐
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box header toggle-mode-btn">
+                  <i class=' fa-fw'></i>🌗开灯/关灯
+                </a>
+              <li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  💬关于我
+                </a>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="站内搜索" />
+        </form>
+      </div>
+
+			<ul class='switcher nav-list-h m-phone'>
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=http://www.demo443.com:4567/
+                  
+                  
+                  
+                    id="http:wwwdemo443com:4567"
+                  >
+                  <i class='fas fa-fan fa-spin fa-fw'></i>技术博客
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/apidocs/
+                  
+                  
+                  
+                    id="apidocs"
+                  >
+                  💀开发资料
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/study/
+                  
+                  
+                  
+                    id="study"
+                  >
+                  📚学习资料
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/friends/
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  🔖网址收藏
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  🔨工具箱
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tools/
+                  
+                  
+                  
+                    id="tools"
+                  >
+                  📐环境&工具
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/bat/
+                  
+                  
+                  
+                    id="bat"
+                  >
+                  🐍bat &脚本
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/sucai/
+                  
+                  
+                  
+                    id="sucai"
+                  >
+                  🎲模板&素材
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/music&amp;videos/
+                  
+                  
+                  
+                    id="music&amp;videos"
+                  >
+                  🔇影视&音乐
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box header toggle-mode-btn">
+                  <i class=' fa-fw'></i>🌗开灯/关灯
+                </a>
+              <li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  💬关于我
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+    <div id="l_body">
+      <div id="l_cover">
+  
+    
+        <div id="full" class='cover-wrapper post search' style="display: none;">
+          
+            <div class='cover-bg lazyload placeholder' data-bg="http://photos.demo443.com/blog/6/imgs/bg.jpg"></div>
+          
+          <div class='cover-body'>
+  <div class='top'>
+    
+    
+      <p class="title">☕憩息屋</p>
+    
+    
+  </div>
+  <div class='bottom'>
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="search" />
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+    
+    <div class='menu navigation'>
+      <div class='list-h'>
+        
+          
+            <a href="http://www.demo443.com:4567/"
+              
+              
+              id="http:wwwdemo443com:4567">
+              <p>🏀技术博客</p>
+            </a>
+          
+            <a href="/friends/"
+              
+              
+              id="friends">
+              <p>🍎网址收藏</p>
+            </a>
+          
+            <a href="/study/"
+              
+              
+              id="study">
+              <p>🍨学习资料</p>
+            </a>
+          
+            <a href="/apidocs/"
+              
+              
+              id="apidocs">
+              <p>🍺开发资料</p>
+            </a>
+          
+            <a href="http://www.demo443.com"
+              
+              
+              id="http:wwwdemo443com">
+              <p>😈工具箱</p>
+            </a>
+          
+            <a href="/about/"
+              
+              
+              id="about">
+              <p>😃关于我</p>
+            </a>
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+        </div>
+    
+  
+  </div>
+
+      <div id="safearea">
+        <div class="body-wrapper" id="pjax-container">
+          
+
+<div class='l_main'>
+  <article class="article post white-box reveal md shadow blur floatable article-type-post" id="post" itemscope itemprop="blogPost">
+  
+
+
+  
+  <div class="article-meta" id="top">
+    
+    
+    
+      <h1 class="title">
+        3-hexo开发日志-持续更新
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author'>
+  <a class='author' href="/about/" rel="nofollow">
+    <img no-lazy src="/img/avatar.jpg">
+    <p>杨晓东</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <a class='notlink'>
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <a class="category-link" href="/categories/yelog/">yelog</a><span class="sep"></span><a class="category-link" href="/categories/yelog/hexo/">hexo</a>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2017年3月13日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item browse busuanzi">
+    <a class='notlink'>
+      <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+      <p>
+        <span id="busuanzi_value_page_pv">
+          <i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i>
+        </span>
+        次浏览
+      </p>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+    
+  </div>
+
+
+  
+  
+  <h2 id="2020年12月"><a href="#2020年12月" class="headerlink" title="2020年12月"></a>2020年12月</h2><h3 id="12-28"><a href="#12-28" class="headerlink" title="12-28"></a>12-28</h3><ol>
+<li><code>fix</code> 修复了右下角按钮错位问题</li>
+<li><code>enhance</code> 优化图标样式，支持自定义图标引入</li>
+<li><code>change</code> 分类超出隐藏</li>
+</ol>
+<h2 id="2020年8月"><a href="#2020年8月" class="headerlink" title="2020年8月"></a>2020年8月</h2><h3 id="08-09"><a href="#08-09" class="headerlink" title="08-09"></a>08-09</h3><ol>
+<li><code>fix</code> 修复了切换大纲时，未关闭全局搜索框(in:) 的问题<br><a href="2">2</a>. <code>add</code> 代码块新增显示代码类型和复制代码功能</li>
+<li><code>fix</code>分类支持 <code>\/#.[]()</code> 特殊字符</li>
+<li><code>fix</code> 大纲支持<code>URI</code> 编码，兼容 <code>hexo5+</code></li>
+</ol>
+<h2 id="2020年5月"><a href="#2020年5月" class="headerlink" title="2020年5月"></a>2020年5月</h2><h3 id="05-29"><a href="#05-29" class="headerlink" title="05-29"></a>05-29</h3><ol>
+<li><code>fix</code> 修复了旧版 hexo 报错的问题</li>
+</ol>
+<h3 id="05-23"><a href="#05-23" class="headerlink" title="05-23"></a>05-23</h3><ol>
+<li><code>change</code> 由于 <code>cloudflare</code> 国内访问不稳定，故 <code>cdn</code> 切换到 <code>jsdelivr</code></li>
+<li><code>fix</code> 修复文章大纲为空时，同步大纲报错的问题</li>
+<li><code>change</code> 文章内 toc 生成从 <code>@【toc】</code> 改为 <code>【toc】</code> </li>
+<li><code>enhance</code> 快捷键支持关闭 <code>shortcutKey: false</code></li>
+<li><code>add</code> 添加第三方评论 来必力 和 utteranc</li>
+<li><code>remove</code> 移除网易云评论</li>
+</ol>
+<h3 id="05-21"><a href="#05-21" class="headerlink" title="05-21"></a>05-21</h3><ol>
+<li><code>add</code> 添加备案号配置</li>
+</ol>
+<h3 id="05-20"><a href="#05-20" class="headerlink" title="05-20"></a>05-20</h3><ol>
+<li><code>enhance</code> 内置文章排序，无需再引入排序插件或修改源代码</li>
+<li><code>enhance</code> 支持自定义分类的顺序， 具体可以查看 <a href="#">Post not found: 3-hexo-instruction</a> 中的排序相关内容</li>
+</ol>
+<h3 id="05-19"><a href="#05-19" class="headerlink" title="05-19"></a>05-19</h3><ol>
+<li><code>change</code> 重做了文章大纲</li>
+<li><code>change</code> 重做了搜索/标签页</li>
+<li><code>style</code> 优化了整体界面风格</li>
+<li><code>fix</code>修复了诸如 <strong>分类选中动画闪烁</strong> 等细节问题</li>
+</ol>
+<h2 id="2020年2月"><a href="#2020年2月" class="headerlink" title="2020年2月"></a>2020年2月</h2><h3 id="02-04"><a href="#02-04" class="headerlink" title="02-04"></a>02-04</h3><p>1.<code>fix</code>: 修复 gitalk 使用  app API query parameter 弃用的问题</p>
+<h2 id="2019年11月"><a href="#2019年11月" class="headerlink" title="2019年11月"></a>2019年11月</h2><h3 id="11-12"><a href="#11-12" class="headerlink" title="11-12"></a>11-12</h3><p>1.<code>fix</code>: 修复 hexo4.0 版本链接外跳的问题<br>2.<code>add</code>: 支持 mermaid <a href="#">Post not found: 3-hexo-support-mermaid</a></p>
+<h3 id="09-24"><a href="#09-24" class="headerlink" title="09-24"></a>09-24</h3><p>1.<code>add</code>: 支持文章内 toc 生成 <a href="#">Post not found: 3-hexo-toc</a></p>
+<h3 id="09-05"><a href="#09-05" class="headerlink" title="09-05"></a>09-05</h3><p>1.<code>fix</code>: <code>pjax</code> 兼容 <code>jsfiddle</code> 的渲染 <a href="#">Post not found: 3-hexo-jsfiddle</a></p>
+<h2 id="2019年8月"><a href="#2019年8月" class="headerlink" title="2019年8月"></a>2019年8月</h2><h3 id="08-20"><a href="#08-20" class="headerlink" title="08-20"></a>08-20</h3><p>1.<code>fix</code>: 左下角菜单个数为一个时，在移动端出现的位置错乱的问题</p>
+<h3 id="08-13"><a href="#08-13" class="headerlink" title="08-13"></a>08-13</h3><ol>
+<li><code>add</code> 添加自定义左侧分类栏宽度 <code>category.width</code>，详情见 <code>_config.yml</code></li>
+</ol>
+<h3 id="08-01"><a href="#08-01" class="headerlink" title="08-01"></a>08-01</h3><ol>
+<li><code>fix</code> 修复 友链 区域超出不滚动的问题</li>
+</ol>
+<h2 id="2019年7月"><a href="#2019年7月" class="headerlink" title="2019年7月"></a>2019年7月</h2><h3 id="07-22"><a href="#07-22" class="headerlink" title="07-22"></a>07-22</h3><ol>
+<li><code>add</code> 新增修改文章列表颜色的参数</li>
+</ol>
+<h3 id="07-15"><a href="#07-15" class="headerlink" title="07-15"></a>07-15</h3><ol>
+<li><code>fix</code> 修复 <strong>gitalk</strong> 由于作者停止了跨域的服务，借用其他人的跨域服务解决问题</li>
+</ol>
+<h3 id="07-12"><a href="#07-12" class="headerlink" title="07-12"></a>07-12</h3><ol>
+<li><code>add</code> 新增图标：<strong>qq、酷狗、网易云音乐</strong></li>
+<li><code>fix</code> 修复文末声明跨行的问题</li>
+</ol>
+<h2 id="2019年6月"><a href="#2019年6月" class="headerlink" title="2019年6月"></a>2019年6月</h2><h3 id="06-09"><a href="#06-09" class="headerlink" title="06-09"></a>06-09</h3><ol>
+<li><code>fix</code> 修复了标签按钮在某些分辨率下错位问题。</li>
+<li><code>fix</code> 修复了代码行数超百行时，行号溢出的问题</li>
+</ol>
+<h2 id="2019年5月"><a href="#2019年5月" class="headerlink" title="2019年5月"></a>2019年5月</h2><h3 id="05-21-1"><a href="#05-21-1" class="headerlink" title="05-21"></a>05-21</h3><ol>
+<li><p><code>add</code> 文章分类可以显示文章数 <code>category&gt;num</code></p>
+</li>
+<li><p><code>add</code> 文章分类支持多级显示 <code>category&gt;sub</code></p>
+</li>
+<li><p><code>fix</code> 修复<code>gitalk</code>显示评论数错误的问题</p>
+</li>
+<li><p>添加背景图设置：</p>
+<blockquote>
+<p>① <code>_config.xml</code> 配置默认背景图片</p>
+<p>首页背景图： <code>index_bg_img: xxx.jpg</code></p>
+<p>文章页面背景图：<code>other_bg_img: xxx.jpg</code></p>
+<p>② 我们还可以单独给某篇文章设置背景图（优先级最高）</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="number">3</span><span class="string">-hexo开发日志-持续更新</span></span><br><span class="line"><span class="attr">bgImg:</span> <span class="string">xxx.jpg</span>  <span class="comment">#设置这篇文章的背景图</span></span><br></pre></td></tr></table></figure></blockquote>
+</li>
+</ol>
+<h3 id="05-05"><a href="#05-05" class="headerlink" title="05-05"></a>05-05</h3><ol>
+<li><code>add</code> 添加代码段高亮样式配置，对应 markdown 语法 `` ，位置：<code>_config.yml</code> 关键字 <code>code</code></li>
+</ol>
+<h2 id="2019年1月"><a href="#2019年1月" class="headerlink" title="2019年1月"></a>2019年1月</h2><h3 id="01-05"><a href="#01-05" class="headerlink" title="01-05"></a>01-05</h3><ol>
+<li><code>fix</code> 修复Firefox下，Tags 图标失效问题</li>
+</ol>
+<h2 id="2018年11月"><a href="#2018年11月" class="headerlink" title="2018年11月"></a>2018年11月</h2><h3 id="11-30"><a href="#11-30" class="headerlink" title="11-30"></a>11-30</h3><ol>
+<li><code>add</code> 应用彩色图标，新增简书、知乎、csdn、oschina等图标<br><img src="http://img.saodiyang.com/Fgw7J7Ab6BGl09e-qHo5ZmY5D4lW.png" class="lazyload" data-srcset="http://img.saodiyang.com/Fgw7J7Ab6BGl09e-qHo5ZmY5D4lW.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="应用彩色图标"></li>
+<li><code>fix</code> 修复 gitment 登录报错的问题</li>
+<li><code>enhance</code> 升级gitalk插件，并跟随官方版本</li>
+</ol>
+<h2 id="2018年8月"><a href="#2018年8月" class="headerlink" title="2018年8月"></a>2018年8月</h2><h3 id="08-08-修复"><a href="#08-08-修复" class="headerlink" title="08-08 修复"></a>08-08 修复</h3><ol>
+<li><code>fix</code> : 修复左侧栏出现滚动条的问题</li>
+</ol>
+<h2 id="2018年4月"><a href="#2018年4月" class="headerlink" title="2018年4月"></a>2018年4月</h2><h3 id="04-18-修复"><a href="#04-18-修复" class="headerlink" title="04-18 修复"></a>04-18 修复</h3><ol>
+<li><code>fix</code> : 调整原文地址key，解决和 encrypt 的冲突</li>
+</ol>
+<h2 id="2017年12月"><a href="#2017年12月" class="headerlink" title="2017年12月"></a>2017年12月</h2><h3 id="12-31-优化"><a href="#12-31-优化" class="headerlink" title="12-31 优化"></a>12-31 优化</h3><ol>
+<li><code>enhance</code> : 关闭打赏，则屏蔽相关代码。</li>
+</ol>
+<h3 id="12-28-添加自定义菜单功能"><a href="#12-28-添加自定义菜单功能" class="headerlink" title="12-28 添加自定义菜单功能"></a>12-28 添加自定义菜单功能</h3><ol>
+<li><code>add</code> : 添加自定义菜单功能，见配置文件 <code>menu:</code> 相关</li>
+<li><code>fix</code> : 修复 <code>photoSwipe</code> 一些问题：手机端右上角图标遮挡、首页图片渲染失败、CDN引入配置文件</li>
+</ol>
+<h3 id="12-27-插件添加"><a href="#12-27-插件添加" class="headerlink" title="12-27 插件添加"></a>12-27 插件添加</h3><ol>
+<li><code>add</code> : 引入 <code>photoSwipe</code> 图片相册，可在 <code>_config</code> 中 配置 <code>img_resize: photoSwipe</code></li>
+<li><code>fix</code> : 左侧分类列表过多，则显示滚动条</li>
+<li><code>change</code> : 由于cdnjs最近在国内网络波动较大，将默认CDN改到bootcdn</li>
+</ol>
+<h3 id="12-26-功能优化"><a href="#12-26-功能优化" class="headerlink" title="12-26 功能优化"></a>12-26 功能优化</h3><ol>
+<li><code>enhance</code> : 全文检索支持通过方向键选择文章，回车跳转</li>
+</ol>
+<h3 id="12-24-功能添加"><a href="#12-24-功能添加" class="headerlink" title="12-24 功能添加"></a>12-24 功能添加</h3><ol>
+<li><code>add</code> : 添加全文检索功能， 输入<code>in:</code>开头即可开始检索</li>
+</ol>
+<h2 id="2017年10月"><a href="#2017年10月" class="headerlink" title="2017年10月"></a>2017年10月</h2><h3 id="10-21-样式调整"><a href="#10-21-样式调整" class="headerlink" title="10-21 样式调整"></a>10-21 样式调整</h3><ol>
+<li><code>enhance</code> : 优化了高亮样式 <code>atom-light</code></li>
+</ol>
+<h3 id="10-20-样式调整与添加"><a href="#10-20-样式调整与添加" class="headerlink" title="10-20 样式调整与添加"></a>10-20 样式调整与添加</h3><ol>
+<li><code>add</code> : 添加列表样式 <code>thread</code></li>
+<li><code>add</code> : 添加引用块样式 <code>bracket</code></li>
+<li><code>add</code> : 文章列表可加入背景图</li>
+</ol>
+<h3 id="10-07"><a href="#10-07" class="headerlink" title="10-07"></a>10-07</h3><ol>
+<li><code>add</code> : 加入关于/友链页面</li>
+</ol>
+<h2 id="2017年9月"><a href="#2017年9月" class="headerlink" title="2017年9月"></a>2017年9月</h2><h3 id="09-21"><a href="#09-21" class="headerlink" title="09-21"></a>09-21</h3><ol>
+<li><code>polish</code> : 引入<code>fragment_cache</code>局部缓存，大幅缩减渲染(hexo g)的时间 <a href="#">Post not found: hexo-fragment_cache</a></li>
+<li><code>enhance</code> : 加入 SEO ，tag转keywords , title转description</li>
+<li><code>add</code> : 添加文末说明参数</li>
+<li><code>lit</code> : 头像跳转首页的请求也处理为 pjax</li>
+</ol>
+<h2 id="2017年7月"><a href="#2017年7月" class="headerlink" title="2017年7月"></a>2017年7月</h2><h3 id="07-05-添加MathJax数学公式支持"><a href="#07-05-添加MathJax数学公式支持" class="headerlink" title="07-05 添加MathJax数学公式支持"></a>07-05 添加MathJax数学公式支持</h3><ol>
+<li><code>add</code> : 添加MathJax数学公式支持 <a href="#">Post not found: 3-hexo-mathjax</a></li>
+</ol>
+<h2 id="2017年6月"><a href="#2017年6月" class="headerlink" title="2017年6月"></a>2017年6月</h2><h3 id="06-26-添加gitment评论系统"><a href="#06-26-添加gitment评论系统" class="headerlink" title="06-26 添加gitment评论系统"></a>06-26 添加gitment评论系统</h3><ol>
+<li><code>add</code> : 添加gitment评论系统，具体可参考 <a href="#">Post not found: gitment</a></li>
+</ol>
+<h2 id="2017年4月"><a href="#2017年4月" class="headerlink" title="2017年4月"></a>2017年4月</h2><h3 id="04-27-调整样式"><a href="#04-27-调整样式" class="headerlink" title="04-27 调整样式"></a>04-27 调整样式</h3><ol>
+<li><code>change</code>：调整引用块内p的样式。</li>
+</ol>
+<h3 id="04-19-调整样式和修复bug"><a href="#04-19-调整样式和修复bug" class="headerlink" title="04-19 调整样式和修复bug"></a>04-19 调整样式和修复bug</h3><ol>
+<li><code>change:</code>调整文章目录间距</li>
+<li><code>fix:</code>修复可能出现的访问量不显示的问题</li>
+</ol>
+<h3 id="04-17-调整样式及修复bug"><a href="#04-17-调整样式及修复bug" class="headerlink" title="04-17 调整样式及修复bug"></a>04-17 调整样式及修复bug</h3><ol>
+<li><code>change:</code>调整大屏下文章最大宽度（从780调到900），代码字号调整为比文字小3px</li>
+<li><code>fix:</code>修复在过滤条件下，鼠标上下键不能正常在第一个，最后一个进行跳转的问题</li>
+<li><code>fix:</code>修复首页可能出现的错误渲染，导致没有样式的情况。</li>
+</ol>
+<h2 id="2017年3月"><a href="#2017年3月" class="headerlink" title="2017年3月"></a>2017年3月</h2><h3 id="03-29-增强文章列表上下键功能"><a href="#03-29-增强文章列表上下键功能" class="headerlink" title="03-29 增强文章列表上下键功能"></a>03-29 增强文章列表上下键功能</h3><ol>
+<li><code>enhance:</code>增强列表跟随选择的文章上下滚动</li>
+<li><code>enhance:</code>文章列表上下循环</li>
+</ol>
+<h3 id="03-24-修复搜索及添加快捷键"><a href="#03-24-修复搜索及添加快捷键" class="headerlink" title="03-24 修复搜索及添加快捷键"></a>03-24 修复搜索及添加快捷键</h3><ol>
+<li><code>fix:</code>修复title关键字和标签关键字冲突的情况</li>
+<li><code>fix:</code>修复前进后退时对图片的错误处理</li>
+<li><code>enhance:</code>在搜索时，可以键盘上下键来选择文章</li>
+<li><code>enhance:</code>添加了一些快捷键，详情查看 <a href="#">Post not found: 3-hexo-shortcuts</a></li>
+</ol>
+<h3 id="03-22-添加评论系统"><a href="#03-22-添加评论系统" class="headerlink" title="03-22 添加评论系统"></a>03-22 添加评论系统</h3><ol>
+<li><code>enhance:</code> 添加网易云跟帖评论系统</li>
+</ol>
+<h3 id="03-21-图片放大动画"><a href="#03-21-图片放大动画" class="headerlink" title="03-21 图片放大动画"></a>03-21 图片放大动画</h3><ol>
+<li><code>enhance:</code>增加图片放大动画，增加过度感，最大放大至原图大小（若尺寸超过屏幕，按屏幕大小限制）</li>
+</ol>
+<h3 id="03-20-评论添加锚点"><a href="#03-20-评论添加锚点" class="headerlink" title="03-20 评论添加锚点"></a>03-20 评论添加锚点</h3><ol>
+<li><code>enhance:</code>添加文章meta(标题下)中的评论数点击事件，滑动到评论区，评论区若隐藏，则自动打开</li>
+</ol>
+<h3 id="03-19-修复firfox错位问题"><a href="#03-19-修复firfox错位问题" class="headerlink" title="03-19 修复firfox错位问题"></a>03-19 修复firfox错位问题</h3><ol>
+<li><code>fix:</code>修复firefox错位问题</li>
+<li><code>enhance:</code>文章标题下的分类、标签、作者在文章列表隐藏的情况下（包括移动端）点击，自动呼出文章列表</li>
+</ol>
+<h3 id="03-18-动画优化及修复bug"><a href="#03-18-动画优化及修复bug" class="headerlink" title="03-18 动画优化及修复bug"></a>03-18 动画优化及修复bug</h3><ol>
+<li><code>enhance:</code>给所有锚点添加动画</li>
+<li><code>fix:</code>修复文章列表页自适应宽度,解决由于firefox不支持自定义滚动条导致的错位</li>
+<li><code>change:</code>改动页面内站点访问量统计的标签，改动查看 — <a href="#">Post not found: 3-hexo-homepage</a></li>
+</ol>
+<h3 id="03-17-评论调整优化"><a href="#03-17-评论调整优化" class="headerlink" title="03-17 评论调整优化"></a>03-17 评论调整优化</h3><ol>
+<li>修复预加载时的评论数</li>
+<li>首页添加评论框</li>
+</ol>
+<h3 id="03-16-文章meta样式修改"><a href="#03-16-文章meta样式修改" class="headerlink" title="03-16 文章meta样式修改"></a>03-16 文章meta样式修改</h3><ol>
+<li>将文章meta（包括文集、标签、时间、字数等）改到文章title下方</li>
+<li>站点版权信息（@2017 Yelog）,自定义，在主题 <code>_config.yml</code> 中配置</li>
+<li>文章meta中添加评论数</li>
+</ol>
+<h3 id="03-15-增加样式"><a href="#03-15-增加样式" class="headerlink" title="03-15 增加样式"></a>03-15 增加样式</h3><ol>
+<li>扩展了文章列表的移入样式，位置 <code>_config.yml</code> 中 <code>article_list</code></li>
+</ol>
+<h3 id="03-14-打赏优化"><a href="#03-14-打赏优化" class="headerlink" title="03-14 打赏优化"></a>03-14 打赏优化</h3><ol>
+<li>加入切换二维码动画</li>
+<li>移动端样式调整</li>
+</ol>
+<h3 id="03-13-首页重构"><a href="#03-13-首页重构" class="headerlink" title="03-13 首页重构"></a>03-13 首页重构</h3><ol>
+<li>将首页改写为md格式，方便博主更改，位置：/layout/index.md</li>
+</ol>
+<h3 id="03-09-修复多说、添加流量统计"><a href="#03-09-修复多说、添加流量统计" class="headerlink" title="03-09 修复多说、添加流量统计"></a>03-09 修复多说、添加流量统计</h3><ol>
+<li>修复多说在pjax中的使用</li>
+<li>添加字数统计功能</li>
+<li>添加文章版权信息</li>
+</ol>
+<h3 id="03-06-添加打赏功能"><a href="#03-06-添加打赏功能" class="headerlink" title="03-06 添加打赏功能"></a>03-06 添加打赏功能</h3><ol>
+<li>添加打赏功能</li>
+<li>添加table样式</li>
+</ol>
+<h3 id="03-04-添加作者和标签的提示"><a href="#03-04-添加作者和标签的提示" class="headerlink" title="03-04 添加作者和标签的提示"></a>03-04 添加作者和标签的提示</h3><ol>
+<li>输入#或@显示下拉提示</li>
+</ol>
+<h3 id="03-03-修复多作者模式"><a href="#03-03-修复多作者模式" class="headerlink" title="03-03 修复多作者模式"></a>03-03 修复多作者模式</h3><ol>
+<li>修复开启多作者模式时，文章没有作者引起的异常</li>
+</ol>
+<h3 id="03-02-图片样式改动"><a href="#03-02-图片样式改动" class="headerlink" title="03-02 图片样式改动"></a>03-02 图片样式改动</h3><ol>
+<li>alt显示在图片下方</li>
+<li>图片放大功能</li>
+<li>移动端图片宽度100%</li>
+</ol>
+<h2 id="2017年2月"><a href="#2017年2月" class="headerlink" title="2017年2月"></a>2017年2月</h2><h3 id="02-28-多作者模式"><a href="#02-28-多作者模式" class="headerlink" title="02-28 多作者模式"></a>02-28 多作者模式</h3><ol>
+<li>添加多作者模式</li>
+</ol>
+<h3 id="02-27-调整样式"><a href="#02-27-调整样式" class="headerlink" title="02-27 调整样式"></a>02-27 调整样式</h3><ol>
+<li>修改a的样式</li>
+<li>调整移动端宽度</li>
+</ol>
+<h3 id="02-25-修改github仓库名"><a href="#02-25-修改github仓库名" class="headerlink" title="02-25 修改github仓库名"></a>02-25 修改github仓库名</h3><ol>
+<li>修改github仓库名：从 <code>3-hexo</code> 到 <code>hexo-theme-3-hexo</code></li>
+<li>添加回到顶端功能：小火箭</li>
+<li>修复safari滑动bug</li>
+</ol>
+<h3 id="02-24-站点版权、ICON和置顶"><a href="#02-24-站点版权、ICON和置顶" class="headerlink" title="02-24 站点版权、ICON和置顶"></a>02-24 站点版权、ICON和置顶</h3><ol>
+<li>添加站点版权信息</li>
+<li>更换icon到icoMoon</li>
+<li>添加置顶功能</li>
+</ol>
+<h3 id="02-20-代码块高亮主题"><a href="#02-20-代码块高亮主题" class="headerlink" title="02-20 代码块高亮主题"></a>02-20 代码块高亮主题</h3><ol>
+<li>添加十几种代码高亮主题</li>
+<li>移动端适配（ipad、手机）</li>
+</ol>
+<h3 id="02-19-移动端适配"><a href="#02-19-移动端适配" class="headerlink" title="02-19 移动端适配"></a>02-19 移动端适配</h3><ol>
+<li>添加文章加载动画进度条</li>
+<li>开始进行移动端适配</li>
+</ol>
+<h3 id="02-08-评论系统"><a href="#02-08-评论系统" class="headerlink" title="02-08 评论系统"></a>02-08 评论系统</h3><ol>
+<li>添加多说评论</li>
+<li>添加disqus评论</li>
+</ol>
+<h3 id="02-07-样式及动画新增修改"><a href="#02-07-样式及动画新增修改" class="headerlink" title="02-07 样式及动画新增修改"></a>02-07 样式及动画新增修改</h3><ol>
+<li>添加标题和时间的title</li>
+<li>添加头像下外链图标（facebook等）</li>
+<li>添加目录显示动画</li>
+</ol>
+<h3 id="02-06-功能和样式开发"><a href="#02-06-功能和样式开发" class="headerlink" title="02-06 功能和样式开发"></a>02-06 功能和样式开发</h3><ol>
+<li>添加全屏和目录功能</li>
+<li>搜索框下添加tags的显示，并支持使用#搜索</li>
+<li>CDN改为在_config.yml中配置</li>
+</ol>
+<h3 id="02-05-开源3-hexo主题"><a href="#02-05-开源3-hexo主题" class="headerlink" title="02-05 开源3-hexo主题"></a>02-05 开源3-hexo主题</h3><ol>
+<li>设计主题页面结构</li>
+<li>分类过滤和标题关键字搜索</li>
+<li>使用pjax方式加载页面</li>
+<li>添加引用、表格等样式</li>
+<li>使用highlight.js来处理代码块高亮</li>
+<li>命名为3-hexo并在github上开源e</li>
+</ol>
+
+  
+  
+    
+    <div class='footer'>
+      
+      
+        
+  <div class="related_posts">
+    <section class='header'>
+      <i class="fas fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
+    </section>
+    <section class='body'>
+      <div class="vlts-rps"><a class="item" href="\3-hexo-add-icon" title="3-hexo添加自定义图标" rel="bookmark "><img src="https://img.saodiyang.com/picgo_qiniu20201228230707.png" class="lazyload" data-srcset="https://img.saodiyang.com/picgo_qiniu20201228230707.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" /><span class="title">3-hexo添加自定义图标</span></a><a class="item" href="\3-hexo-add-music" title="3-hexo 添加音乐插件" rel="bookmark "><img src="https://i.loli.net/2019/10/08/RgSUj1i8vXNk5IP.png" class="lazyload" data-srcset="https://i.loli.net/2019/10/08/RgSUj1i8vXNk5IP.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" /><span class="title">3-hexo 添加音乐插件</span></a><a class="item" href="\3-hexo-instruction" title="3-hexo使用说明" rel="bookmark "><img src="data:image/png;base64,666" /><span class="title">3-hexo使用说明</span></a><a class="item" href="\3-hexo-multiple-author" title="3-hexo多作者模式" rel="bookmark "><img src="http://img.saodiyang.com/Fjq0M7pBzl6fsnC3ivpqMsdLdXc0.png" class="lazyload" data-srcset="http://img.saodiyang.com/Fjq0M7pBzl6fsnC3ivpqMsdLdXc0.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" /><span class="title">3-hexo多作者模式</span></a><a class="item" href="\3-hexo-shortcuts" title="3-hexo快捷键说明" rel="bookmark "><img src="data:image/png;base64,666" /><span class="title">3-hexo快捷键说明</span></a></div></section></div>
+      
+      
+      
+    </div>
+  
+  
+    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          
+<div class='new-meta-item author'>
+  <a class='author' href="/about/" rel="nofollow">
+    <img no-lazy src="/img/avatar.jpg">
+    <p>杨晓东</p>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2017年3月13日</p>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-10-17T22:00:22+08:00">
+  <a class='notlink'>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2021年10月17日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  <div class='new-meta-item category'>
+    <a class='notlink'>
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <a class="category-link" href="/categories/yelog/">yelog</a><span class="sep"></span><a class="category-link" href="/categories/yelog/hexo/">hexo</a>
+    </a>
+  </div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item browse busuanzi">
+    <a class='notlink'>
+      <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+      <p>
+        <span id="busuanzi_value_page_pv">
+          <i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i>
+        </span>
+        次浏览
+      </p>
+    </a>
+  </div>
+
+
+        
+      
+        
+          
+<div class="new-meta-item comments-count">
+  
+  <a href="/1.yelog/tools/3-hexo%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/#comments">
+    <i class="fas fa-comment-dots fa-fw"></i>
+    <span class="valine-comment-count" data-xid="/1.yelog/tools/3-hexo%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/">0</span>
+    <span class="leancloud-comments-count">&nbsp;</span>
+  </a>
+</div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item wordcount">
+    <a class='notlink'>
+      <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
+      <p>字数：2.3k字</p>
+    </a>
+  </div>
+  <div class="new-meta-item readtime">
+    <a class='notlink'>
+      <i class="fas fa-hourglass-half fa-fw" aria-hidden="true"></i>
+      <p>时长：9分钟</p>
+    </a>
+  </div>
+
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/hexo/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>hexo</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/3-hexo/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>3-hexo</p></a></div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.demo443.com:9527/1.yelog/tools/3-hexo%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/&title=3-hexo开发日志-持续更新 - ☕憩息屋&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://www.demo443.com:9527/1.yelog/tools/3-hexo%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/&title=3-hexo开发日志-持续更新 - ☕憩息屋&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.demo443.com:9527/1.yelog/tools/3-hexo%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/&title=3-hexo开发日志-持续更新 - ☕憩息屋&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        
+        <div class='hoverbox'>
+          <a class='share'><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="></a>
+          <div class='target'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAAFYCAAAAAAzB7ucAAAEWUlEQVR42u3aQXLjMAwEQP//07v3rUqZGICQnW3eHFuU2NSBmOD1x7gyXgjAgjXAggVrgF2BfYXj+Eb//P6nz6e/e/fct+Y99QALFixYsGDBggW7C5tCVeepblh1Q6dfhPKLAxYsWLBgwYIFC/YR2NOD9xT06YE+3YipgubYAyxYsGDBggULFuxXwVbn6YKnwXT1hQALFixYsGDBggX7f8JWg/I0+E7vBxYsWLBgwYIFC/Z3wE4Fwe/mTYP02xv9MZ0wYMGCBQsWLFiwYI9gpwLj3/I59gALFixYsGDBggW7Atsd3cIgLSTSYPp03tgDLFiwYMGCBQsW7ApsekCuLrC6Qbefb3p+sGDBggULFixYsLuw6UF86vq0kWKqMeT0++PrwIIFCxYsWLBgwa7AvltAFW46ON4KvLvXgQULFixYsGDBgn0G9jRofrfwNLjuBtBTDRvpfcCCBQsWLFiwYMHuwlaD5+kGiur10xs4VaCABQsWLFiwYMGC3YU9hZguDKaD9u6L0h1gwYIFCxYsWLBgPxM2bWDoHtDTAqJaIHRBwYIFCxYsWLBgwe7CphDdRo50njRArzaCxAUSWLBgwYIFCxYs2Edgu40ZaaB9C6y6ru4GgAULFixYsGDBgn0GNm2QuH2ArwbT6X3bfwcLFixYsGDBggX7COz0jW8d9NMN7s73dn1gwYIFCxYsWLBgH4HtBt9p0DzdOJIG7t37gwULFixYsGDBgt2BTQ/26UF6O9hOg/s0+AcLFixYsGDBggW7C9sNuKcKgqkNOwUeb+QACxYsWLBgwYIFuwJbXVj1QW8H3SnYdCAOFixYsGDBggULdhf2dGHpAqcaJo6D5svBfdywARYsWLBgwYIFC3YU9nZBUP089bupAqL8fGDBggULFixYsGBXYLsH+elGjymoasPG1EaCBQsWLFiwYMGC3YWtLniqUJgKzqsH/hS63LABFixYsGDBggUL9grsaSNCd0HpA9+Cmgq4j/+DABYsWLBgwYIFC3YUNgVMv68WBunfuwf/OKAHCxYsWLBgwYIF+yhs9+DcbZCoBt3pfNXgvtywARYsWLBgwYIFC3YFttsYUQ2Qqwf0tJC5VZiABQsWLFiwYMGC/Q7Y9ICeBt1pYD3diHF8PViwYMGCBQsWLNhHYKsLSx+4W0BUN747joN3sGDBggULFixYsCuw3ZE2RHQD9KmN6gbuPxYIYMGCBQsWLFiwYK/Cdg/M5YaGcN60YaN60G8H/2DBggULFixYsGBXYacKgm7jRBqQpyDdwqLcsAEWLFiwYMGCBQv2CuzpQqsH+HRhU1C3GjqOCwSwYMGCBQsWLFiwHw1bXcD0PGmw3t0gsGDBggULFixYsN8JO9VgMRVMT70g5QIILFiwYMGCBQsW7COwaeCcbsxU8JwG69OFAliwYMGCBQsWLNhd2HQh1YP97caLaeDyRoIFCxYsWLBgwYJdgTVmB1iwYA2wYMEaYK+Ov0pTlutWuozgAAAAAElFTkSuQmCC">
+          </div>
+        </div>
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+        <a class='prev' href='/Hexo-RSS-Sitemap'>
+          <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>为Hexo添加RSS和Sitemap</p>
+          <p class='content'>添加RSS使用RSS是为自己的blog提供订阅功能。
+1.用npm安装插件1$ npm install hexo-generator-feed --save
+2.配置根目录_config.yml...</p>
+        </a>
+      
+      
+        <a class='next' href='/3-hexo-homepage'>
+          <p class='title'>3-hexo配置首页<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>今日将首页提到md文件中了，方便大家的更改。
+首页文件位置 /layout/indexs.md ，既然是md格式，要怎么写大家应该都熟门熟路了，阿杰就不赘述了。
+如果需要使用以下信息，可以按照下...</p>
+        </a>
+      
+    </div>
+  
+</article>
+
+
+  
+
+  <article class="post white-box reveal shadow blur floatable" id="comments">
+    <p ct><i class='fas fa-comments'></i> 评论</p>
+    
+      <p cst>测试阶段</p>
+    
+    <div id="valine_container" class="valine_thread">
+  <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+</div>
+
+  </article>
+
+
+
+
+
+
+</div>
+<aside class='l_side'>
+  
+  
+    
+    
+
+
+
+  <section class="widget toc-wrapper shadow blur floatable desktop mobile" id="toc-div" >
+    
+  <header>
+    
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#2020%E5%B9%B412%E6%9C%88"><span class="toc-number">1.</span> <span class="toc-text">2020年12月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#12-28"><span class="toc-number">1.1.</span> <span class="toc-text">12-28</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2020%E5%B9%B48%E6%9C%88"><span class="toc-number">2.</span> <span class="toc-text">2020年8月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#08-09"><span class="toc-number">2.1.</span> <span class="toc-text">08-09</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2020%E5%B9%B45%E6%9C%88"><span class="toc-number">3.</span> <span class="toc-text">2020年5月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#05-29"><span class="toc-number">3.1.</span> <span class="toc-text">05-29</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#05-23"><span class="toc-number">3.2.</span> <span class="toc-text">05-23</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#05-21"><span class="toc-number">3.3.</span> <span class="toc-text">05-21</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#05-20"><span class="toc-number">3.4.</span> <span class="toc-text">05-20</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#05-19"><span class="toc-number">3.5.</span> <span class="toc-text">05-19</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2020%E5%B9%B42%E6%9C%88"><span class="toc-number">4.</span> <span class="toc-text">2020年2月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#02-04"><span class="toc-number">4.1.</span> <span class="toc-text">02-04</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2019%E5%B9%B411%E6%9C%88"><span class="toc-number">5.</span> <span class="toc-text">2019年11月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#11-12"><span class="toc-number">5.1.</span> <span class="toc-text">11-12</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#09-24"><span class="toc-number">5.2.</span> <span class="toc-text">09-24</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#09-05"><span class="toc-number">5.3.</span> <span class="toc-text">09-05</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2019%E5%B9%B48%E6%9C%88"><span class="toc-number">6.</span> <span class="toc-text">2019年8月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#08-20"><span class="toc-number">6.1.</span> <span class="toc-text">08-20</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#08-13"><span class="toc-number">6.2.</span> <span class="toc-text">08-13</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#08-01"><span class="toc-number">6.3.</span> <span class="toc-text">08-01</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2019%E5%B9%B47%E6%9C%88"><span class="toc-number">7.</span> <span class="toc-text">2019年7月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#07-22"><span class="toc-number">7.1.</span> <span class="toc-text">07-22</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#07-15"><span class="toc-number">7.2.</span> <span class="toc-text">07-15</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#07-12"><span class="toc-number">7.3.</span> <span class="toc-text">07-12</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2019%E5%B9%B46%E6%9C%88"><span class="toc-number">8.</span> <span class="toc-text">2019年6月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#06-09"><span class="toc-number">8.1.</span> <span class="toc-text">06-09</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2019%E5%B9%B45%E6%9C%88"><span class="toc-number">9.</span> <span class="toc-text">2019年5月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#05-21-1"><span class="toc-number">9.1.</span> <span class="toc-text">05-21</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#05-05"><span class="toc-number">9.2.</span> <span class="toc-text">05-05</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2019%E5%B9%B41%E6%9C%88"><span class="toc-number">10.</span> <span class="toc-text">2019年1月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#01-05"><span class="toc-number">10.1.</span> <span class="toc-text">01-05</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2018%E5%B9%B411%E6%9C%88"><span class="toc-number">11.</span> <span class="toc-text">2018年11月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#11-30"><span class="toc-number">11.1.</span> <span class="toc-text">11-30</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2018%E5%B9%B48%E6%9C%88"><span class="toc-number">12.</span> <span class="toc-text">2018年8月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#08-08-%E4%BF%AE%E5%A4%8D"><span class="toc-number">12.1.</span> <span class="toc-text">08-08 修复</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2018%E5%B9%B44%E6%9C%88"><span class="toc-number">13.</span> <span class="toc-text">2018年4月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#04-18-%E4%BF%AE%E5%A4%8D"><span class="toc-number">13.1.</span> <span class="toc-text">04-18 修复</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2017%E5%B9%B412%E6%9C%88"><span class="toc-number">14.</span> <span class="toc-text">2017年12月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#12-31-%E4%BC%98%E5%8C%96"><span class="toc-number">14.1.</span> <span class="toc-text">12-31 优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-28-%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95%E5%8A%9F%E8%83%BD"><span class="toc-number">14.2.</span> <span class="toc-text">12-28 添加自定义菜单功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-27-%E6%8F%92%E4%BB%B6%E6%B7%BB%E5%8A%A0"><span class="toc-number">14.3.</span> <span class="toc-text">12-27 插件添加</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-26-%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96"><span class="toc-number">14.4.</span> <span class="toc-text">12-26 功能优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-24-%E5%8A%9F%E8%83%BD%E6%B7%BB%E5%8A%A0"><span class="toc-number">14.5.</span> <span class="toc-text">12-24 功能添加</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2017%E5%B9%B410%E6%9C%88"><span class="toc-number">15.</span> <span class="toc-text">2017年10月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#10-21-%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4"><span class="toc-number">15.1.</span> <span class="toc-text">10-21 样式调整</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-20-%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4%E4%B8%8E%E6%B7%BB%E5%8A%A0"><span class="toc-number">15.2.</span> <span class="toc-text">10-20 样式调整与添加</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-07"><span class="toc-number">15.3.</span> <span class="toc-text">10-07</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2017%E5%B9%B49%E6%9C%88"><span class="toc-number">16.</span> <span class="toc-text">2017年9月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#09-21"><span class="toc-number">16.1.</span> <span class="toc-text">09-21</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2017%E5%B9%B47%E6%9C%88"><span class="toc-number">17.</span> <span class="toc-text">2017年7月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#07-05-%E6%B7%BB%E5%8A%A0MathJax%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%94%AF%E6%8C%81"><span class="toc-number">17.1.</span> <span class="toc-text">07-05 添加MathJax数学公式支持</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2017%E5%B9%B46%E6%9C%88"><span class="toc-number">18.</span> <span class="toc-text">2017年6月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#06-26-%E6%B7%BB%E5%8A%A0gitment%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F"><span class="toc-number">18.1.</span> <span class="toc-text">06-26 添加gitment评论系统</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2017%E5%B9%B44%E6%9C%88"><span class="toc-number">19.</span> <span class="toc-text">2017年4月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#04-27-%E8%B0%83%E6%95%B4%E6%A0%B7%E5%BC%8F"><span class="toc-number">19.1.</span> <span class="toc-text">04-27 调整样式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#04-19-%E8%B0%83%E6%95%B4%E6%A0%B7%E5%BC%8F%E5%92%8C%E4%BF%AE%E5%A4%8Dbug"><span class="toc-number">19.2.</span> <span class="toc-text">04-19 调整样式和修复bug</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#04-17-%E8%B0%83%E6%95%B4%E6%A0%B7%E5%BC%8F%E5%8F%8A%E4%BF%AE%E5%A4%8Dbug"><span class="toc-number">19.3.</span> <span class="toc-text">04-17 调整样式及修复bug</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2017%E5%B9%B43%E6%9C%88"><span class="toc-number">20.</span> <span class="toc-text">2017年3月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#03-29-%E5%A2%9E%E5%BC%BA%E6%96%87%E7%AB%A0%E5%88%97%E8%A1%A8%E4%B8%8A%E4%B8%8B%E9%94%AE%E5%8A%9F%E8%83%BD"><span class="toc-number">20.1.</span> <span class="toc-text">03-29 增强文章列表上下键功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-24-%E4%BF%AE%E5%A4%8D%E6%90%9C%E7%B4%A2%E5%8F%8A%E6%B7%BB%E5%8A%A0%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="toc-number">20.2.</span> <span class="toc-text">03-24 修复搜索及添加快捷键</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-22-%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F"><span class="toc-number">20.3.</span> <span class="toc-text">03-22 添加评论系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-21-%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7%E5%8A%A8%E7%94%BB"><span class="toc-number">20.4.</span> <span class="toc-text">03-21 图片放大动画</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-20-%E8%AF%84%E8%AE%BA%E6%B7%BB%E5%8A%A0%E9%94%9A%E7%82%B9"><span class="toc-number">20.5.</span> <span class="toc-text">03-20 评论添加锚点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-19-%E4%BF%AE%E5%A4%8Dfirfox%E9%94%99%E4%BD%8D%E9%97%AE%E9%A2%98"><span class="toc-number">20.6.</span> <span class="toc-text">03-19 修复firfox错位问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-18-%E5%8A%A8%E7%94%BB%E4%BC%98%E5%8C%96%E5%8F%8A%E4%BF%AE%E5%A4%8Dbug"><span class="toc-number">20.7.</span> <span class="toc-text">03-18 动画优化及修复bug</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-17-%E8%AF%84%E8%AE%BA%E8%B0%83%E6%95%B4%E4%BC%98%E5%8C%96"><span class="toc-number">20.8.</span> <span class="toc-text">03-17 评论调整优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-16-%E6%96%87%E7%AB%A0meta%E6%A0%B7%E5%BC%8F%E4%BF%AE%E6%94%B9"><span class="toc-number">20.9.</span> <span class="toc-text">03-16 文章meta样式修改</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-15-%E5%A2%9E%E5%8A%A0%E6%A0%B7%E5%BC%8F"><span class="toc-number">20.10.</span> <span class="toc-text">03-15 增加样式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-14-%E6%89%93%E8%B5%8F%E4%BC%98%E5%8C%96"><span class="toc-number">20.11.</span> <span class="toc-text">03-14 打赏优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-13-%E9%A6%96%E9%A1%B5%E9%87%8D%E6%9E%84"><span class="toc-number">20.12.</span> <span class="toc-text">03-13 首页重构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-09-%E4%BF%AE%E5%A4%8D%E5%A4%9A%E8%AF%B4%E3%80%81%E6%B7%BB%E5%8A%A0%E6%B5%81%E9%87%8F%E7%BB%9F%E8%AE%A1"><span class="toc-number">20.13.</span> <span class="toc-text">03-09 修复多说、添加流量统计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-06-%E6%B7%BB%E5%8A%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD"><span class="toc-number">20.14.</span> <span class="toc-text">03-06 添加打赏功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-04-%E6%B7%BB%E5%8A%A0%E4%BD%9C%E8%80%85%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E6%8F%90%E7%A4%BA"><span class="toc-number">20.15.</span> <span class="toc-text">03-04 添加作者和标签的提示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-03-%E4%BF%AE%E5%A4%8D%E5%A4%9A%E4%BD%9C%E8%80%85%E6%A8%A1%E5%BC%8F"><span class="toc-number">20.16.</span> <span class="toc-text">03-03 修复多作者模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#03-02-%E5%9B%BE%E7%89%87%E6%A0%B7%E5%BC%8F%E6%94%B9%E5%8A%A8"><span class="toc-number">20.17.</span> <span class="toc-text">03-02 图片样式改动</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2017%E5%B9%B42%E6%9C%88"><span class="toc-number">21.</span> <span class="toc-text">2017年2月</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#02-28-%E5%A4%9A%E4%BD%9C%E8%80%85%E6%A8%A1%E5%BC%8F"><span class="toc-number">21.1.</span> <span class="toc-text">02-28 多作者模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#02-27-%E8%B0%83%E6%95%B4%E6%A0%B7%E5%BC%8F"><span class="toc-number">21.2.</span> <span class="toc-text">02-27 调整样式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#02-25-%E4%BF%AE%E6%94%B9github%E4%BB%93%E5%BA%93%E5%90%8D"><span class="toc-number">21.3.</span> <span class="toc-text">02-25 修改github仓库名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#02-24-%E7%AB%99%E7%82%B9%E7%89%88%E6%9D%83%E3%80%81ICON%E5%92%8C%E7%BD%AE%E9%A1%B6"><span class="toc-number">21.4.</span> <span class="toc-text">02-24 站点版权、ICON和置顶</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#02-20-%E4%BB%A3%E7%A0%81%E5%9D%97%E9%AB%98%E4%BA%AE%E4%B8%BB%E9%A2%98"><span class="toc-number">21.5.</span> <span class="toc-text">02-20 代码块高亮主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#02-19-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D"><span class="toc-number">21.6.</span> <span class="toc-text">02-19 移动端适配</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#02-08-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F"><span class="toc-number">21.7.</span> <span class="toc-text">02-08 评论系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#02-07-%E6%A0%B7%E5%BC%8F%E5%8F%8A%E5%8A%A8%E7%94%BB%E6%96%B0%E5%A2%9E%E4%BF%AE%E6%94%B9"><span class="toc-number">21.8.</span> <span class="toc-text">02-07 样式及动画新增修改</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#02-06-%E5%8A%9F%E8%83%BD%E5%92%8C%E6%A0%B7%E5%BC%8F%E5%BC%80%E5%8F%91"><span class="toc-number">21.9.</span> <span class="toc-text">02-06 功能和样式开发</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#02-05-%E5%BC%80%E6%BA%903-hexo%E4%B8%BB%E9%A2%98"><span class="toc-number">21.10.</span> <span class="toc-text">02-05 开源3-hexo主题</span></a></li></ol></li></ol>
+    </div>
+  </section>
+
+
+  
+
+  
+    
+    
+
+<section class="widget blogger shadow blur floatable desktop mobile">
+  <div class='content'>
+    
+      
+        <a class='avatar flat-box circle' href='/about/'>
+          <img no-lazy src='/img/avatar.jpg'/>
+        </a>
+      
+    
+    
+      <div class='text'>
+        
+          <h2>杨晓东</h2>
+        
+        
+          <p>过去无法挽回，<br>未来可以改变！</p>
+
+        
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3458888444&amp;site=qq&amp;menu=yes"
+              class="social fab fa-qq flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="mailto:3458888444@qq.com"
+              class="social fas fa-envelope flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="http://www.demo443.com"
+              class="social fas fa-wrench flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="https://music.163.com/"
+              class="social fas fa-music flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+<section class="widget shadow blur floatable desktop">
+  
+  <header>
+    
+      <i class="fas fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="webinfo">
+      
+        <div class="webinfo-item">
+          <div>文章数目：</div>
+          <div>146 篇</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>已运行时间：</div>
+          <div id="webinfo-runtime-count" publish_date="03/24/2020 21:34:09"></div>
+        </div>
+        <script>
+          var BirthDay = new Date(new Date('2021/08/23'));
+          var today = new Date();
+          var timeold = (today.getTime() - BirthDay.getTime());
+          var daysold = Math.floor(timeold / (24 * 60 * 60 * 1000));
+          document.getElementById('webinfo-runtime-count').innerHTML = daysold + ' 天';
+        </script>
+      
+
+
+      
+        <div class="webinfo-item">
+          <div>本站总字数：</div>
+          <div>167.4k 字</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站访客数：</div>
+          
+          <div><span id="busuanzi_value_site_uv"><i class="fas fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 人</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站总访问量：</div>
+          
+          <div><span id="busuanzi_value_site_pv"><i class="fas fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 次</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>最后活动时间：</div>
+          
+            <div id="last-update" style="display: none;">Fri Dec 24 2021 18:44:52 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2021-12-24 日</div>
+          
+        </div>
+        
+        <script>
+          function timeago(dateTimeStamp) {
+              var minute = 1000 * 60; //把分，时，天，周，半个月，一个月用毫秒表示
+              var hour = minute * 60;
+              var day = hour * 24;
+              var week = day * 7;
+              var month = day * 30;
+              var now = new Date().getTime(); //获取当前时间毫秒
+              var diffValue = now - dateTimeStamp; //时间差
+              if (diffValue < 0) {
+                  return;
+              }
+              var minC = diffValue / minute; //计算时间差的分，时，天，周，月
+              var hourC = diffValue / hour;
+              var dayC = diffValue / day;
+              var weekC = diffValue / week;
+              var monthC = diffValue / month;
+              if (monthC >= 1 && monthC <= 3) {
+                  result = " " + parseInt(monthC) + " 月前"
+              } else if (weekC >= 1 && weekC <= 3) {
+                  result = " " + parseInt(weekC) + " 周前"
+              } else if (dayC >= 1 && dayC <= 6) {
+                  result = " " + parseInt(dayC) + " 天前"
+              } else if (hourC >= 1 && hourC <= 23) {
+                  result = " " + parseInt(hourC) + " 小时前"
+              } else if (minC >= 1 && minC <= 59) {
+                  result = " " + parseInt(minC) + " 分钟前"
+              } else if (diffValue >= 0 && diffValue <= minute) {
+                  result = "刚刚"
+              } else {
+                  var datetime = new Date();
+                  datetime.setTime(dateTimeStamp);
+                  var Nyear = datetime.getFullYear();
+                  var Nmonth = datetime.getMonth() + 1 < 10 ? "0" + (datetime.getMonth() + 1) : datetime.getMonth() + 1;
+                  var Ndate = datetime.getDate() < 10 ? "0" + datetime.getDate() : datetime.getDate();
+                  var Nhour = datetime.getHours() < 10 ? "0" + datetime.getHours() : datetime.getHours();
+                  var Nminute = datetime.getMinutes() < 10 ? "0" + datetime.getMinutes() : datetime.getMinutes();
+                  var Nsecond = datetime.getSeconds() < 10 ? "0" + datetime.getSeconds() : datetime.getSeconds();
+                  result = Nyear + "-" + Nmonth + "-" + Ndate
+              }
+              return result;
+          }
+          var lastUpDate = document.getElementById('last-update').innerHTML;
+          try {
+            document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
+          } catch (error) {
+            document.getElementById('last-update-show').innerHTML = '2021-12-24 日';
+          }
+        </script>
+        
+      
+    </div>
+  </div>
+</section>
+
+  
+
+
+</aside>
+
+
+
+		  
+		  <!--此文件用来存放一些不方便取值的变量-->
+<!--思路大概是将值藏到重加载的区域内-->
+
+<script>
+  window.pdata={}
+  pdata.ispage=true;
+  pdata.postTitle="3-hexo开发日志-持续更新";
+  pdata.commentPath="";
+  pdata.commentPlaceholder="";
+  // header 这里无论是否开启pjax都需要
+  var l_header=document.getElementById("l_header");
+  
+  l_header.classList.add("show");
+  
+  
+    // cover
+    var cover_wrapper=document.querySelector('.cover-wrapper');
+    
+    cover_wrapper.id="none";
+    cover_wrapper.style.display="none";
+    
+  
+</script>
+
+        </div>
+        
+  
+  <footer class="footer clearfix">
+    <br><br>
+    
+      
+        <div class="aplayer-container">
+          
+
+  
+    <meting-js
+      theme='#1BCDFC'
+      autoplay='false'
+      volume='0.7'
+      loop='all'
+      order='random'
+      fixed='false'
+      list-max-height='320px'
+      server='netease'
+      type='playlist'
+      id='6929517097'
+      list-folded='true'>
+    </meting-js>
+  
+
+
+        </div>
+      
+    
+      
+        <div class='copyright'>
+        <p><a href="/">Copyright © 2021 yangkaiqun</a></p>
+
+        </div>
+      
+    
+      
+        
+          <div><p><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">黔ICP备2021004952号</a></p>
+</div>
+        
+      
+    
+      
+        
+          <div><p><img src="/img/gov.png" class="lazyload" data-srcset="/img/gov.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="> <a target="_blank" rel="noopener" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52032102000646/">公安备案号52032102000646</a></p>
+</div>
+        
+      
+    
+  </footer>
+
+
+        <a id="s-top" class="fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+      </div>
+    </div>
+    <div>
+      <script>
+/************这个文件存放不需要重载的全局变量和全局函数*********/
+window.volantis={};
+window.volantis.loadcss=document.getElementById("loadcss");
+/******************** Pjax ********************************/
+function VPjax(){
+	this.list=[] // 存放回调函数
+	this.start=()=>{
+	  for(var i=0;i<this.list.length;i++){
+		this.list[i].run();
+	  }
+	}
+	this.push=(fn,name)=>{
+		var f=new PjaxItem(fn,name);
+		this.list.push(f);
+	}
+	// 构造一个可以run的对象
+	function PjaxItem(fn,name){
+		// 函数名称
+		this.name = name || fn.name
+		// run方法
+		this.run=()=>{
+			fn()
+		}
+	}
+}
+volantis.pjax={}
+volantis.pjax.method={
+	complete: new VPjax(),
+	error: new VPjax(),
+	send: new VPjax()
+}
+volantis.pjax={
+	...volantis.pjax,
+	push: volantis.pjax.method.complete.push,
+	error: volantis.pjax.method.error.push,
+	send: volantis.pjax.method.send.push
+}
+/********************脚本懒加载函数********************************/
+// 已经加入了setTimeout
+function loadScript(src, cb) {
+	setTimeout(function() {
+		var HEAD = document.getElementsByTagName('head')[0] || document.documentElement;
+		var script = document.createElement('script');
+		script.setAttribute('type','text/javascript');
+		if (cb) script.onload = cb;
+		script.setAttribute('src', src);
+		HEAD.appendChild(script);
+	});
+}
+//https://github.com/filamentgroup/loadCSS
+var loadCSS = function( href, before, media, attributes ){
+	var doc = window.document;
+	var ss = doc.createElement( "link" );
+	var ref;
+	if( before ){
+		ref = before;
+	}
+	else {
+		var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
+		ref = refs[ refs.length - 1];
+	}
+	var sheets = doc.styleSheets;
+	if( attributes ){
+		for( var attributeName in attributes ){
+			if( attributes.hasOwnProperty( attributeName ) ){
+				ss.setAttribute( attributeName, attributes[attributeName] );
+			}
+		}
+	}
+	ss.rel = "stylesheet";
+	ss.href = href;
+	ss.media = "only x";
+	function ready( cb ){
+		if( doc.body ){
+			return cb();
+		}
+		setTimeout(function(){
+			ready( cb );
+		});
+	}
+	ready( function(){
+		ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
+	});
+	var onloadcssdefined = function( cb ){
+		var resolvedHref = ss.href;
+		var i = sheets.length;
+		while( i-- ){
+			if( sheets[ i ].href === resolvedHref ){
+				return cb();
+			}
+		}
+		setTimeout(function() {
+			onloadcssdefined( cb );
+		});
+	};
+	function loadCB(){
+		if( ss.addEventListener ){
+			ss.removeEventListener( "load", loadCB );
+		}
+		ss.media = media || "all";
+	}
+	if( ss.addEventListener ){
+		ss.addEventListener( "load", loadCB);
+	}
+	ss.onloadcssdefined = onloadcssdefined;
+	onloadcssdefined( loadCB );
+	return ss;
+};
+</script>
+<script>
+  
+  loadCSS("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/css/all.min.css", window.volantis.loadcss);
+  
+  
+  loadCSS("https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css", window.volantis.loadcss);
+  
+  
+  loadCSS("https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css", window.volantis.loadcss);
+  
+  
+  loadCSS("https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/styles/solarized-light.min.css", window.volantis.loadcss);
+  
+</script>
+<!-- required -->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
+
+<script>
+  function pjax_fancybox() {
+    $(".md .gallery").find("img").each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("class", "fancybox");
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 判断当前页面是否存在描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".md .gallery").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  function SCload_fancybox() {
+    if ($(".md .gallery").find("img").length == 0) return;
+    loadCSS("https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css", document.getElementById("loadcss"));
+    loadScript('https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js', pjax_fancybox)
+  };
+  $(function () {
+    SCload_fancybox();
+  });
+  function Pjax_SCload_fancybox(){
+	if (typeof $.fancybox == "undefined") {
+	 SCload_fancybox();
+    } else {
+	 pjax_fancybox();
+    }
+  }
+  volantis.pjax.push(Pjax_SCload_fancybox)
+  volantis.pjax.send(()=>{
+      if (typeof $.fancybox != "undefined") {
+        $.fancybox.close();    // 关闭弹窗
+      }
+  },'fancybox')
+</script>
+
+
+<!-- internal -->
+
+
+
+  
+  
+
+  <div id="rightmenu-wrapper">
+    <ul class="list-v rightmenu" id="rightmenu-content">
+      <li class='option'>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-copy-text' onclick="document.execCommand('copy')"><i class='fa fa-copy fa-fw'></i>复制文本</a>
+        <hr id='hr-text'>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-copy-href'><i class='fa fa-link fa-fw'></i>复制链接</a>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-open-href'><i class='fa fa-external-link-square-alt fa-fw'></i>在新标签页打开</a>
+        <hr id='hr-href'>
+        <a class='vlts-menu opt fix-cursor-default' id='menu-copy-src'><i class='fa fa-image fa-fw'></i>复制图片地址</a>
+        <hr id='hr-src'>
+      </li>
+      
+        <li class='navigation'>
+          <a class='nav icon-only fix-cursor-default' onclick='history.back()'><i class='fa fa-arrow-left fa-fw'></i></a>
+          <a class='nav icon-only fix-cursor-default' onclick='history.forward()'><i class='fa fa-arrow-right fa-fw'></i></a>
+          <a class='nav icon-only fix-cursor-default' onclick='window.location.reload()'><i class='fa fa-redo fa-fw'></i></a>
+          <a class='nav icon-only fix-cursor-default' href='/'><i class='fa fa-home fa-fw'></i></a>
+        </li>
+      
+      <hr>
+      
+        
+      
+        
+          <hr>
+        
+      
+        
+          
+    <li>
+      <a class='vlts-menu fix-cursor-default ' href=http://www.demo443.com
+        
+        
+        
+        
+          id="http:wwwdemo443com"
+        >
+        <i class='fa fa-fan fa-spin fa-fw'></i> 工具箱
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
+      <a class='vlts-menu fix-cursor-default ' 
+        
+        
+        
+          onclick="document.execCommand('print')"
+        
+        >
+        <i class='fa fa-print fa-fw'></i> 打印页面
+      </a>
+    </li>
+  
+        
+      
+        
+          <li class='music name'>
+            <p class='nav music-title fix-cursor-default'></p>
+          </li>
+          <li class='music ctrl'>
+            <a class='nav icon-only backward fix-cursor-default' onclick='aplayerBackward()'><i class='fa fa-step-backward fa-fw'></i></a>
+            <a class='nav icon-only toggle fix-cursor-default' onclick='aplayerToggle()'><i class='fa fa-play fa-fw'></i></a>
+            <a class='nav icon-only forward fix-cursor-default' onclick='aplayerForward()'><i class='fa fa-step-forward fa-fw'></i></a>
+          </li>
+          <li class='music volume'>
+            <a class='nav volume'>
+              <div class="aplayer-volume-bar-wrap">
+                <div class="aplayer-volume-bar fix-cursor-pointer">
+                  <div class="aplayer-volume"></div>
+                  <i class='left fa fa-volume-off fa-fw'></i>
+                  <i class='right fa fa-volume-up fa-fw'></i>
+                </div>
+              </div>
+            </a>
+          </li>
+        
+      
+    </ul>
+  </div>
+
+  <script>
+    window.document.oncontextmenu = function (event) {
+      if (event.ctrlKey) return true;
+      if (/Android|webOS|BlackBerry/i.test(navigator.userAgent)) return true;
+      return popMenu(event);
+    };
+    document.addEventListener("click", function (event) {
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      mymenu.style.display = "none";
+    });
+    function popMenu(event) {
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      var menuContent = document.getElementById('rightmenu-content');
+      var screenWidth = document.documentElement.clientWidth || document.body.clientWidth;
+      var screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
+      mymenu.style.left = event.clientX + "px"; // 获取鼠标位置
+      mymenu.style.top = event.clientY + "px";
+      mymenu.style.display = 'block';
+      if (event.clientX * 2 > screenWidth) {
+        menuContent.classList.add('left');
+      } else {
+        menuContent.classList.remove('left');
+      }
+      if (event.clientY * 2 > screenHeight) {
+        menuContent.classList.add('top');
+      } else {
+        menuContent.classList.remove('top');
+      }
+
+      let hrText = document.getElementById('hr-text');
+      let hrSrc = document.getElementById('hr-src');
+      let hrHref = document.getElementById('hr-href');
+
+      // 选中图片
+      let copySrc = document.getElementById('menu-copy-src');
+      if (copySrc != undefined) {
+        if (event.target.currentSrc) {
+          copySrc.style.display = 'block';
+          copySrc.addEventListener("click", function (e) {
+            copyString(event.target.currentSrc);
+          },{once: true});
+          hrSrc.style.display = 'block';
+        } else {
+          copySrc.style.display = 'none';
+          hrSrc.style.display = 'none';
+        }
+      }
+
+      // 选中按钮
+      // 判断是不是按钮
+      let href = '';
+      if (event.path) {
+        for (i = 0; i < event.path.length; i++) {
+          if (event.path[i].href != undefined && event.path[i].href.length > 0) {
+            href = event.path[i].href;
+          }
+        }
+      }
+
+      let copyText = document.getElementById('menu-copy-text');
+      copyText.style.display = 'none';
+      hrText.style.display = 'none';
+      if (href.length == 0) {
+        // 选中文本
+        if (window.getSelection().toString()) {
+          if ('true' == 'true') {
+            copyText.style.display = 'block';
+            hrText.style.display = 'block';
+          }
+        }
+      }
+
+      // 在新标签页打开
+      let openHref = document.getElementById('menu-open-href');
+      if (openHref != undefined) {
+        if (href.length > 0) {
+          openHref.style.display = 'block';
+          openHref.addEventListener("click", function (e) {
+            window.open(href);
+          },{once: true});
+          hrHref.style.display = 'block';
+        } else {
+          openHref.style.display = 'none';
+          hrHref.style.display = 'none';
+        }
+      }
+      // 复制链接
+      let copyHref = document.getElementById('menu-copy-href');
+      if (copyHref != undefined) {
+        if (href.length > 0) {
+          copyHref.style.display = 'block';
+          copyHref.addEventListener("click", function (e) {
+            copyString(href);
+          },{once: true});
+        } else {
+          copyHref.style.display = 'none';
+        }
+      }
+      // 有音乐播放器 see: layout/_third-party/aplayer/script.ejs
+      
+      if(volantis.APlayerLoaded){ // APlayer加载完成？
+        // 如果有aplayer，初始化一下
+        checkAPlayer();
+      }
+      
+      return false; // 该行代码确保系统自带的右键菜单不会被调出
+    }
+    function hideMenu() {
+      document.getElementById('rightmenu-wrapper').style.display = 'none';
+    }
+    function copyString(str) {
+      const input = document.createElement('input');
+      input.setAttribute('readonly', 'readonly');
+      document.body.appendChild(input);
+      input.setAttribute('value', str);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+    }
+    document.execCommand('click');
+  </script>
+
+
+
+
+<script>
+  function loadIssuesJS() {
+    if ($(".md").find(".issues-api").length == 0) return;
+	
+	  loadScript('/js/issues.js');
+	
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+  volantis.pjax.push(()=>{
+	if (typeof IssuesAPI == "undefined") {
+	  loadIssuesJS();
+	}
+  },"IssuesJS")
+</script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+
+
+  
+
+<script async src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn-copy', {
+        target: function (trigger) {
+            return trigger.nextElementSibling
+        }
+    });
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+    function pjax_initCopyCode() {
+		if($(".highlight .code pre").length+$(".article pre code").length==0)return;
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        clipboard.off('success').on('success', function (e) {
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.off('error').on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });
+	volantis.pjax.push(pjax_initCopyCode)
+</script>
+
+
+
+
+   <script type="text/javascript">
+  loadScript("https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js")
+  function pjax_scrollrebeal() {
+    ScrollReveal().reveal('.l_main .reveal', {
+      distance: '32px',
+      duration: '800',
+      interval: '20',
+      scale: '1',
+      easing: 'ease-out'
+    });
+  }
+  $(function () {
+  var checkScrollReveal = setInterval(function () {
+    if ($("#safearea").css("display")!="block") return
+    if (typeof ScrollReveal=="undefined") return
+    clearInterval(checkScrollReveal)
+	pjax_scrollrebeal();
+  }, 100)
+  });
+  volantis.pjax.push(pjax_scrollrebeal)
+</script>
+
+
+
+
+  <script>
+  let APlayerController = new Object();
+  APlayerController.id = '6929517097';  // 设定全局音乐播放ID
+  APlayerController.volume = '0.7';
+  loadCSS("https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css", window.volantis.loadcss);
+  // APlayer 需要在  MetingJS 之前加载
+  loadScript("https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js")
+  window.volantis.APlayerLoaded=0 // APlayer加载完成状态
+  var checkAPlayer = setInterval(function () {
+    if (!window.APlayer) return // APlayer加载完成？
+	  if ($("#safearea").css("display")!="block") return // 文章内容加载完成？ see: source/css/first.styl
+    clearInterval(checkAPlayer)
+	  if (!window.volantis.APlayerLoaded&&!window.MetingJSElement){ // APlayer只能加载一次
+      window.volantis.APlayerLoaded=1 // APlayer加载完成
+      loadScript("https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js") // 加载 MetingJS
+	  }
+  }, 2500) // 按照网速调节差分2.5s
+  // rightmenu see: layout/_partial/rightmenu.ejs
+
+  
+    loadScript("/js/aplayer.js")
+  
+
+</script>
+
+
+
+
+  
+  
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js"></script>
+
+
+<script>
+  function emoji(path, idx, ext) {
+    return path + "/" + path + "-" + idx + "." + ext;
+  }
+  var emojiMaps = {};
+  for (var i = 1; i <= 54; i++) {
+    emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+  }
+  for (var i = 1; i <= 101; i++) {
+    emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+  }
+  for (var i = 1; i <= 116; i++) {
+    emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+  }
+  for (var i = 1; i <= 125; i++) {
+    emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+  }
+  for (var i = 1; i <= 4; i++) {
+    emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+  }
+  function pjax_valine() {
+    if(!document.querySelectorAll("#valine_container")[0])return;
+    let pagePlaceholder = pdata.commentPlaceholder || "快来评论吧~";
+    let path = pdata.commentPath;
+    if (path.length == 0) {
+      let defaultPath = '';
+      path = defaultPath || decodeURI(window.location.pathname);
+    }
+    var valine = new Valine();
+    valine.init(Object.assign({"path":null,"placeholder":"快来评论吧~","appId":"0tm20G2zAnSoNq82yF7TCkjp-gzGzoHsz","appKey":"gdthrGg8z8Gw8swEWqKfwMli","meta":["nick","mail","link"],"requiredFields":["nick","mail"],"enableQQ":true,"recordIP":true,"avatar":"robohash","pageSize":10,"lang":"zh-cn","highlight":true,"mathJax":false,"js":"https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js","visitor":true}, {
+      el: '#valine_container',
+      path: path,
+      placeholder: pagePlaceholder,
+      emojiCDN: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/valine/',
+      emojiMaps: emojiMaps,
+    }))
+  }
+  $(function () {
+    pjax_valine();
+  });
+  volantis.pjax.push(pjax_valine);
+</script>
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script>
+
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+<!-- optional -->
+
+  <script>
+const SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/";
+const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
+
+$('.input.u-search-input').one('focus',function(){
+	
+		loadScript('https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2.6.4/js/search.js',setSearchService);
+	
+})
+
+function listenSearch(){
+  
+    customSearch = new HexoSearch({
+      imagePath: SearchServiceimagePath
+    });
+  
+}
+function setSearchService() {
+	listenSearch();
+	
+		document.addEventListener("pjax:success", listenSearch);
+	
+}
+</script>
+
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+  Waves.attach('.flat-btn', ['waves-button']);
+  Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+  Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+  Waves.attach('.flat-box', ['waves-block']);
+  Waves.attach('.float-box', ['waves-block', 'waves-float']);
+  Waves.attach('.waves-image');
+  Waves.init();
+});
+</script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
+
+  
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+volantis.pjax.push(()=>{
+	document.querySelectorAll('pre code').forEach((block) => {
+	  hljs.highlightBlock(block);
+	});
+},"highlightjs")
+</script>
+
+
+
+
+
+  <script>
+const rootElement = document.documentElement;
+const darkModeStorageKey = "user-color-scheme";
+const rootElementDarkModeAttributeName = "data-user-color-scheme";
+
+const setLS = (k, v) => {
+    localStorage.setItem(k, v);
+};
+
+const removeLS = (k) => {
+    localStorage.removeItem(k);
+};
+
+const getLS = (k) => {
+    return localStorage.getItem(k);
+};
+
+const getModeFromCSSMediaQuery = () => {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
+
+const resetRootDarkModeAttributeAndLS = () => {
+  rootElement.removeAttribute(rootElementDarkModeAttributeName);
+  removeLS(darkModeStorageKey);
+};
+
+const validColorModeKeys = {
+  dark: true,
+  light: true,
+};
+
+const applyCustomDarkModeSettings = (mode) => {
+  const currentSetting = mode || getLS(darkModeStorageKey);
+
+  if (currentSetting === getModeFromCSSMediaQuery()) {
+    resetRootDarkModeAttributeAndLS();
+  } else if (validColorModeKeys[currentSetting]) {
+    rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
+  } else {
+    resetRootDarkModeAttributeAndLS();
+  }
+};
+
+const invertDarkModeObj = {
+  dark: "light",
+  light: "dark",
+};
+
+/**
+ * get target mode
+ */
+const toggleCustomDarkMode = () => {
+  let currentSetting = getLS(darkModeStorageKey);
+
+  if (validColorModeKeys[currentSetting]) {
+    currentSetting = invertDarkModeObj[currentSetting];
+  } else if (currentSetting === null) {
+    currentSetting = invertDarkModeObj[getModeFromCSSMediaQuery()];
+  } else {
+    return;
+  }
+  setLS(darkModeStorageKey, currentSetting);
+  return currentSetting;
+};
+
+/**
+ * bind click event for toggle button
+ */
+var btn=$("#wrapper .toggle-mode-btn,#rightmenu-wrapper .toggle-mode-btn");
+function bindToggleButton() {
+    btn.on('click',(e) => {
+      const mode = toggleCustomDarkMode();
+      applyCustomDarkModeSettings(mode);
+    });
+}
+
+applyCustomDarkModeSettings();
+document.addEventListener("DOMContentLoaded", bindToggleButton);
+volantis.pjax.push(bindToggleButton);
+volantis.pjax.send(()=>{
+	btn.unbind('click');
+},'toggle-mode-btn-unbind');
+</script>
+
+
+
+
+
+<!-- baidu Analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  setTimeout(function() {
+    loadScript("https://hm.baidu.com/hm.js?VnXOrCA4S07hLqXKYg8UjNVb")
+  }, 5000);
+})();
+// 关于百度统计对 SPA 页面的处理：
+// 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+// 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]);},'baidu_analytics')
+</script>
+
+
+
+
+<script>
+function listennSidebarTOC() {
+  const navItems = document.querySelectorAll(".toc li");
+  if (!navItems.length) return;
+  const sections = [...navItems].map((element) => {
+    const link = element.querySelector(".toc-link");
+    const target = document.getElementById(
+      decodeURI(link.getAttribute("href")).replace("#", "")
+    );
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.scrollTo({
+		top: target.offsetTop + 100,
+		
+		behavior: "smooth"
+		
+	  });
+    });
+    return target;
+  });
+
+  function activateNavByIndex(target) {
+    if (target.classList.contains("active-current")) return;
+
+    document.querySelectorAll(".toc .active").forEach((element) => {
+      element.classList.remove("active", "active-current");
+    });
+    target.classList.add("active", "active-current");
+    let parent = target.parentNode;
+    while (!parent.matches(".toc")) {
+      if (parent.matches("li")) parent.classList.add("active");
+      parent = parent.parentNode;
+    }
+  }
+
+  function findIndex(entries) {
+    let index = 0;
+    let entry = entries[index];
+    if (entry.boundingClientRect.top > 0) {
+      index = sections.indexOf(entry.target);
+      return index === 0 ? 0 : index - 1;
+    }
+    for (; index < entries.length; index++) {
+      if (entries[index].boundingClientRect.top <= 0) {
+        entry = entries[index];
+      } else {
+        return sections.indexOf(entry.target);
+      }
+    }
+    return sections.indexOf(entry.target);
+  }
+
+  function createIntersectionObserver(marginTop) {
+    marginTop = Math.floor(marginTop + 10000);
+    let intersectionObserver = new IntersectionObserver(
+      (entries, observe) => {
+        let scrollHeight = document.documentElement.scrollHeight + 100;
+        if (scrollHeight > marginTop) {
+          observe.disconnect();
+          createIntersectionObserver(scrollHeight);
+          return;
+        }
+        let index = findIndex(entries);
+        activateNavByIndex(navItems[index]);
+      },
+      {
+        rootMargin: marginTop + "px 0px -100% 0px",
+        threshold: 0,
+      }
+    );
+    sections.forEach((element) => {
+      element && intersectionObserver.observe(element);
+    });
+  }
+  createIntersectionObserver(document.documentElement.scrollHeight);
+}
+
+document.addEventListener("DOMContentLoaded", listennSidebarTOC);
+document.addEventListener("pjax:success", listennSidebarTOC);
+</script>
+
+<!-- more -->
+
+ 
+	   
+	    
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+
+
+<script>
+    var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          
+          "#pjax-container",
+          "#pjax-header-nav-list"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+      //window.stop(); // 相当于点击了浏览器的停止按钮
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+
+      volantis.$switcher.removeClass('active'); // 关闭移动端激活的搜索框
+      volantis.$header.removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      volantis.$wrapper.removeClass('sub'); // 跳转页面时关闭二级导航
+
+      // 解绑事件 避免重复监听
+      volantis.$topBtn.unbind('click');
+      $('.menu a').unbind('click');
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+	  // 使用 volantis.pjax.send 方法传入pjax:send回调函数 参见layout/_partial/scripts/global.ejs
+	  volantis.pjax.method.send.start();
+    });
+
+    document.addEventListener('pjax:complete', function () {
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+      try{
+		// 使用 volantis.pjax.push 方法传入重载函数 参见layout/_partial/scripts/global.ejs
+		volantis.pjax.method.complete.start();
+      } catch (e) {
+        console.log(e);
+      }
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+	  // 使用 volantis.pjax.error 方法传入pjax:error回调函数 参见layout/_partial/scripts/global.ejs
+	  volantis.pjax.method.error.start();
+      window.location.href = e.triggerElement.href;
+    });
+</script>
+ 
+	  
+    </div>
+  </body>
+</html>
