@@ -1112,7 +1112,7 @@ PostgreSQL 是一个基于 POSTGRES, Version 4.2 的对象关系数据库系统�
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Fri Dec 24 2021 18:44:54 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Fri Dec 24 2021 22:12:11 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2021-12-24 日</div>
           
         </div>
@@ -1236,23 +1236,9 @@ PostgreSQL 是一个基于 POSTGRES, Version 4.2 的对象关系数据库系统�
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © 2021 yangkaiqun</a></p>
+        <p><a href="/">Copyright © 2021 ☕憩息屋 All Rights Reserved. designed and developed by yangkaiqun.</a></p>
 
         </div>
-      
-    
-      
-        
-          <div><p><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">黔ICP备2021004952号</a></p>
-</div>
-        
-      
-    
-      
-        
-          <div><p><img src="/img/gov.png" class="lazyload" data-srcset="/img/gov.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII="> <a target="_blank" rel="noopener" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52032102000646/">公安备案号52032102000646</a></p>
-</div>
-        
       
     
   </footer>
