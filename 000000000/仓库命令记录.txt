@@ -1,0 +1,35 @@
+# 建好仓库之后  Git中绑定
+ssh-keygen -t rsa -C "lzj155@foxmail.com"
+# 测试是否绑定成功
+ssh -T git@github.com
+# 安装hexo
+npm install -g hexo
+# 初始化
+hexo init
+# 生成
+hexo g
+# 启动服务
+hexo s
+# 修改_config.yml
+deploy:
+  type: git
+  repository: https://github.com/Matt00789/Matt00789.github.io.git
+  branch: main
+
+# 安装 hexo-deployer-git 自动部署工具
+npm install hexo-deployer-git --save
+# 开始上传
+hexo d
+
+# 令牌
+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
+
+设置域名绑定  解析
+
+
+
+
+
+
+
+
